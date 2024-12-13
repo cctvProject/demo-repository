@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV 플랫폼</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <!-- 상단 바 -->
+    <header>
+        <div class="logo">CCTV</div>
+        <div class="buttons">
+            <button onclick="window.location.href='/'">홈</button>
+            <button onclick="window.location.href='/vehicle-recognition'">차량 인식</button>
+            <button onclick="window.location.href='/person-recognition'">사람 인식</button>
+        </div>
+    </header>
+
+    <!-- 좌측 메뉴 바 -->
+    <nav>
+        <ul>
+            <li><a href="/search">검색 리스트</a></li>
+            <li><a href="/search-results">검색 결과</a></li>
+            <li><a href="/alerts">알람 현황</a></li>
+            <li><a href="/emergencies">긴급 상황</a></li>
+            <li><a href="/process-results">처리 결과</a></li>
+            <li><a href="/security">보안 / 로그인</a></li>
+            <li><a href="/settings">환경 설정</a></li>
+        </ul>
+    </nav>
+
+    <!-- 본문 내용 -->
+    <div class="main-content">
+        {% block content %} <!-- 이 부분이 페이지별로 변경될 부분입니다. -->
+        {% endblock %}
+    </div>
+</body>
+</html>
