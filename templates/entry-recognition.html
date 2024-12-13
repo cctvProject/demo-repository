@@ -1,8 +1,39 @@
 {% extends 'home.html' %}
 
 {% block content %}
-<h1>입차 인식</h1>
-<p>여기서 입차 인식 모델을 실행하고, 결과를 표시할 수 있습니다.</p>
-<!-- 사람 인식 결과를 보여줄 영역 -->
-<img src="{{ url_for('disabled_vehicle_recognition_feed') }}" alt="사람 인식 결과" />
+<link rel="stylesheet" href="{{ url_for('static', filename='easyocr.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='back.css') }}">
+
+<div class="entry-recognition-container">
+    <!-- 제목 섹션 -->
+    <div class="title-section">
+        <h1>입차 인식</h1>
+    </div>
+
+    <!-- 이미지 섹션 -->
+    <div class="image-section">
+        <div class="original-image-container">
+            <h2>원본 이미지</h2>
+            <img src="{{ url_for('static', filename=original_image) }}" alt="원본 이미지">
+        </div>
+        <div class="enhanced-image-container">
+            <h2>처리된 이미지</h2>
+            <img src="{{ url_for('static', filename=enhanced_image) }}" alt="처리된 이미지">
+        </div>
+    </div>
+
+    <!-- OCR 결과 섹션 -->
+    <div class="ocr-results-section">
+        {% if ocr_results %}
+        <h2>인식된 번호판</h2>
+        <ul class="ocr-results">
+            {% for result in ocr_results %}
+            <li>{{ result }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="no-results">번호판을 인식하지 못했습니다.</p>
+        {% endif %}
+    </div>
+</div>
 {% endblock %}

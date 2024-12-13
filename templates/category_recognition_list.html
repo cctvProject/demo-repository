@@ -3,9 +3,9 @@
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='view.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='excel_pdf.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='pagination_button.css') }}">
 
-<h1>장애인 차량 리스트</h1>
+<h1>{{ category }} 리스트</h1>
 {% if data %}
 <table border="1">
     <thead>
@@ -29,24 +29,17 @@
 <!-- 페이지네이션 -->
 <div class="pagination">
     {% if page > 1 %}
-    <a href="{{ url_for('disabled_vehicle_recognition_data', page=page - 1) }}" class="pagination-button">이전</a>
+    <a href="{{ url_for('entry_recognition_data', page=page - 1) }}" class="pagination-button">이전</a>
     {% endif %}
     <span>페이지 {{ page }} / {{ total_pages }}</span>
     {% if page < total_pages %}
-    <a href="{{ url_for('disabled_vehicle_recognition_data', page=page + 1) }}" class="pagination-button">다음</a>
+    <a href="{{ url_for('entry_recognition_data', page=page + 1) }}" class="pagination-button">다음</a>
     {% endif %}
 </div>
 
+
 {% else %}
-<p>No records found.</p>
+<p>No records found for this category.</p>
 {% endif %}
-<div class="download-buttons">
-    <form action="{{ url_for('export_category_data', category='entry', file_format='pdf') }}" method="get">
-        <button type="submit" class="pdf-button">PDF로 저장</button>
-    </form>
-    <form action="{{ url_for('export_category_data', category='entry', file_format='excel') }}" method="get">
-        <button type="submit" class="excel-button">Excel로 저장</button>
-    </form>
-<button onclick="location.href='{{ url_for('search') }}'" class="back-button">뒤로가기</button>
-</div>
+<a href="{{ url_for('search') }}" class="back-button">뒤로가기</a>
 {% endblock %}

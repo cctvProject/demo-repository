@@ -10,6 +10,7 @@
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='view.css') }}">
+
 <h1>검색 리스트</h1>
 <table border="1">
     <thead>
@@ -23,19 +24,14 @@
     <tbody>
         {% for category, records in data.items() %}
         <tr>
-            <td>{{ category_mapping[category] }}</td> <!-- 한글로 매핑된 카테고리 출력 -->
+            <td>{{ category_mapping[category] }}</td>
             <td>{{ records|length }}</td>
-            <td>{{ records[0].recognition_time if records else 'No Records' }}</td>
+            <td>{{ records[0].recognition_time.strftime('%Y-%m-%d %H:%M:%S') if records else 'No Records' }}</td>
             <td>
-                <form action="{{ url_for('recognition_list', category=category) }}" method="get">
-                    <button type="submit" class="view-button">보기</button>
-                </form>
+                <a href="{{ url_for('recognition_list', category=category) }}" class="view-button">보기</a>
             </td>
-
         </tr>
         {% endfor %}
     </tbody>
-    
 </table>
-
 {% endblock %}

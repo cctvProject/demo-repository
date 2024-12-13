@@ -4,6 +4,9 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from sqlalchemy.orm import relationship
 from fpdf import FPDF
+import cv2
+import easyocr
+import torch
 import pandas as pd
 import openpyxl
 import os
@@ -102,32 +105,102 @@ class IllegalParkingVehicleRecognition(db.Model):
 @app.route('/entry-recognition-data')
 @login_required
 def entry_recognition_data():
-    data = EntryRecognition.query.order_by(EntryRecognition.recognition_time.desc()).all()
-    return render_template('entry_recognition_list.html', data=data)
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10  # 한 페이지당 표시할 데이터 수
+
+    # 데이터 가져오기 및 페이지네이션 적용
+    paginated_data = EntryRecognition.query.order_by(EntryRecognition.recognition_time.desc()) \
+                                           .paginate(page=page, per_page=per_page, error_out=False)
+
+    # 템플릿으로 데이터 전달
+    return render_template(
+        'entry_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages
+    )
+
 
 @app.route('/exit-recognition-data')
 @login_required
 def exit_recognition_data():
-    data = ExitRecognition.query.order_by(ExitRecognition.recognition_time.desc()).all()
-    return render_template('exit_recognition_list.html', data=data)
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10  # 한 페이지당 표시할 데이터 수
+
+    # 데이터 가져오기 및 페이지네이션 적용
+    paginated_data = ExitRecognition.query.order_by(ExitRecognition.recognition_time.desc()) \
+                                          .paginate(page=page, per_page=per_page, error_out=False)
+
+    # 템플릿으로 데이터 전달
+    return render_template(
+        'exit_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages
+    )
+
 
 @app.route('/light-vehicle-recognition-data')
 @login_required
 def light_vehicle_recognition_data():
-    data = LightVehicleRecognition.query.order_by(LightVehicleRecognition.recognition_time.desc()).all()
-    return render_template('light_vehicle_recognition_list.html', data=data)
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10  # 한 페이지당 표시할 데이터 수
+
+    # 데이터 가져오기 및 페이지네이션 적용
+    paginated_data = LightVehicleRecognition.query.order_by(LightVehicleRecognition.recognition_time.desc()) \
+                                                 .paginate(page=page, per_page=per_page, error_out=False)
+
+    # 템플릿으로 데이터 전달
+    return render_template(
+        'light_vehicle_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages
+    )
+
 
 @app.route('/disabled-vehicle-recognition-data')
 @login_required
 def disabled_vehicle_recognition_data():
-    data = DisabledVehicleRecognition.query.order_by(DisabledVehicleRecognition.recognition_time.desc()).all()
-    return render_template('disabled_vehicle_recognition_list.html', data=data)
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10  # 한 페이지당 표시할 데이터 수
+
+    # 데이터 가져오기 및 페이지네이션 적용
+    paginated_data = DisabledVehicleRecognition.query.order_by(DisabledVehicleRecognition.recognition_time.desc()) \
+                                                     .paginate(page=page, per_page=per_page, error_out=False)
+
+    # 템플릿으로 데이터 전달
+    return render_template(
+        'disabled_vehicle_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages
+    )
+
 
 @app.route('/illegal-parking-vehicle-recognition-data')
 @login_required
 def illegal_parking_vehicle_recognition_data():
-    data = IllegalParkingVehicleRecognition.query.order_by(IllegalParkingVehicleRecognition.recognition_time.desc()).all()
-    return render_template('illegal_parking_vehicle_recognition_list.html', data=data)
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10  # 한 페이지당 표시할 데이터 수
+
+    # 데이터 가져오기 및 페이지네이션 적용
+    paginated_data = IllegalParkingVehicleRecognition.query.order_by(IllegalParkingVehicleRecognition.recognition_time.desc()) \
+                                                           .paginate(page=page, per_page=per_page, error_out=False)
+
+    # 템플릿으로 데이터 전달
+    return render_template(
+        'illegal_parking_vehicle_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages
+    )
+
 
 # 시간 포맷팅
 def formatted_start_time(self):
@@ -242,15 +315,24 @@ def recognition_list(category):
         flash("Invalid category!", "danger")
         return redirect(url_for('search'))
 
+    # 페이지 번호 가져오기 (기본값: 1)
+    page = request.args.get('page', default=1, type=int)
+    per_page = 10
+
     # 카테고리 이름과 모델 분리
     category_name, model = allowed_categories[category]
 
-    # 데이터 조회
-    data = model.query.order_by(model.recognition_time.desc()).all()
+    # 데이터 조회 및 페이지네이션
+    paginated_data = model.query.order_by(model.recognition_time.desc()).paginate(page=page, per_page=per_page, error_out=False)
 
     # 템플릿 렌더링
-    return render_template(f'{category}_recognition_list.html', data=data, category_name=category_name)
-
+    return render_template(
+        f'{category}_recognition_list.html',
+        data=paginated_data.items,
+        page=paginated_data.page,
+        total_pages=paginated_data.pages,
+        category_name=category_name
+    )
 
 
 # 검색 리스트 페이지
@@ -395,6 +477,7 @@ def security():
                 flash("사용자 삭제에 실패했습니다.", "danger")
 
     return render_template('security.html', users=users)
+
 # 환경 설정 페이지
 @app.route('/settings')
 @login_required  # 로그인된 사용자만 접근 가능
@@ -405,40 +488,52 @@ def settings():
 @app.route('/entry-recognition')
 @login_required  # 로그인된 사용자만 접근 가능
 def entry_recognition():
-    return render_template('entry-recognition.html')
+    # 이미지 경로 설정
+    image_path = r"D:\AI3\study\flask_study\cctv\py\carimg.jpg"
+    original_image_save_path = r"static/images/original_image.jpg"
+    enhanced_image_save_path = r"static/images/enhanced_image.jpg"
+    
+    # OpenCV로 이미지 로드
+    image = cv2.imread(image_path)
+    if image is None:
+        flash("이미지를 불러올 수 없습니다. 경로를 확인하세요.", "danger")
+        return redirect(url_for('home'))
 
-# 입차 인식 엔드포인트
-@app.route('/entry-recognition-feed')
-@login_required  # 로그인된 사용자만 접근 가능
-def entry_recognition_feed():
-    cap = cv2.VideoCapture('')
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        _, jpeg = cv2.imencode('.jpg', frame)
-        frame = jpeg.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+    # 원본 이미지를 저장
+    cv2.imwrite(original_image_save_path, image)
+
+    # 그레이스케일 변환
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # 대비 조정
+    enhanced_image = cv2.convertScaleAbs(gray_image, alpha=1.5, beta=0)
+
+    # 처리된 이미지 저장
+    cv2.imwrite(enhanced_image_save_path, enhanced_image)
+
+    # OCR 실행
+    reader = easyocr.Reader(['en', 'ko'])
+    result = reader.readtext(enhanced_image)
+
+    # OCR 결과 추출
+    ocr_results = []
+    for detection in result:
+        text = detection[1]  # 인식된 텍스트
+        ocr_results.append(text)
+
+    # 결과를 템플릿에 전달
+    return render_template(
+        'entry-recognition.html',
+        ocr_results=ocr_results,
+        original_image='images/original_image.jpg',
+        enhanced_image='images/enhanced_image.jpg'
+    )
+
 # 출차 인식
 @app.route('/exit-recognition')
 @login_required  # 로그인된 사용자만 접근 가능
 def exit_recognition():
     return render_template('exit-recognition.html')
-
-# 출차 인식 엔드포인트
-@app.route('/exit-recognition-feed')
-@login_required  # 로그인된 사용자만 접근 가능
-def exit_recognition_feed():
-    cap = cv2.VideoCapture('')
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        _, jpeg = cv2.imencode('.jpg', frame)
-        frame = jpeg.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 
 # 경차 인식
@@ -447,59 +542,17 @@ def exit_recognition_feed():
 def light_vehicle_recognition():
     return render_template('light-vehicle-recognition.html')
 
-# 경차 인식 엔드포인트
-@app.route('/light-vehicle-recognition-feed')
-@login_required  # 로그인된 사용자만 접근 가능
-def light_vehicle_recognition_feed():
-    cap = cv2.VideoCapture('')
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        _, jpeg = cv2.imencode('.jpg', frame)
-        frame = jpeg.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-
 # 장애인 차량 인식
 @app.route('/disabled-vehicle-recognition')
 @login_required  # 로그인된 사용자만 접근 가능
 def disabled_vehicle_recognition():
     return render_template('disabled-vehicle-recognition.html')
 
-# 장애인 차량 인식 엔드포인트
-@app.route('/disabled-vehicle-recognition-feed')
-@login_required  # 로그인된 사용자만 접근 가능
-def disabled_vehicle_recognition_feed():
-    cap = cv2.VideoCapture('')
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        _, jpeg = cv2.imencode('.jpg', frame)
-        frame = jpeg.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-
 # 불법주차 차량 인식
 @app.route('/illegal-parking-recognition')
 @login_required  # 로그인된 사용자만 접근 가능
 def illegal_parking_vehicle_recognition():
     return render_template('illegal-parking-recognition.html')
-
-#불법주차 차량 인식 엔드포인트
-@app.route('/illegal-parking-recognition-feed')
-@login_required  # 로그인된 사용자만 접근 가능
-def illegal_parking_vehicle_recognition_feed():
-    cap = cv2.VideoCapture('')
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        _, jpeg = cv2.imencode('.jpg', frame)
-        frame = jpeg.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
         
 # PDF, EXEL 저장
 @app.route('/export/<string:category>/<string:file_format>', methods=['GET'])

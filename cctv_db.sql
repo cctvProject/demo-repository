@@ -58,3 +58,83 @@ CREATE TABLE illegal_parking_vehicle_recognition (
     recognition_time DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+DELIMITER //
+
+CREATE PROCEDURE InsertSampleData1()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 10 DO
+        INSERT INTO illegal_parking_vehicle_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE InsertSampleData2()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 10 DO
+        INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE InsertSampleData3()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 10 DO
+        INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE InsertSampleData4()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 10 DO
+        INSERT INTO disabled_vehicle_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE InsertSampleData5()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 100 DO
+        INSERT INTO light_vehicle_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+CALL InsertSampleData5();
+DROP PROCEDURE IF EXISTS InsertSampleData5;
+
+DELETE FROM illegal_parking_vehicle_recognition 
+WHERE id NOT IN (
+    SELECT id 
+    FROM (
+        SELECT id 
+        FROM disabled_vehicle_recognition 
+        ORDER BY recognition_time DESC 
+        LIMIT 10
+    ) AS temp
+);
