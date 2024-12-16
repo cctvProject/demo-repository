@@ -66,3 +66,14 @@
         grid-template-rows: repeat(4, 1fr); /* 4행 구성 */
     }
 }
+
+/*이미지, 텍스트 */
+.ocr-results-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* 화면 전체 높이를 차지하여 중앙 정렬 */
+    flex-direction: column; /* 수직 정렬을 위해 세로로 배치 */
+    width: 100%; /* 너비를 100%로 설정하여 화면 전체를 차지하도록 */
+}

@@ -4,84 +4,32 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='video.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='exit_btn.css') }}">
 
-<div class="video-container">
-    <h1 class="video-title">웹캡 인식</h1>
-
-    <!-- 비디오 스트리밍을 위한 이미지 태그 -->
-    <div class="video-section">
-        <div class="video-container">
-            <!-- 실시간 비디오 스트리밍을 위한 이미지 태그 -->
-            <video id="videoFeed" width="80%" height="auto" autoplay></video>
+<main>
+    <div class="video-container" style="display: block;">
+        <div class="video-section" style="display: block;">
+           <video id="videoFeed" width="80%" height="auto" autoplay></video>
         </div>
     </div>
-</div>
 
-<!-- OCR 결과 섹션 -->
-<div class="ocr-results-section">
-    <h2>인식된 번호판</h2>
-    <ul class="ocr-results" id="ocrResults">
-        <!-- OCR 결과가 들어갈 곳 -->
-    </ul>
-</div>
+    <!-- OCR 결과 섹션 -->
+    <div class="ocr-results-section" style="display: none;">
+        <h2>인식된 번호판</h2>
+        <ul class="ocr-results" id="ocrResults"></ul>
+    </div>
 
-<!-- 버튼으로 이미지 캡처 및 결과 표시 -->
-<div class="control-buttons">
-    <button id="captureButton">이미지 캡처</button>
-    <button id="stopButton" style="display:none;">웹캠 끄기</button> <!-- 초기 상태에서 숨김 -->
-</div>
+    <!-- 버튼 섹션 -->
+    <div class="control-buttons">
+        <button id="startButton" style="display: block;">웹캠 켜기</button>
+        <button id="captureButton" style="display: none;">이미지 캡처 및 OCR</button>
+        <button id="stopButton" style="display: none;">웹캠 끄기</button>
+    </div>
 
-<!-- OCR 캡처된 이미지 출력 -->
-<div class="captured-image-section">
-    <h2>캡처된 이미지</h2>
-    <img id="capturedImage" src="" alt="캡처된 이미지" style="width: 50%;">
-</div>
+       <div class="captured-image-section" style="display: none;">
+        <h2>캡처된 이미지</h2>
+        <img id="capturedImage" src="" alt="Captured Image" style="width: 80%; height: auto;">
+    </div>
+</main>
 
-<script>
-    let videoFeed = document.getElementById("videoFeed");
-    let captureButton = document.getElementById("captureButton");
-    let stopButton = document.getElementById("stopButton");
-    let ocrResults = document.getElementById("ocrResults");
-    let capturedImage = document.getElementById("capturedImage");
 
-    // 웹캠 스트리밍
-    navigator.mediaDevices.getUserMedia({ video: true })
-        .then(function (stream) {
-            videoFeed.srcObject = stream;
-        })
-        .catch(function (error) {
-            console.log("웹캡을 열 수 없습니다:", error);
-        });
-
-    // 이미지 캡처 및 OCR 처리
-    captureButton.addEventListener('click', function() {
-        fetch('/capture-image')
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === "success") {
-                    // 캡처된 이미지 출력
-                    capturedImage.src = "/" + data.image_path;
-                    // OCR 결과 출력
-                    ocrResults.innerHTML = data.ocr_text.map(text => `<li>${text}</li>`).join("");
-                } else {
-                    alert("이미지 캡처 실패: " + data.error);
-                }
-            })
-            .catch(error => {
-                console.error("이미지 캡처 오류:", error);
-            });
-    });
-
-    // 웹캠 끄기
-    stopButton.addEventListener('click', function() {
-        let stream = videoFeed.srcObject;
-        let tracks = stream.getTracks();
-
-        tracks.forEach(track => track.stop());
-        videoFeed.srcObject = null;
-
-        stopButton.style.display = 'none';  // "웹캠 끄기" 버튼 숨기기
-        captureButton.style.display = 'block';  // "이미지 캡처" 버튼 보이기
-    });
-</script>
 
 {% endblock %}
