@@ -1,14 +1,13 @@
-from flask import Flask, request, render_template, redirect, url_for, flash, session, send_file, Response
+from flask import Flask, request, render_template, redirect, url_for, flash, session, send_file, Response, jsonify
 from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 from datetime import datetime
 from sqlalchemy.orm import relationship
 from fpdf import FPDF
 import cv2
 import easyocr
-import torch
 import pandas as pd
-import openpyxl
 import os
 import logging
 
@@ -27,11 +26,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:1234@localhost/cctv_db'  #
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # SQLAlchemy 및 Bcrypt 초기화
-try:
-    db = SQLAlchemy(app)
-except Exception as e:
-    print(f"Error: Could not connect to the database. {str(e)}")
-    exit(1)  # 애플리케이션 종료
+db = SQLAlchemy(app)
+bcrypt = Bcrypt(app)
+migrate = Migrate(app, db)  # 마이그레이션 객체 초기화
 
 bcrypt = Bcrypt(app)
 
@@ -80,6 +77,7 @@ class EntryRecognition(db.Model):
     vehicle_number = db.Column(db.String(20), nullable=False)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
+    image_path = db.Column(db.String(255), nullable=True)
 
 # 출차 인식 모델 생성
 class ExitRecognition(db.Model):
@@ -88,6 +86,7 @@ class ExitRecognition(db.Model):
     vehicle_number = db.Column(db.String(20), nullable=False)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
+    image_path = db.Column(db.String(255), nullable=True)
 
 # 경차 인식 모델 생성
 class LightVehicleRecognition(db.Model):
@@ -96,6 +95,7 @@ class LightVehicleRecognition(db.Model):
     vehicle_number = db.Column(db.String(20), nullable=False)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
+    image_path = db.Column(db.String(255), nullable=True)
 
 # 장애인 차량 인식 모델 생성
 class DisabledVehicleRecognition(db.Model):
@@ -104,6 +104,7 @@ class DisabledVehicleRecognition(db.Model):
     vehicle_number = db.Column(db.String(20), nullable=False)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
+    image_path = db.Column(db.String(255), nullable=True)
 
 # 불법 주차 차량 인식 모델 생성
 class IllegalParkingVehicleRecognition(db.Model):
@@ -112,6 +113,7 @@ class IllegalParkingVehicleRecognition(db.Model):
     vehicle_number = db.Column(db.String(20), nullable=False)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
+    image_path = db.Column(db.String(255), nullable=True)
 
 @app.route('/entry-recognition-data')
 @login_required
@@ -279,13 +281,6 @@ def signup():
             flash(f'오류 발생: {e}', 'danger')
 
     return render_template('signup.html')
-
-#대시보드
-@app.route('/dashboard')
-def dashboard():
-    if 'logged_in' not in session:
-        return redirect(url_for('login'))
-    return f"Welcome {session['username']}!"
 
 # CCTV 영상을 실시간으로 스트리밍하는 제너레이터 함수
 def gen():
@@ -488,7 +483,7 @@ def security():
                 db.session.delete(user_to_delete)
                 db.session.commit()
                 flash(f"사용자 '{user_to_delete.username}'가 삭제되었습니다.", "success")
-            except Exception as e:
+            except Exception:
                 db.session.rollback()
                 flash("사용자 삭제에 실패했습니다.", "danger")
 
@@ -498,47 +493,7 @@ def security():
 @app.route('/settings')
 @login_required  # 로그인된 사용자만 접근 가능
 def settings():
-    return render_template('settings.html')
-
-# 웹캡 초기화 (기본카메라 사용 0)
-camera = cv2.VideoCapture(0)
-    
-# 공통 비디오 스트리밍 및 OCR 처리 함수
-def generate_frames(category):
-    # 웹캠 캡처
-    camera = cv2.VideoCapture(0)  # 기본 웹캠 사용
-    reader = easyocr.Reader(['en', 'ko'])  # OCR 리더 초기화
-
-    while True:
-        ret, frame = camera.read()
-        if not ret:
-            break
-
-        # OCR을 위한 전처리 (그레이스케일 변환, 대비 조정)
-        gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        enhanced_image = cv2.convertScaleAbs(gray_image, alpha=1.5, beta=0)
-
-        # OCR 실행
-        ocr_results = reader.readtext(enhanced_image)
-
-        # OCR 결과 추출 및 화면에 표시
-        for detection in ocr_results:
-            text = detection[1]  # 인식된 텍스트
-            box = detection[0]
-            top_left = tuple(box[0])
-            bottom_right = tuple(box[2])
-
-            # 결과를 이미지에 표시
-            cv2.rectangle(frame, top_left, bottom_right, (0, 255, 0), 2)
-            cv2.putText(frame, text, (top_left[0], top_left[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
-
-        # 프레임을 JPEG로 인코딩하여 스트리밍
-        _, buffer = cv2.imencode('.jpg', frame)
-        frame = buffer.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-
-    camera.release()
+    return render_template('settings.html') 
 
 # 비디오 피드와 관련 HTML 템플릿
 @app.route('/<category>-recognition')
@@ -562,13 +517,13 @@ def video_recognition(category):
             'title': '경차 인식',
             'video_feed': 'light_vehicle_recognition_video_feed',
             'list_page': 'light_vehicle_recognition_data',
-            'button_text': '경차 리스트'
+            'button_text': '경차 구역 주차 리스트'
         },
         'disabled-vehicle': {
             'title': '장애인 차량 인식',
             'video_feed': 'disabled_vehicle_recognition_video_feed',
             'list_page': 'disabled_vehicle_recognition_data',
-            'button_text': '장애인 차량 리스트'
+            'button_text': '장애인 구역 주차 리스트'
         },
         'illegal-parking': {
             'title': '불법 주차 인식',
@@ -590,10 +545,31 @@ def video_recognition(category):
         title=data['title'],
         video_feed=data['video_feed'],
         list_page=data['list_page'],
-        button_text=data['button_text']
+        button_text=data['button_text'],
+        category=category 
     )
 
+camera = cv2.VideoCapture(0)  # 첫 번째 웹캠 사용
+reader = easyocr.Reader(['en', 'ko'])
 
+# 웹캠 스트리밍을 위한 함수
+def generate_frames():
+    camera = cv2.VideoCapture(0)  # 첫 번째 웹캡 사용
+
+    if not camera.isOpened():
+        raise Exception("웹캡을 열 수 없습니다.")  # 웹캡 열기 실패 시 예외 처리
+    
+    while True:
+        ret, frame = camera.read()
+        if not ret:
+            break
+        _, buffer = cv2.imencode('.jpg', frame)
+        frame = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
+    camera.release()  # 스트리밍 종료 후 웹캡 해제
+        
 # 비디오 스트리밍 처리
 @app.route('/entry-video-feed')
 def entry_video_feed():
@@ -620,7 +596,57 @@ def illegal_parking_vehicle_recognition_video_feed():
     # 비디오 스트리밍 처리
     return Response(generate_frames('illegal-parking'), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-    
+# 이미지 캡처 후 DB 저장
+@app.route('/capture-image', methods=['GET'])
+def capture_image():
+    # 웹캠 열기
+    camera = cv2.VideoCapture(0)  # 첫 번째 웹캠 사용
+
+    if not camera.isOpened():
+        return jsonify({"error": "웹캡을 열 수 없습니다."}), 500
+
+    # 이미지 캡처
+    ret, frame = camera.read()
+    if not ret:
+        camera.release()
+        return jsonify({"error": "이미지를 캡처할 수 없습니다."}), 500
+
+    # 이미지 저장
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    save_image_folder = "static/recognized_images"
+    if not os.path.exists(save_image_folder):
+        os.makedirs(save_image_folder)
+
+    image_filename = f"captured_{timestamp}.jpg"
+    image_path = os.path.join(save_image_folder, image_filename)
+    cv2.imwrite(image_path, frame)  # 이미지 저장
+
+    # OCR 실행
+    gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    enhanced_image = cv2.convertScaleAbs(gray_image, alpha=1.5, beta=0)
+    ocr_results = reader.readtext(enhanced_image)
+
+    # OCR 결과 추출
+    detected_texts = [detection[1] for detection in ocr_results]
+
+    # DB에 저장
+    new_entry = EntryRecognition(
+        vehicle_number=detected_texts[0] if detected_texts else "미인식",
+        recognition_time=datetime.utcnow(),
+        image_path=image_path
+    )
+    db.session.add(new_entry)
+    db.session.commit()  # DB에 저장
+
+    camera.release()  # 캡쳐 후 웹캠 해제
+
+    return jsonify({
+        "status": "success",
+        "image_path": image_path,
+        "ocr_text": detected_texts
+    })
+
+
 # PDF, EXEL 저장
 @app.route('/export/<string:category>/<string:file_format>', methods=['GET'])
 @login_required
@@ -675,9 +701,6 @@ def export_category_data(category, file_format):
 
     flash("Invalid file format!", "danger")
     return redirect(url_for('search'))
-
-
-            
 
 
 # 서버 실행

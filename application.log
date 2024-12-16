@@ -16,3 +16,1800 @@
 2024-12-16 11:58:35,095:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
 2024-12-16 11:58:35,096:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpo2jm2kk_', reloading
 2024-12-16 11:58:35,098:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 11:58:43,631:WARNING: * Debugger is active!
+2024-12-16 11:58:43,637:INFO: * Debugger PIN: 541-312-457
+2024-12-16 11:58:43,965:INFO:127.0.0.1 - - [16/Dec/2024 11:58:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 11:58:43,978:DEBUG:Debug level log
+2024-12-16 11:58:43,978:INFO:Info level log
+2024-12-16 11:58:43,980:WARNING:Warning level log
+2024-12-16 11:58:43,981:ERROR:Error level log
+2024-12-16 11:58:43,981:CRITICAL:Critical level log
+2024-12-16 11:58:43,988:INFO:127.0.0.1 - - [16/Dec/2024 11:58:43] "GET / HTTP/1.1" 200 -
+2024-12-16 11:58:44,012:INFO:127.0.0.1 - - [16/Dec/2024 11:58:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:50,111:INFO:127.0.0.1 - - [16/Dec/2024 11:58:50] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 11:58:50,131:INFO:127.0.0.1 - - [16/Dec/2024 11:58:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:50,132:INFO:127.0.0.1 - - [16/Dec/2024 11:58:50] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:50,136:INFO:127.0.0.1 - - [16/Dec/2024 11:58:50] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:50,425:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 11:58:52,964:INFO:127.0.0.1 - - [16/Dec/2024 11:58:52] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 11:58:59,154:INFO:127.0.0.1 - - [16/Dec/2024 11:58:59] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 11:58:59,180:INFO:127.0.0.1 - - [16/Dec/2024 11:58:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:59,195:INFO:127.0.0.1 - - [16/Dec/2024 11:58:59] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 11:58:59,197:INFO:127.0.0.1 - - [16/Dec/2024 11:58:59] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:52,448:INFO:127.0.0.1 - - [16/Dec/2024 12:03:52] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:03:52,461:INFO:127.0.0.1 - - [16/Dec/2024 12:03:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:52,464:INFO:127.0.0.1 - - [16/Dec/2024 12:03:52] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:52,466:INFO:127.0.0.1 - - [16/Dec/2024 12:03:52] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:53,019:INFO:127.0.0.1 - - [16/Dec/2024 12:03:53] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-16 12:03:53,036:INFO:127.0.0.1 - - [16/Dec/2024 12:03:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:53,046:INFO:127.0.0.1 - - [16/Dec/2024 12:03:53] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:53,050:INFO:127.0.0.1 - - [16/Dec/2024 12:03:53] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:54,288:INFO:127.0.0.1 - - [16/Dec/2024 12:03:54] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:03:54,305:INFO:127.0.0.1 - - [16/Dec/2024 12:03:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:54,315:INFO:127.0.0.1 - - [16/Dec/2024 12:03:54] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:54,318:INFO:127.0.0.1 - - [16/Dec/2024 12:03:54] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:55,515:INFO:127.0.0.1 - - [16/Dec/2024 12:03:55] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:03:55,535:INFO:127.0.0.1 - - [16/Dec/2024 12:03:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:55,543:INFO:127.0.0.1 - - [16/Dec/2024 12:03:55] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:03:55,547:INFO:127.0.0.1 - - [16/Dec/2024 12:03:55] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,438:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:04:23,452:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,470:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,471:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,950:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:04:23,963:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,965:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:23,969:INFO:127.0.0.1 - - [16/Dec/2024 12:04:23] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,120:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:04:24,132:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,135:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,138:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,287:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:04:24,299:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,304:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,305:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:24,992:INFO:127.0.0.1 - - [16/Dec/2024 12:04:24] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:04:25,006:INFO:127.0.0.1 - - [16/Dec/2024 12:04:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:25,009:INFO:127.0.0.1 - - [16/Dec/2024 12:04:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:04:25,012:INFO:127.0.0.1 - - [16/Dec/2024 12:04:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:06:17,205:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:06:17,206:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp28x4igpb', reloading
+2024-12-16 12:06:17,207:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:07:47,588:WARNING: * Debugger is active!
+2024-12-16 12:07:47,594:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:07:47,627:INFO:127.0.0.1 - - [16/Dec/2024 12:07:47] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:07:47,631:DEBUG:Debug level log
+2024-12-16 12:07:47,632:DEBUG:Debug level log
+2024-12-16 12:07:47,633:INFO:Info level log
+2024-12-16 12:07:47,633:INFO:Info level log
+2024-12-16 12:07:47,634:WARNING:Warning level log
+2024-12-16 12:07:47,635:ERROR:Error level log
+2024-12-16 12:07:47,635:CRITICAL:Critical level log
+2024-12-16 12:07:47,636:INFO:127.0.0.1 - - [16/Dec/2024 12:07:47] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 12:07:47,634:WARNING:Warning level log
+2024-12-16 12:07:47,637:ERROR:Error level log
+2024-12-16 12:07:47,637:CRITICAL:Critical level log
+2024-12-16 12:07:47,638:INFO:127.0.0.1 - - [16/Dec/2024 12:07:47] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 12:07:47,650:INFO:127.0.0.1 - - [16/Dec/2024 12:07:47] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:07:47,663:INFO:127.0.0.1 - - [16/Dec/2024 12:07:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:09:40,546:INFO:127.0.0.1 - - [16/Dec/2024 12:09:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:09:40,551:DEBUG:Debug level log
+2024-12-16 12:09:40,551:INFO:Info level log
+2024-12-16 12:09:40,552:WARNING:Warning level log
+2024-12-16 12:09:40,553:ERROR:Error level log
+2024-12-16 12:09:40,553:CRITICAL:Critical level log
+2024-12-16 12:09:40,554:INFO:127.0.0.1 - - [16/Dec/2024 12:09:40] "GET / HTTP/1.1" 200 -
+2024-12-16 12:09:40,575:INFO:127.0.0.1 - - [16/Dec/2024 12:09:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:09:42,599:INFO:127.0.0.1 - - [16/Dec/2024 12:09:42] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:09:42,618:INFO:127.0.0.1 - - [16/Dec/2024 12:09:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:09:42,622:INFO:127.0.0.1 - - [16/Dec/2024 12:09:42] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:09:42,627:INFO:127.0.0.1 - - [16/Dec/2024 12:09:42] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:09:42,907:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:09:45,358:INFO:127.0.0.1 - - [16/Dec/2024 12:09:45] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:10:16,321:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:10:16,322:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpwerf17xy', reloading
+2024-12-16 12:10:16,323:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:10:24,407:WARNING: * Debugger is active!
+2024-12-16 12:10:24,413:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:10:24,443:INFO:127.0.0.1 - - [16/Dec/2024 12:10:24] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:10:24,456:INFO:127.0.0.1 - - [16/Dec/2024 12:10:24] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:10:24,470:INFO:127.0.0.1 - - [16/Dec/2024 12:10:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:10:43,833:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:10:43,834:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpnekei2tb', reloading
+2024-12-16 12:10:43,835:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:11:05,275:WARNING: * Debugger is active!
+2024-12-16 12:11:05,281:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:11:05,617:INFO:127.0.0.1 - - [16/Dec/2024 12:11:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:11:05,896:INFO:127.0.0.1 - - [16/Dec/2024 12:11:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:11:05,901:DEBUG:Debug level log
+2024-12-16 12:11:05,901:INFO:Info level log
+2024-12-16 12:11:05,903:WARNING:Warning level log
+2024-12-16 12:11:05,903:ERROR:Error level log
+2024-12-16 12:11:05,904:CRITICAL:Critical level log
+2024-12-16 12:11:05,910:INFO:127.0.0.1 - - [16/Dec/2024 12:11:05] "GET / HTTP/1.1" 200 -
+2024-12-16 12:11:05,931:INFO:127.0.0.1 - - [16/Dec/2024 12:11:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:11:06,957:INFO:127.0.0.1 - - [16/Dec/2024 12:11:06] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:11:06,974:INFO:127.0.0.1 - - [16/Dec/2024 12:11:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:11:06,985:INFO:127.0.0.1 - - [16/Dec/2024 12:11:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:11:06,990:INFO:127.0.0.1 - - [16/Dec/2024 12:11:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:12:49,328:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:12:49,328:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:12:49,343:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:12:55,716:WARNING: * Debugger is active!
+2024-12-16 12:12:55,723:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:13:47,702:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:13:47,702:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:13:47,716:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:13:54,832:WARNING: * Debugger is active!
+2024-12-16 12:13:54,838:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:18:55,498:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:18:55,498:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:18:55,511:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:19:01,684:WARNING: * Debugger is active!
+2024-12-16 12:19:01,690:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:19:19,574:INFO:127.0.0.1 - - [16/Dec/2024 12:19:19] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:19:19,603:INFO:127.0.0.1 - - [16/Dec/2024 12:19:19] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:19:19,688:INFO:127.0.0.1 - - [16/Dec/2024 12:19:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:19:28,225:INFO:127.0.0.1 - - [16/Dec/2024 12:19:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:19:29,532:INFO:127.0.0.1 - - [16/Dec/2024 12:19:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:19:28,229:DEBUG:Debug level log
+2024-12-16 12:19:29,536:DEBUG:Debug level log
+2024-12-16 12:19:34,916:INFO:Info level log
+2024-12-16 12:19:34,917:INFO:Info level log
+2024-12-16 12:19:34,917:WARNING:Warning level log
+2024-12-16 12:19:34,918:WARNING:Warning level log
+2024-12-16 12:19:34,918:ERROR:Error level log
+2024-12-16 12:19:34,918:ERROR:Error level log
+2024-12-16 12:19:34,919:CRITICAL:Critical level log
+2024-12-16 12:19:34,920:INFO:127.0.0.1 - - [16/Dec/2024 12:19:34] "GET / HTTP/1.1" 200 -
+2024-12-16 12:19:34,918:CRITICAL:Critical level log
+2024-12-16 12:19:34,922:INFO:127.0.0.1 - - [16/Dec/2024 12:19:34] "GET / HTTP/1.1" 200 -
+2024-12-16 12:19:34,940:INFO:127.0.0.1 - - [16/Dec/2024 12:19:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:13,266:INFO:127.0.0.1 - - [16/Dec/2024 12:20:13] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:13,285:INFO:127.0.0.1 - - [16/Dec/2024 12:20:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:13,297:INFO:127.0.0.1 - - [16/Dec/2024 12:20:13] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:13,298:INFO:127.0.0.1 - - [16/Dec/2024 12:20:13] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:13,879:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:20:16,433:INFO:127.0.0.1 - - [16/Dec/2024 12:20:16] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:20:34,632:INFO:127.0.0.1 - - [16/Dec/2024 12:20:34] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:34,662:INFO:127.0.0.1 - - [16/Dec/2024 12:20:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:34,667:INFO:127.0.0.1 - - [16/Dec/2024 12:20:34] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:34,673:INFO:127.0.0.1 - - [16/Dec/2024 12:20:34] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:35,218:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:20:35,653:INFO:127.0.0.1 - - [16/Dec/2024 12:20:35] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:35,668:INFO:127.0.0.1 - - [16/Dec/2024 12:20:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:35,669:INFO:127.0.0.1 - - [16/Dec/2024 12:20:35] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:35,672:INFO:127.0.0.1 - - [16/Dec/2024 12:20:35] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:36,165:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:20:39,832:INFO:127.0.0.1 - - [16/Dec/2024 12:20:39] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:20:39,863:INFO:127.0.0.1 - - [16/Dec/2024 12:20:39] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:20:45,804:INFO:127.0.0.1 - - [16/Dec/2024 12:20:45] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:45,826:INFO:127.0.0.1 - - [16/Dec/2024 12:20:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:45,832:INFO:127.0.0.1 - - [16/Dec/2024 12:20:45] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:45,834:INFO:127.0.0.1 - - [16/Dec/2024 12:20:45] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:46,519:INFO:127.0.0.1 - - [16/Dec/2024 12:20:46] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:46,547:INFO:127.0.0.1 - - [16/Dec/2024 12:20:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:46,562:INFO:127.0.0.1 - - [16/Dec/2024 12:20:46] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:46,566:INFO:127.0.0.1 - - [16/Dec/2024 12:20:46] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,123:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:20:47,127:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:47,152:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,161:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,163:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,528:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:20:47,542:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,545:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:20:47,550:INFO:127.0.0.1 - - [16/Dec/2024 12:20:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:21:45,031:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:21:45,032:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:21:45,045:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:21:51,232:WARNING: * Debugger is active!
+2024-12-16 12:21:51,238:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:21:53,406:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:21:53,407:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp8xh566r6', reloading
+2024-12-16 12:21:53,407:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:21:54,021:INFO:127.0.0.1 - - [16/Dec/2024 12:21:54] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:21:54,035:INFO:127.0.0.1 - - [16/Dec/2024 12:21:54] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:21:54,124:INFO:127.0.0.1 - - [16/Dec/2024 12:21:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:21:54,876:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:22:00,972:WARNING: * Debugger is active!
+2024-12-16 12:22:00,979:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:22:01,341:INFO:127.0.0.1 - - [16/Dec/2024 12:22:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:22:01,345:DEBUG:Debug level log
+2024-12-16 12:22:01,346:INFO:Info level log
+2024-12-16 12:22:01,347:WARNING:Warning level log
+2024-12-16 12:22:01,350:ERROR:Error level log
+2024-12-16 12:22:01,350:CRITICAL:Critical level log
+2024-12-16 12:22:01,357:INFO:127.0.0.1 - - [16/Dec/2024 12:22:01] "GET / HTTP/1.1" 200 -
+2024-12-16 12:22:01,438:INFO:127.0.0.1 - - [16/Dec/2024 12:22:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:22:02,707:INFO:127.0.0.1 - - [16/Dec/2024 12:22:02] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:22:02,726:INFO:127.0.0.1 - - [16/Dec/2024 12:22:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:22:02,731:INFO:127.0.0.1 - - [16/Dec/2024 12:22:02] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:22:02,732:INFO:127.0.0.1 - - [16/Dec/2024 12:22:02] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:22:03,281:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:22:05,730:INFO:127.0.0.1 - - [16/Dec/2024 12:22:05] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:23:12,142:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:23:12,142:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmphexm5iz1', reloading
+2024-12-16 12:23:12,143:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:23:13,354:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:23:19,582:WARNING: * Debugger is active!
+2024-12-16 12:23:19,587:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:23:19,613:INFO:127.0.0.1 - - [16/Dec/2024 12:23:19] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:23:19,625:INFO:127.0.0.1 - - [16/Dec/2024 12:23:19] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:23:19,702:INFO:127.0.0.1 - - [16/Dec/2024 12:23:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:23,561:INFO:127.0.0.1 - - [16/Dec/2024 12:23:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:23:23,566:DEBUG:Debug level log
+2024-12-16 12:23:23,566:INFO:Info level log
+2024-12-16 12:23:23,568:WARNING:Warning level log
+2024-12-16 12:23:23,571:ERROR:Error level log
+2024-12-16 12:23:23,572:CRITICAL:Critical level log
+2024-12-16 12:23:23,574:INFO:127.0.0.1 - - [16/Dec/2024 12:23:23] "GET / HTTP/1.1" 200 -
+2024-12-16 12:23:23,596:INFO:127.0.0.1 - - [16/Dec/2024 12:23:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:24,734:INFO:127.0.0.1 - - [16/Dec/2024 12:23:24] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:23:24,752:INFO:127.0.0.1 - - [16/Dec/2024 12:23:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:24,764:INFO:127.0.0.1 - - [16/Dec/2024 12:23:24] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:24,767:INFO:127.0.0.1 - - [16/Dec/2024 12:23:24] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:24,768:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:23:25,540:INFO:127.0.0.1 - - [16/Dec/2024 12:23:25] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-16 12:23:25,561:INFO:127.0.0.1 - - [16/Dec/2024 12:23:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:25,562:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:23:25,571:INFO:127.0.0.1 - - [16/Dec/2024 12:23:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:23:25,572:INFO:127.0.0.1 - - [16/Dec/2024 12:23:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:36,052:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:36:36,053:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:36:36,064:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:36:42,176:WARNING: * Debugger is active!
+2024-12-16 12:36:42,182:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:36:42,206:DEBUG:Debug level log
+2024-12-16 12:36:42,208:INFO:Info level log
+2024-12-16 12:36:42,209:WARNING:Warning level log
+2024-12-16 12:36:42,209:ERROR:Error level log
+2024-12-16 12:36:42,210:CRITICAL:Critical level log
+2024-12-16 12:36:42,210:INFO:127.0.0.1 - - [16/Dec/2024 12:36:42] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 12:36:42,221:INFO:127.0.0.1 - - [16/Dec/2024 12:36:42] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:36:42,309:INFO:127.0.0.1 - - [16/Dec/2024 12:36:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:46,743:INFO:127.0.0.1 - - [16/Dec/2024 12:36:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:36:46,747:DEBUG:Debug level log
+2024-12-16 12:36:46,748:INFO:Info level log
+2024-12-16 12:36:46,749:WARNING:Warning level log
+2024-12-16 12:36:46,749:ERROR:Error level log
+2024-12-16 12:36:46,749:CRITICAL:Critical level log
+2024-12-16 12:36:46,750:INFO:127.0.0.1 - - [16/Dec/2024 12:36:46] "GET / HTTP/1.1" 200 -
+2024-12-16 12:36:46,772:INFO:127.0.0.1 - - [16/Dec/2024 12:36:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:47,710:INFO:127.0.0.1 - - [16/Dec/2024 12:36:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:36:47,727:INFO:127.0.0.1 - - [16/Dec/2024 12:36:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:47,737:INFO:127.0.0.1 - - [16/Dec/2024 12:36:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:47,738:INFO:127.0.0.1 - - [16/Dec/2024 12:36:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:36:47,748:INFO:127.0.0.1 - - [16/Dec/2024 12:36:47] "[35m[1mGET /entry-video-feed HTTP/1.1[0m" 500 -
+2024-12-16 12:36:49,749:INFO:127.0.0.1 - - [16/Dec/2024 12:36:49] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:29,093:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:37:29,093:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpreqh7xhj', reloading
+2024-12-16 12:37:29,094:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 12:37:30,190:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:37:36,708:WARNING: * Debugger is active!
+2024-12-16 12:37:36,714:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:37:36,741:INFO:127.0.0.1 - - [16/Dec/2024 12:37:36] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:37:36,752:INFO:127.0.0.1 - - [16/Dec/2024 12:37:36] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:37:36,823:INFO:127.0.0.1 - - [16/Dec/2024 12:37:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:37:41,470:INFO:127.0.0.1 - - [16/Dec/2024 12:37:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:37:41,475:DEBUG:Debug level log
+2024-12-16 12:37:41,476:INFO:Info level log
+2024-12-16 12:37:41,476:WARNING:Warning level log
+2024-12-16 12:37:41,476:ERROR:Error level log
+2024-12-16 12:37:41,477:CRITICAL:Critical level log
+2024-12-16 12:37:41,477:INFO:127.0.0.1 - - [16/Dec/2024 12:37:41] "GET / HTTP/1.1" 200 -
+2024-12-16 12:37:41,499:INFO:127.0.0.1 - - [16/Dec/2024 12:37:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:37:42,421:INFO:127.0.0.1 - - [16/Dec/2024 12:37:42] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:37:42,439:INFO:127.0.0.1 - - [16/Dec/2024 12:37:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:37:42,448:INFO:127.0.0.1 - - [16/Dec/2024 12:37:42] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:37:42,450:INFO:127.0.0.1 - - [16/Dec/2024 12:37:42] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:37:42,730:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:37:44,037:INFO:127.0.0.1 - - [16/Dec/2024 12:37:44] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:46,296:INFO:127.0.0.1 - - [16/Dec/2024 12:37:46] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:37:47,541:INFO:127.0.0.1 - - [16/Dec/2024 12:37:47] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:49,499:INFO:127.0.0.1 - - [16/Dec/2024 12:37:49] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:52,053:INFO:127.0.0.1 - - [16/Dec/2024 12:37:52] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:52,991:INFO:127.0.0.1 - - [16/Dec/2024 12:37:52] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:53,311:INFO:127.0.0.1 - - [16/Dec/2024 12:37:53] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:53,807:INFO:127.0.0.1 - - [16/Dec/2024 12:37:53] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:54,385:INFO:127.0.0.1 - - [16/Dec/2024 12:37:54] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:37:59,736:INFO:127.0.0.1 - - [16/Dec/2024 12:37:59] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:38:54,128:INFO:127.0.0.1 - - [16/Dec/2024 12:38:54] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:38:54,143:INFO:127.0.0.1 - - [16/Dec/2024 12:38:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:38:54,153:INFO:127.0.0.1 - - [16/Dec/2024 12:38:54] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:38:54,154:INFO:127.0.0.1 - - [16/Dec/2024 12:38:54] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:38:54,388:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:38:57,874:INFO:127.0.0.1 - - [16/Dec/2024 12:38:57] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:39:20,007:INFO:127.0.0.1 - - [16/Dec/2024 12:39:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:39:20,019:INFO:127.0.0.1 - - [16/Dec/2024 12:39:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:20,022:INFO:127.0.0.1 - - [16/Dec/2024 12:39:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:20,025:INFO:127.0.0.1 - - [16/Dec/2024 12:39:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:20,034:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:39:22,768:INFO:127.0.0.1 - - [16/Dec/2024 12:39:22] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:39:28,223:INFO:127.0.0.1 - - [16/Dec/2024 12:39:28] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:39:28,241:INFO:127.0.0.1 - - [16/Dec/2024 12:39:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:28,249:INFO:127.0.0.1 - - [16/Dec/2024 12:39:28] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:28,253:INFO:127.0.0.1 - - [16/Dec/2024 12:39:28] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:29,495:INFO:127.0.0.1 - - [16/Dec/2024 12:39:29] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:39:29,515:INFO:127.0.0.1 - - [16/Dec/2024 12:39:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:29,523:INFO:127.0.0.1 - - [16/Dec/2024 12:39:29] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:29,527:INFO:127.0.0.1 - - [16/Dec/2024 12:39:29] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:39:29,783:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:39:33,598:INFO:127.0.0.1 - - [16/Dec/2024 12:39:33] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:40:11,929:INFO:127.0.0.1 - - [16/Dec/2024 12:40:11] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:40:11,960:INFO:127.0.0.1 - - [16/Dec/2024 12:40:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:40:11,972:INFO:127.0.0.1 - - [16/Dec/2024 12:40:11] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:40:11,974:INFO:127.0.0.1 - - [16/Dec/2024 12:40:11] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:40:11,979:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:40:15,562:INFO:127.0.0.1 - - [16/Dec/2024 12:40:15] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:40:50,434:DEBUG:Debug level log
+2024-12-16 12:40:50,435:INFO:Info level log
+2024-12-16 12:40:50,438:WARNING:Warning level log
+2024-12-16 12:40:50,439:ERROR:Error level log
+2024-12-16 12:40:50,441:CRITICAL:Critical level log
+2024-12-16 12:40:50,443:INFO:127.0.0.1 - - [16/Dec/2024 12:40:50] "GET / HTTP/1.1" 200 -
+2024-12-16 12:40:50,480:INFO:127.0.0.1 - - [16/Dec/2024 12:40:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:04,043:INFO:127.0.0.1 - - [16/Dec/2024 12:41:04] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:41:04,128:INFO:127.0.0.1 - - [16/Dec/2024 12:41:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:04,128:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:41:04,132:INFO:127.0.0.1 - - [16/Dec/2024 12:41:04] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:04,139:INFO:127.0.0.1 - - [16/Dec/2024 12:41:04] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:07,037:INFO:127.0.0.1 - - [16/Dec/2024 12:41:07] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:41:15,528:INFO:127.0.0.1 - - [16/Dec/2024 12:41:15] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:41:15,558:INFO:127.0.0.1 - - [16/Dec/2024 12:41:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:15,561:INFO:127.0.0.1 - - [16/Dec/2024 12:41:15] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:15,566:INFO:127.0.0.1 - - [16/Dec/2024 12:41:15] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:41:15,799:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:41:18,974:INFO:127.0.0.1 - - [16/Dec/2024 12:41:18] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:42:29,440:DEBUG:Debug level log
+2024-12-16 12:42:29,440:INFO:Info level log
+2024-12-16 12:42:29,444:WARNING:Warning level log
+2024-12-16 12:42:29,444:ERROR:Error level log
+2024-12-16 12:42:29,449:CRITICAL:Critical level log
+2024-12-16 12:42:29,450:INFO:127.0.0.1 - - [16/Dec/2024 12:42:29] "GET / HTTP/1.1" 200 -
+2024-12-16 12:42:29,476:INFO:127.0.0.1 - - [16/Dec/2024 12:42:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:31,535:INFO:127.0.0.1 - - [16/Dec/2024 12:42:31] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:42:31,569:INFO:127.0.0.1 - - [16/Dec/2024 12:42:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:31,572:INFO:127.0.0.1 - - [16/Dec/2024 12:42:31] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:31,575:INFO:127.0.0.1 - - [16/Dec/2024 12:42:31] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:31,581:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:42:36,583:INFO:127.0.0.1 - - [16/Dec/2024 12:42:36] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:42:51,105:INFO:127.0.0.1 - - [16/Dec/2024 12:42:51] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:42:51,137:INFO:127.0.0.1 - - [16/Dec/2024 12:42:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:51,141:INFO:127.0.0.1 - - [16/Dec/2024 12:42:51] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:51,145:INFO:127.0.0.1 - - [16/Dec/2024 12:42:51] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:42:51,371:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:42:54,837:INFO:127.0.0.1 - - [16/Dec/2024 12:42:54] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:43:36,839:INFO:127.0.0.1 - - [16/Dec/2024 12:43:36] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:43:36,857:INFO:127.0.0.1 - - [16/Dec/2024 12:43:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:36,859:INFO:127.0.0.1 - - [16/Dec/2024 12:43:36] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:36,860:INFO:127.0.0.1 - - [16/Dec/2024 12:43:36] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:36,869:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:43:38,237:INFO:127.0.0.1 - - [16/Dec/2024 12:43:38] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:43:39,529:INFO:127.0.0.1 - - [16/Dec/2024 12:43:39] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:43:39,571:INFO:127.0.0.1 - - [16/Dec/2024 12:43:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:39,574:INFO:127.0.0.1 - - [16/Dec/2024 12:43:39] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:39,582:INFO:127.0.0.1 - - [16/Dec/2024 12:43:39] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:39,584:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:43:40,836:INFO:127.0.0.1 - - [16/Dec/2024 12:43:40] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:43:41,205:INFO:127.0.0.1 - - [16/Dec/2024 12:43:41] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:43:42,757:INFO:127.0.0.1 - - [16/Dec/2024 12:43:42] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:43:44,495:INFO:127.0.0.1 - - [16/Dec/2024 12:43:44] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:43:44,513:INFO:127.0.0.1 - - [16/Dec/2024 12:43:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:44,526:INFO:127.0.0.1 - - [16/Dec/2024 12:43:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:44,530:INFO:127.0.0.1 - - [16/Dec/2024 12:43:44] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:45,464:DEBUG:Debug level log
+2024-12-16 12:43:45,465:INFO:Info level log
+2024-12-16 12:43:45,468:WARNING:Warning level log
+2024-12-16 12:43:45,471:ERROR:Error level log
+2024-12-16 12:43:45,472:CRITICAL:Critical level log
+2024-12-16 12:43:45,474:INFO:127.0.0.1 - - [16/Dec/2024 12:43:45] "GET / HTTP/1.1" 200 -
+2024-12-16 12:43:45,492:INFO:127.0.0.1 - - [16/Dec/2024 12:43:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:46,335:INFO:127.0.0.1 - - [16/Dec/2024 12:43:46] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 12:43:46,343:INFO:127.0.0.1 - - [16/Dec/2024 12:43:46] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:43:46,367:INFO:127.0.0.1 - - [16/Dec/2024 12:43:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:49,922:INFO:127.0.0.1 - - [16/Dec/2024 12:43:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:43:49,927:DEBUG:Debug level log
+2024-12-16 12:43:49,927:INFO:Info level log
+2024-12-16 12:43:49,929:WARNING:Warning level log
+2024-12-16 12:43:49,931:ERROR:Error level log
+2024-12-16 12:43:49,931:CRITICAL:Critical level log
+2024-12-16 12:43:49,933:INFO:127.0.0.1 - - [16/Dec/2024 12:43:49] "GET / HTTP/1.1" 200 -
+2024-12-16 12:43:49,959:INFO:127.0.0.1 - - [16/Dec/2024 12:43:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:51,226:INFO:127.0.0.1 - - [16/Dec/2024 12:43:51] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:43:51,247:INFO:127.0.0.1 - - [16/Dec/2024 12:43:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:51,261:INFO:127.0.0.1 - - [16/Dec/2024 12:43:51] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:51,264:INFO:127.0.0.1 - - [16/Dec/2024 12:43:51] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:43:51,510:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:43:52,424:INFO:127.0.0.1 - - [16/Dec/2024 12:43:52] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:43:55,197:INFO:127.0.0.1 - - [16/Dec/2024 12:43:55] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:44:07,011:INFO:127.0.0.1 - - [16/Dec/2024 12:44:07] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:44:07,028:INFO:127.0.0.1 - - [16/Dec/2024 12:44:07] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:44:07,029:INFO:127.0.0.1 - - [16/Dec/2024 12:44:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:44:07,032:INFO:127.0.0.1 - - [16/Dec/2024 12:44:07] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:44:07,262:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:44:10,705:INFO:127.0.0.1 - - [16/Dec/2024 12:44:10] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:44:15,497:DEBUG:Debug level log
+2024-12-16 12:44:15,497:INFO:Info level log
+2024-12-16 12:44:15,499:WARNING:Warning level log
+2024-12-16 12:44:15,499:ERROR:Error level log
+2024-12-16 12:44:15,500:CRITICAL:Critical level log
+2024-12-16 12:44:15,500:INFO:127.0.0.1 - - [16/Dec/2024 12:44:15] "GET / HTTP/1.1" 200 -
+2024-12-16 12:44:15,527:INFO:127.0.0.1 - - [16/Dec/2024 12:44:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:45:15,603:INFO:127.0.0.1 - - [16/Dec/2024 12:45:15] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:45:15,627:INFO:127.0.0.1 - - [16/Dec/2024 12:45:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:45:15,634:INFO:127.0.0.1 - - [16/Dec/2024 12:45:15] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:45:15,636:INFO:127.0.0.1 - - [16/Dec/2024 12:45:15] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:45:15,863:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:45:19,446:INFO:127.0.0.1 - - [16/Dec/2024 12:45:19] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:49:03,914:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:49:03,914:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 12:49:03,926:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 12:49:09,826:WARNING: * Debugger is active!
+2024-12-16 12:49:09,831:INFO: * Debugger PIN: 541-312-457
+2024-12-16 12:49:09,855:INFO:127.0.0.1 - - [16/Dec/2024 12:49:09] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 12:49:09,868:INFO:127.0.0.1 - - [16/Dec/2024 12:49:09] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:49:09,956:INFO:127.0.0.1 - - [16/Dec/2024 12:49:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:49:14,022:INFO:127.0.0.1 - - [16/Dec/2024 12:49:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:49:14,027:DEBUG:Debug level log
+2024-12-16 12:49:14,027:INFO:Info level log
+2024-12-16 12:49:14,029:WARNING:Warning level log
+2024-12-16 12:49:14,031:ERROR:Error level log
+2024-12-16 12:49:14,032:CRITICAL:Critical level log
+2024-12-16 12:49:14,034:INFO:127.0.0.1 - - [16/Dec/2024 12:49:14] "GET / HTTP/1.1" 200 -
+2024-12-16 12:49:14,056:INFO:127.0.0.1 - - [16/Dec/2024 12:49:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:49:15,085:INFO:127.0.0.1 - - [16/Dec/2024 12:49:15] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:49:15,104:INFO:127.0.0.1 - - [16/Dec/2024 12:49:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:49:15,113:INFO:127.0.0.1 - - [16/Dec/2024 12:49:15] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:49:15,117:INFO:127.0.0.1 - - [16/Dec/2024 12:49:15] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2024-12-16 12:49:15,383:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:49:19,099:INFO:127.0.0.1 - - [16/Dec/2024 12:49:19] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:49:28,860:INFO:127.0.0.1 - - [16/Dec/2024 12:49:28] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 12:49:28,864:INFO:127.0.0.1 - - [16/Dec/2024 12:49:28] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:49:28,885:INFO:127.0.0.1 - - [16/Dec/2024 12:49:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:17,234:INFO:127.0.0.1 - - [16/Dec/2024 12:50:17] "GET /login HTTP/1.1" 200 -
+2024-12-16 12:50:17,263:INFO:127.0.0.1 - - [16/Dec/2024 12:50:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:20,179:INFO:127.0.0.1 - - [16/Dec/2024 12:50:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 12:50:20,183:DEBUG:Debug level log
+2024-12-16 12:50:20,183:INFO:Info level log
+2024-12-16 12:50:20,187:WARNING:Warning level log
+2024-12-16 12:50:20,189:ERROR:Error level log
+2024-12-16 12:50:20,190:CRITICAL:Critical level log
+2024-12-16 12:50:20,191:INFO:127.0.0.1 - - [16/Dec/2024 12:50:20] "GET / HTTP/1.1" 200 -
+2024-12-16 12:50:20,215:INFO:127.0.0.1 - - [16/Dec/2024 12:50:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:21,078:INFO:127.0.0.1 - - [16/Dec/2024 12:50:21] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:50:21,096:INFO:127.0.0.1 - - [16/Dec/2024 12:50:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:21,107:INFO:127.0.0.1 - - [16/Dec/2024 12:50:21] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:21,113:INFO:127.0.0.1 - - [16/Dec/2024 12:50:21] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2024-12-16 12:50:21,362:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:50:24,912:INFO:127.0.0.1 - - [16/Dec/2024 12:50:24] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:50:48,203:DEBUG:Debug level log
+2024-12-16 12:50:48,204:INFO:Info level log
+2024-12-16 12:50:48,212:WARNING:Warning level log
+2024-12-16 12:50:48,214:ERROR:Error level log
+2024-12-16 12:50:48,216:CRITICAL:Critical level log
+2024-12-16 12:50:48,219:INFO:127.0.0.1 - - [16/Dec/2024 12:50:48] "GET / HTTP/1.1" 200 -
+2024-12-16 12:50:48,240:INFO:127.0.0.1 - - [16/Dec/2024 12:50:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:49,201:INFO:127.0.0.1 - - [16/Dec/2024 12:50:49] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:50:49,218:INFO:127.0.0.1 - - [16/Dec/2024 12:50:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:49,230:INFO:127.0.0.1 - - [16/Dec/2024 12:50:49] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:49,231:INFO:127.0.0.1 - - [16/Dec/2024 12:50:49] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2024-12-16 12:50:49,484:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:50:51,130:INFO:127.0.0.1 - - [16/Dec/2024 12:50:51] "GET /entry-recognition-data HTTP/1.1" 200 -
+2024-12-16 12:50:51,146:INFO:127.0.0.1 - - [16/Dec/2024 12:50:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:51,148:INFO:127.0.0.1 - - [16/Dec/2024 12:50:51] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:51,153:INFO:127.0.0.1 - - [16/Dec/2024 12:50:51] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:51,169:INFO:127.0.0.1 - - [16/Dec/2024 12:50:51] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 12:50:53,020:INFO:127.0.0.1 - - [16/Dec/2024 12:50:53] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:51:58,640:INFO:127.0.0.1 - - [16/Dec/2024 12:51:58] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:51:58,666:INFO:127.0.0.1 - - [16/Dec/2024 12:51:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:51:58,667:INFO:127.0.0.1 - - [16/Dec/2024 12:51:58] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:51:58,674:INFO:127.0.0.1 - - [16/Dec/2024 12:51:58] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:51:58,965:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:52:02,448:INFO:127.0.0.1 - - [16/Dec/2024 12:52:02] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:52:39,140:INFO:127.0.0.1 - - [16/Dec/2024 12:52:39] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:52:39,227:INFO:127.0.0.1 - - [16/Dec/2024 12:52:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:39,230:INFO:127.0.0.1 - - [16/Dec/2024 12:52:39] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:39,238:INFO:127.0.0.1 - - [16/Dec/2024 12:52:39] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:39,244:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:52:40,247:INFO:127.0.0.1 - - [16/Dec/2024 12:52:40] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:52:40,267:INFO:127.0.0.1 - - [16/Dec/2024 12:52:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:40,281:INFO:127.0.0.1 - - [16/Dec/2024 12:52:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:40,283:INFO:127.0.0.1 - - [16/Dec/2024 12:52:40] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:52:42,234:INFO:127.0.0.1 - - [16/Dec/2024 12:52:42] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:53:46,929:INFO:127.0.0.1 - - [16/Dec/2024 12:53:46] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:53:46,941:INFO:127.0.0.1 - - [16/Dec/2024 12:53:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:46,944:INFO:127.0.0.1 - - [16/Dec/2024 12:53:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:46,948:INFO:127.0.0.1 - - [16/Dec/2024 12:53:46] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:47,772:INFO:127.0.0.1 - - [16/Dec/2024 12:53:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:53:47,789:INFO:127.0.0.1 - - [16/Dec/2024 12:53:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:47,798:INFO:127.0.0.1 - - [16/Dec/2024 12:53:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:47,801:INFO:127.0.0.1 - - [16/Dec/2024 12:53:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:53:48,092:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:53:51,446:INFO:127.0.0.1 - - [16/Dec/2024 12:53:51] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:54:08,995:INFO:127.0.0.1 - - [16/Dec/2024 12:54:08] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:54:09,026:INFO:127.0.0.1 - - [16/Dec/2024 12:54:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:54:09,028:INFO:127.0.0.1 - - [16/Dec/2024 12:54:09] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:54:09,032:INFO:127.0.0.1 - - [16/Dec/2024 12:54:09] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:14,871:INFO:127.0.0.1 - - [16/Dec/2024 12:55:14] "GET /search HTTP/1.1" 200 -
+2024-12-16 12:55:14,885:INFO:127.0.0.1 - - [16/Dec/2024 12:55:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:14,890:INFO:127.0.0.1 - - [16/Dec/2024 12:55:14] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:14,892:INFO:127.0.0.1 - - [16/Dec/2024 12:55:14] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:16,062:INFO:127.0.0.1 - - [16/Dec/2024 12:55:16] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:55:16,082:INFO:127.0.0.1 - - [16/Dec/2024 12:55:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:16,089:INFO:127.0.0.1 - - [16/Dec/2024 12:55:16] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:16,091:INFO:127.0.0.1 - - [16/Dec/2024 12:55:16] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:55:16,093:DEBUG:Debug level log
+2024-12-16 12:55:16,096:INFO:Info level log
+2024-12-16 12:55:16,099:WARNING:Warning level log
+2024-12-16 12:55:16,102:ERROR:Error level log
+2024-12-16 12:55:16,103:CRITICAL:Critical level log
+2024-12-16 12:55:16,105:INFO:127.0.0.1 - - [16/Dec/2024 12:55:16] "GET / HTTP/1.1" 200 -
+2024-12-16 12:55:17,870:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:55:21,151:INFO:127.0.0.1 - - [16/Dec/2024 12:55:21] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:55:21,736:DEBUG:Debug level log
+2024-12-16 12:55:21,736:INFO:Info level log
+2024-12-16 12:55:21,738:WARNING:Warning level log
+2024-12-16 12:55:21,738:ERROR:Error level log
+2024-12-16 12:55:21,739:CRITICAL:Critical level log
+2024-12-16 12:55:21,740:INFO:127.0.0.1 - - [16/Dec/2024 12:55:21] "GET / HTTP/1.1" 200 -
+2024-12-16 12:55:22,691:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:55:23,109:DEBUG:Debug level log
+2024-12-16 12:55:23,110:INFO:Info level log
+2024-12-16 12:55:23,112:WARNING:Warning level log
+2024-12-16 12:55:23,113:ERROR:Error level log
+2024-12-16 12:55:23,113:CRITICAL:Critical level log
+2024-12-16 12:55:23,114:INFO:127.0.0.1 - - [16/Dec/2024 12:55:23] "GET / HTTP/1.1" 200 -
+2024-12-16 12:55:23,749:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:55:24,365:DEBUG:Debug level log
+2024-12-16 12:55:24,366:INFO:Info level log
+2024-12-16 12:55:24,368:WARNING:Warning level log
+2024-12-16 12:55:24,368:ERROR:Error level log
+2024-12-16 12:55:24,369:CRITICAL:Critical level log
+2024-12-16 12:55:24,370:INFO:127.0.0.1 - - [16/Dec/2024 12:55:24] "GET / HTTP/1.1" 200 -
+2024-12-16 12:55:24,902:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:55:25,459:DEBUG:Debug level log
+2024-12-16 12:55:25,459:INFO:Info level log
+2024-12-16 12:55:25,462:WARNING:Warning level log
+2024-12-16 12:55:25,463:ERROR:Error level log
+2024-12-16 12:55:25,463:CRITICAL:Critical level log
+2024-12-16 12:55:25,464:INFO:127.0.0.1 - - [16/Dec/2024 12:55:25] "GET / HTTP/1.1" 200 -
+2024-12-16 12:55:26,006:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 12:55:35,227:INFO:127.0.0.1 - - [16/Dec/2024 12:55:35] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:55:35,740:INFO:127.0.0.1 - - [16/Dec/2024 12:55:35] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:55:35,786:INFO:127.0.0.1 - - [16/Dec/2024 12:55:35] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:55:35,800:INFO:127.0.0.1 - - [16/Dec/2024 12:55:35] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 12:56:34,214:INFO:127.0.0.1 - - [16/Dec/2024 12:56:34] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:56:34,237:INFO:127.0.0.1 - - [16/Dec/2024 12:56:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:34,240:INFO:127.0.0.1 - - [16/Dec/2024 12:56:34] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:34,244:DEBUG:Debug level log
+2024-12-16 12:56:34,246:INFO:Info level log
+2024-12-16 12:56:34,249:INFO:127.0.0.1 - - [16/Dec/2024 12:56:34] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:34,250:WARNING:Warning level log
+2024-12-16 12:56:34,250:ERROR:Error level log
+2024-12-16 12:56:34,251:CRITICAL:Critical level log
+2024-12-16 12:56:34,253:INFO:127.0.0.1 - - [16/Dec/2024 12:56:34] "GET / HTTP/1.1" 200 -
+2024-12-16 12:56:35,201:INFO:127.0.0.1 - - [16/Dec/2024 12:56:35] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:56:35,215:INFO:127.0.0.1 - - [16/Dec/2024 12:56:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:35,223:INFO:127.0.0.1 - - [16/Dec/2024 12:56:35] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:35,225:INFO:127.0.0.1 - - [16/Dec/2024 12:56:35] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:35,226:DEBUG:Debug level log
+2024-12-16 12:56:35,228:INFO:Info level log
+2024-12-16 12:56:35,233:WARNING:Warning level log
+2024-12-16 12:56:35,234:ERROR:Error level log
+2024-12-16 12:56:35,236:CRITICAL:Critical level log
+2024-12-16 12:56:35,237:INFO:127.0.0.1 - - [16/Dec/2024 12:56:35] "GET / HTTP/1.1" 200 -
+2024-12-16 12:56:36,763:INFO:127.0.0.1 - - [16/Dec/2024 12:56:36] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:56:38,931:INFO:127.0.0.1 - - [16/Dec/2024 12:56:38] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:56:54,330:INFO:127.0.0.1 - - [16/Dec/2024 12:56:54] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:56:54,345:INFO:127.0.0.1 - - [16/Dec/2024 12:56:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:54,347:INFO:127.0.0.1 - - [16/Dec/2024 12:56:54] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:54,356:INFO:127.0.0.1 - - [16/Dec/2024 12:56:54] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:54,355:DEBUG:Debug level log
+2024-12-16 12:56:54,356:INFO:Info level log
+2024-12-16 12:56:54,359:WARNING:Warning level log
+2024-12-16 12:56:54,359:ERROR:Error level log
+2024-12-16 12:56:54,364:CRITICAL:Critical level log
+2024-12-16 12:56:54,365:INFO:127.0.0.1 - - [16/Dec/2024 12:56:54] "GET / HTTP/1.1" 200 -
+2024-12-16 12:56:55,522:INFO:127.0.0.1 - - [16/Dec/2024 12:56:55] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:56:56,130:INFO:127.0.0.1 - - [16/Dec/2024 12:56:56] "GET /entry-recognition-data HTTP/1.1" 200 -
+2024-12-16 12:56:56,148:INFO:127.0.0.1 - - [16/Dec/2024 12:56:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:56,154:INFO:127.0.0.1 - - [16/Dec/2024 12:56:56] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:56,157:INFO:127.0.0.1 - - [16/Dec/2024 12:56:56] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:56,160:INFO:127.0.0.1 - - [16/Dec/2024 12:56:56] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:57,755:INFO:127.0.0.1 - - [16/Dec/2024 12:56:57] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:56:57,778:INFO:127.0.0.1 - - [16/Dec/2024 12:56:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:57,786:INFO:127.0.0.1 - - [16/Dec/2024 12:56:57] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:57,787:INFO:127.0.0.1 - - [16/Dec/2024 12:56:57] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:57,788:DEBUG:Debug level log
+2024-12-16 12:56:57,790:INFO:Info level log
+2024-12-16 12:56:57,791:WARNING:Warning level log
+2024-12-16 12:56:57,792:ERROR:Error level log
+2024-12-16 12:56:57,794:CRITICAL:Critical level log
+2024-12-16 12:56:57,795:INFO:127.0.0.1 - - [16/Dec/2024 12:56:57] "GET / HTTP/1.1" 200 -
+2024-12-16 12:56:58,982:INFO:127.0.0.1 - - [16/Dec/2024 12:56:58] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:56:59,711:INFO:127.0.0.1 - - [16/Dec/2024 12:56:59] "GET /entry-recognition-data HTTP/1.1" 200 -
+2024-12-16 12:56:59,732:INFO:127.0.0.1 - - [16/Dec/2024 12:56:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:59,736:INFO:127.0.0.1 - - [16/Dec/2024 12:56:59] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:59,740:INFO:127.0.0.1 - - [16/Dec/2024 12:56:59] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 12:56:59,742:INFO:127.0.0.1 - - [16/Dec/2024 12:56:59] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:36,320:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "GET /entry-recognition-data HTTP/1.1" 200 -
+2024-12-16 12:57:36,347:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:36,350:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:36,354:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:36,355:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:36,990:INFO:127.0.0.1 - - [16/Dec/2024 12:57:36] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:57:37,017:INFO:127.0.0.1 - - [16/Dec/2024 12:57:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:37,020:INFO:127.0.0.1 - - [16/Dec/2024 12:57:37] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:37,024:INFO:127.0.0.1 - - [16/Dec/2024 12:57:37] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:57:37,024:DEBUG:Debug level log
+2024-12-16 12:57:37,025:INFO:Info level log
+2024-12-16 12:57:37,027:WARNING:Warning level log
+2024-12-16 12:57:37,027:ERROR:Error level log
+2024-12-16 12:57:37,031:CRITICAL:Critical level log
+2024-12-16 12:57:37,032:INFO:127.0.0.1 - - [16/Dec/2024 12:57:37] "GET / HTTP/1.1" 200 -
+2024-12-16 12:59:20,048:INFO:127.0.0.1 - - [16/Dec/2024 12:59:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:59:20,070:INFO:127.0.0.1 - - [16/Dec/2024 12:59:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:20,073:INFO:127.0.0.1 - - [16/Dec/2024 12:59:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:20,074:INFO:127.0.0.1 - - [16/Dec/2024 12:59:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:21,238:INFO:127.0.0.1 - - [16/Dec/2024 12:59:21] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:59:23,472:INFO:127.0.0.1 - - [16/Dec/2024 12:59:23] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:59:35,821:INFO:127.0.0.1 - - [16/Dec/2024 12:59:35] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 12:59:35,840:INFO:127.0.0.1 - - [16/Dec/2024 12:59:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:35,855:INFO:127.0.0.1 - - [16/Dec/2024 12:59:35] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:35,856:INFO:127.0.0.1 - - [16/Dec/2024 12:59:35] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 12:59:36,869:INFO:127.0.0.1 - - [16/Dec/2024 12:59:36] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:59:38,453:INFO:127.0.0.1 - - [16/Dec/2024 12:59:38] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:59:39,707:INFO:127.0.0.1 - - [16/Dec/2024 12:59:39] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 12:59:40,811:INFO:127.0.0.1 - - [16/Dec/2024 12:59:40] "[33mGET /video-feed HTTP/1.1[0m" 404 -
+2024-12-16 13:00:55,036:INFO:127.0.0.1 - - [16/Dec/2024 13:00:55] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:00:55,048:INFO:127.0.0.1 - - [16/Dec/2024 13:00:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:00:55,051:INFO:127.0.0.1 - - [16/Dec/2024 13:00:55] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:00:55,055:INFO:127.0.0.1 - - [16/Dec/2024 13:00:55] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:00:56,414:INFO:127.0.0.1 - - [16/Dec/2024 13:00:56] "[33mGET /-video-feed HTTP/1.1[0m" 404 -
+2024-12-16 13:00:58,293:INFO:127.0.0.1 - - [16/Dec/2024 13:00:58] "[33mGET /-video-feed HTTP/1.1[0m" 404 -
+2024-12-16 13:02:32,168:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:02:32,169:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpjg9wjbte', reloading
+2024-12-16 13:02:32,170:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:02:33,257:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:02:39,587:WARNING: * Debugger is active!
+2024-12-16 13:02:39,593:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:02:39,618:INFO:127.0.0.1 - - [16/Dec/2024 13:02:39] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:02:39,630:INFO:127.0.0.1 - - [16/Dec/2024 13:02:39] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:02:39,711:INFO:127.0.0.1 - - [16/Dec/2024 13:02:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:02:43,639:INFO:127.0.0.1 - - [16/Dec/2024 13:02:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 13:02:43,646:DEBUG:Debug level log
+2024-12-16 13:02:43,646:INFO:Info level log
+2024-12-16 13:02:43,648:WARNING:Warning level log
+2024-12-16 13:02:43,652:ERROR:Error level log
+2024-12-16 13:02:43,652:CRITICAL:Critical level log
+2024-12-16 13:02:43,653:INFO:127.0.0.1 - - [16/Dec/2024 13:02:43] "GET / HTTP/1.1" 200 -
+2024-12-16 13:02:43,675:INFO:127.0.0.1 - - [16/Dec/2024 13:02:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:02:44,409:INFO:127.0.0.1 - - [16/Dec/2024 13:02:44] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:02:44,426:INFO:127.0.0.1 - - [16/Dec/2024 13:02:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:02:44,436:INFO:127.0.0.1 - - [16/Dec/2024 13:02:44] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:02:44,438:INFO:127.0.0.1 - - [16/Dec/2024 13:02:44] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:02:45,960:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:02:49,421:INFO:127.0.0.1 - - [16/Dec/2024 13:02:49] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:03:19,971:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:03:23,287:INFO:127.0.0.1 - - [16/Dec/2024 13:03:23] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:04:01,932:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:04:05,311:INFO:127.0.0.1 - - [16/Dec/2024 13:04:05] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:04:12,144:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:12,145:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp93_7591u', reloading
+2024-12-16 13:04:12,145:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:13,332:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:04:19,654:WARNING: * Debugger is active!
+2024-12-16 13:04:19,660:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:04:22,303:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:22,305:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpn2lqjals', reloading
+2024-12-16 13:04:22,306:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:23,330:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:04:29,361:WARNING: * Debugger is active!
+2024-12-16 13:04:29,366:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:04:32,788:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:32,789:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpmf8v6mjv', reloading
+2024-12-16 13:04:32,790:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:34,070:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:04:40,071:WARNING: * Debugger is active!
+2024-12-16 13:04:40,077:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:04:45,710:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:45,711:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmptpmg6ul_', reloading
+2024-12-16 13:04:45,712:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:04:46,739:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:04:52,803:WARNING: * Debugger is active!
+2024-12-16 13:04:52,809:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:04:55,822:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:04:57,917:INFO:127.0.0.1 - - [16/Dec/2024 13:04:57] "[32mGET /exit-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:04:57,931:INFO:127.0.0.1 - - [16/Dec/2024 13:04:57] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:04:58,020:INFO:127.0.0.1 - - [16/Dec/2024 13:04:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:04:59,447:INFO:127.0.0.1 - - [16/Dec/2024 13:04:59] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:05:01,358:INFO:127.0.0.1 - - [16/Dec/2024 13:05:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 13:05:01,372:DEBUG:Debug level log
+2024-12-16 13:05:01,373:INFO:Info level log
+2024-12-16 13:05:01,376:WARNING:Warning level log
+2024-12-16 13:05:01,377:ERROR:Error level log
+2024-12-16 13:05:01,377:CRITICAL:Critical level log
+2024-12-16 13:05:01,378:INFO:127.0.0.1 - - [16/Dec/2024 13:05:01] "GET / HTTP/1.1" 200 -
+2024-12-16 13:05:01,415:INFO:127.0.0.1 - - [16/Dec/2024 13:05:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:02,467:INFO:127.0.0.1 - - [16/Dec/2024 13:05:02] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:02,495:INFO:127.0.0.1 - - [16/Dec/2024 13:05:02] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:02,497:INFO:127.0.0.1 - - [16/Dec/2024 13:05:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:02,501:INFO:127.0.0.1 - - [16/Dec/2024 13:05:02] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,261:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:03,345:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,350:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,358:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,866:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:03,885:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,887:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:03,888:INFO:127.0.0.1 - - [16/Dec/2024 13:05:03] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:04,278:INFO:127.0.0.1 - - [16/Dec/2024 13:05:04] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:04,324:INFO:127.0.0.1 - - [16/Dec/2024 13:05:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:04,327:INFO:127.0.0.1 - - [16/Dec/2024 13:05:04] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:04,331:INFO:127.0.0.1 - - [16/Dec/2024 13:05:04] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:05,146:INFO:127.0.0.1 - - [16/Dec/2024 13:05:05] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:05,174:INFO:127.0.0.1 - - [16/Dec/2024 13:05:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:05,177:INFO:127.0.0.1 - - [16/Dec/2024 13:05:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:05,215:INFO:127.0.0.1 - - [16/Dec/2024 13:05:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:06,753:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:05:10,043:INFO:127.0.0.1 - - [16/Dec/2024 13:05:10] "GET /disabled-vehicle-video-feed HTTP/1.1" 200 -
+2024-12-16 13:05:57,233:INFO:127.0.0.1 - - [16/Dec/2024 13:05:57] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-16 13:05:57,255:INFO:127.0.0.1 - - [16/Dec/2024 13:05:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:57,262:INFO:127.0.0.1 - - [16/Dec/2024 13:05:57] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:57,265:INFO:127.0.0.1 - - [16/Dec/2024 13:05:57] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:05:59,207:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:06:02,675:INFO:127.0.0.1 - - [16/Dec/2024 13:06:02] "GET /disabled-vehicle-video-feed HTTP/1.1" 200 -
+2024-12-16 13:10:35,339:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:10:35,340:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpreqid7v5', reloading
+2024-12-16 13:10:35,342:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:10:36,875:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:11:14,071:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:11:20,660:WARNING: * Debugger is active!
+2024-12-16 13:11:20,665:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:11:52,389:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:11:52,390:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpwd091cma', reloading
+2024-12-16 13:11:52,390:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:11:53,454:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:11:59,460:WARNING: * Debugger is active!
+2024-12-16 13:11:59,466:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:12:13,218:INFO:127.0.0.1 - - [16/Dec/2024 13:12:13] "[32mGET /disabled-vehicle-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:12:13,254:INFO:127.0.0.1 - - [16/Dec/2024 13:12:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:12:13,341:INFO:127.0.0.1 - - [16/Dec/2024 13:12:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:12:16,189:INFO:127.0.0.1 - - [16/Dec/2024 13:12:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 13:12:16,194:DEBUG:Debug level log
+2024-12-16 13:12:16,194:INFO:Info level log
+2024-12-16 13:12:16,196:WARNING:Warning level log
+2024-12-16 13:12:16,197:ERROR:Error level log
+2024-12-16 13:12:16,199:CRITICAL:Critical level log
+2024-12-16 13:12:16,200:INFO:127.0.0.1 - - [16/Dec/2024 13:12:16] "GET / HTTP/1.1" 200 -
+2024-12-16 13:12:16,225:INFO:127.0.0.1 - - [16/Dec/2024 13:12:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:12:17,307:INFO:127.0.0.1 - - [16/Dec/2024 13:12:17] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:12:17,327:INFO:127.0.0.1 - - [16/Dec/2024 13:12:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:12:17,331:INFO:127.0.0.1 - - [16/Dec/2024 13:12:17] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:12:17,333:INFO:127.0.0.1 - - [16/Dec/2024 13:12:17] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:12:18,747:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:12:22,443:INFO:127.0.0.1 - - [16/Dec/2024 13:12:22] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:13:01,347:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:13:04,717:INFO:127.0.0.1 - - [16/Dec/2024 13:13:04] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:13:15,257:DEBUG:Debug level log
+2024-12-16 13:13:15,258:INFO:Info level log
+2024-12-16 13:13:15,261:WARNING:Warning level log
+2024-12-16 13:13:15,264:ERROR:Error level log
+2024-12-16 13:13:15,265:CRITICAL:Critical level log
+2024-12-16 13:13:15,267:INFO:127.0.0.1 - - [16/Dec/2024 13:13:15] "GET / HTTP/1.1" 200 -
+2024-12-16 13:13:15,292:INFO:127.0.0.1 - - [16/Dec/2024 13:13:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:13:16,235:INFO:127.0.0.1 - - [16/Dec/2024 13:13:16] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:13:16,254:INFO:127.0.0.1 - - [16/Dec/2024 13:13:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:13:16,264:INFO:127.0.0.1 - - [16/Dec/2024 13:13:16] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:13:16,265:INFO:127.0.0.1 - - [16/Dec/2024 13:13:16] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:13:17,052:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:13:20,525:INFO:127.0.0.1 - - [16/Dec/2024 13:13:20] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:14:25,788:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:14:29,163:INFO:127.0.0.1 - - [16/Dec/2024 13:14:29] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:14:46,637:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:14:46,637:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpka52feds', reloading
+2024-12-16 13:14:46,638:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:14:47,428:INFO:127.0.0.1 - - [16/Dec/2024 13:14:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:14:47,462:INFO:127.0.0.1 - - [16/Dec/2024 13:14:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:14:47,466:INFO:127.0.0.1 - - [16/Dec/2024 13:14:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:14:47,472:INFO:127.0.0.1 - - [16/Dec/2024 13:14:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:14:48,481:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:14:54,419:WARNING: * Debugger is active!
+2024-12-16 13:14:54,425:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:14:54,737:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:14:58,251:INFO:127.0.0.1 - - [16/Dec/2024 13:14:58] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:19:15,156:INFO:127.0.0.1 - - [16/Dec/2024 13:19:15] "[32mGET /light-vehicle-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:19:15,172:INFO:127.0.0.1 - - [16/Dec/2024 13:19:15] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:19:15,256:INFO:127.0.0.1 - - [16/Dec/2024 13:19:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:19:16,049:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "[32mGET /exit-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:19:16,056:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:19:16,071:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:19:16,852:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:19:16,858:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:19:16,874:INFO:127.0.0.1 - - [16/Dec/2024 13:19:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:42,146:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 13:47:42,146:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 13:47:42,158:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:47:48,340:WARNING: * Debugger is active!
+2024-12-16 13:47:48,346:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:47:48,372:DEBUG:Debug level log
+2024-12-16 13:47:48,373:INFO:Info level log
+2024-12-16 13:47:48,376:WARNING:Warning level log
+2024-12-16 13:47:48,377:ERROR:Error level log
+2024-12-16 13:47:48,377:CRITICAL:Critical level log
+2024-12-16 13:47:48,379:INFO:127.0.0.1 - - [16/Dec/2024 13:47:48] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 13:47:48,390:INFO:127.0.0.1 - - [16/Dec/2024 13:47:48] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:47:48,485:INFO:127.0.0.1 - - [16/Dec/2024 13:47:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:51,645:INFO:127.0.0.1 - - [16/Dec/2024 13:47:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 13:47:51,650:DEBUG:Debug level log
+2024-12-16 13:47:51,650:INFO:Info level log
+2024-12-16 13:47:51,652:WARNING:Warning level log
+2024-12-16 13:47:51,654:ERROR:Error level log
+2024-12-16 13:47:51,655:CRITICAL:Critical level log
+2024-12-16 13:47:51,656:INFO:127.0.0.1 - - [16/Dec/2024 13:47:51] "GET / HTTP/1.1" 200 -
+2024-12-16 13:47:51,677:INFO:127.0.0.1 - - [16/Dec/2024 13:47:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:52,854:INFO:127.0.0.1 - - [16/Dec/2024 13:47:52] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:47:52,870:INFO:127.0.0.1 - - [16/Dec/2024 13:47:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:52,880:INFO:127.0.0.1 - - [16/Dec/2024 13:47:52] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:52,883:INFO:127.0.0.1 - - [16/Dec/2024 13:47:52] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:47:54,862:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:47:58,406:INFO:127.0.0.1 - - [16/Dec/2024 13:47:58] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:48:55,111:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:48:55,111:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpktnj5czz', reloading
+2024-12-16 13:48:55,112:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:48:56,487:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:49:03,023:WARNING: * Debugger is active!
+2024-12-16 13:49:03,028:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:49:13,859:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:49:17,283:INFO:127.0.0.1 - - [16/Dec/2024 13:49:17] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 13:50:55,446:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:50:55,446:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpcal8g53c', reloading
+2024-12-16 13:50:55,446:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:50:56,496:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:51:03,599:WARNING: * Debugger is active!
+2024-12-16 13:51:03,613:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:51:16,096:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:51:16,096:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp4x2ddsc9', reloading
+2024-12-16 13:51:16,097:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 13:51:17,343:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 13:51:23,728:WARNING: * Debugger is active!
+2024-12-16 13:51:23,735:INFO: * Debugger PIN: 541-312-457
+2024-12-16 13:51:33,756:INFO:127.0.0.1 - - [16/Dec/2024 13:51:33] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 13:51:33,784:INFO:127.0.0.1 - - [16/Dec/2024 13:51:33] "GET /login HTTP/1.1" 200 -
+2024-12-16 13:51:33,873:INFO:127.0.0.1 - - [16/Dec/2024 13:51:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:51:36,712:INFO:127.0.0.1 - - [16/Dec/2024 13:51:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 13:51:36,717:DEBUG:Debug level log
+2024-12-16 13:51:36,718:INFO:Info level log
+2024-12-16 13:51:36,719:WARNING:Warning level log
+2024-12-16 13:51:36,719:ERROR:Error level log
+2024-12-16 13:51:36,719:CRITICAL:Critical level log
+2024-12-16 13:51:36,720:INFO:127.0.0.1 - - [16/Dec/2024 13:51:36] "GET / HTTP/1.1" 200 -
+2024-12-16 13:51:36,742:INFO:127.0.0.1 - - [16/Dec/2024 13:51:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:51:37,675:INFO:127.0.0.1 - - [16/Dec/2024 13:51:37] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 13:51:37,692:INFO:127.0.0.1 - - [16/Dec/2024 13:51:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 13:51:37,701:INFO:127.0.0.1 - - [16/Dec/2024 13:51:37] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 13:51:37,703:INFO:127.0.0.1 - - [16/Dec/2024 13:51:37] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 13:51:39,440:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:51:42,973:INFO:127.0.0.1 - - [16/Dec/2024 13:51:42] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 13:51:48,375:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:51:51,761:INFO:127.0.0.1 - - [16/Dec/2024 13:51:51] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 13:52:11,301:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:52:14,718:INFO:127.0.0.1 - - [16/Dec/2024 13:52:14] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 13:52:25,622:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 13:52:29,196:INFO:127.0.0.1 - - [16/Dec/2024 13:52:29] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:08:37,706:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 14:08:37,706:INFO:[33mPress CTRL+C to quit[0m
+2024-12-16 14:08:37,720:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:08:44,242:WARNING: * Debugger is active!
+2024-12-16 14:08:44,248:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:08:44,273:INFO:127.0.0.1 - - [16/Dec/2024 14:08:44] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 14:08:44,286:INFO:127.0.0.1 - - [16/Dec/2024 14:08:44] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:08:44,376:INFO:127.0.0.1 - - [16/Dec/2024 14:08:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:08:48,024:INFO:127.0.0.1 - - [16/Dec/2024 14:08:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:08:48,030:DEBUG:Debug level log
+2024-12-16 14:08:48,030:INFO:Info level log
+2024-12-16 14:08:48,030:WARNING:Warning level log
+2024-12-16 14:08:48,031:ERROR:Error level log
+2024-12-16 14:08:48,031:CRITICAL:Critical level log
+2024-12-16 14:08:48,032:INFO:127.0.0.1 - - [16/Dec/2024 14:08:48] "GET / HTTP/1.1" 200 -
+2024-12-16 14:08:48,051:INFO:127.0.0.1 - - [16/Dec/2024 14:08:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:08:49,084:INFO:127.0.0.1 - - [16/Dec/2024 14:08:49] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:08:49,100:INFO:127.0.0.1 - - [16/Dec/2024 14:08:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:08:49,110:INFO:127.0.0.1 - - [16/Dec/2024 14:08:49] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:08:49,113:INFO:127.0.0.1 - - [16/Dec/2024 14:08:49] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:08:51,190:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:08:55,042:INFO:127.0.0.1 - - [16/Dec/2024 14:08:55] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:08:55,049:INFO:127.0.0.1 - - [16/Dec/2024 14:08:55] "[33mGET /static/recognized_images/recognized_images/captured_20241216_140854.jpg HTTP/1.1[0m" 404 -
+2024-12-16 14:08:55,314:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:08:59,006:INFO:127.0.0.1 - - [16/Dec/2024 14:08:59] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:08:59,012:INFO:127.0.0.1 - - [16/Dec/2024 14:08:59] "[33mGET /static/recognized_images/recognized_images/captured_20241216_140858.jpg HTTP/1.1[0m" 404 -
+2024-12-16 14:09:23,668:INFO:127.0.0.1 - - [16/Dec/2024 14:09:23] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:09:23,680:INFO:127.0.0.1 - - [16/Dec/2024 14:09:23] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:09:23,684:INFO:127.0.0.1 - - [16/Dec/2024 14:09:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:09:23,689:INFO:127.0.0.1 - - [16/Dec/2024 14:09:23] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:09:25,464:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:09:28,922:INFO:127.0.0.1 - - [16/Dec/2024 14:09:28] "GET /entry-video-feed HTTP/1.1" 200 -
+2024-12-16 14:09:46,519:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:09:46,520:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp2kxwvelx', reloading
+2024-12-16 14:09:46,521:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:09:47,330:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:09:53,938:WARNING: * Debugger is active!
+2024-12-16 14:09:53,944:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:10:49,979:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:10:49,980:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpd6r89og7', reloading
+2024-12-16 14:10:49,980:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:10:50,936:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:10:57,276:WARNING: * Debugger is active!
+2024-12-16 14:10:57,281:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:12:42,357:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:12:46,166:INFO:127.0.0.1 - - [16/Dec/2024 14:12:46] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:14:14,382:DEBUG:Debug level log
+2024-12-16 14:14:14,382:INFO:Info level log
+2024-12-16 14:14:14,383:WARNING:Warning level log
+2024-12-16 14:14:14,383:ERROR:Error level log
+2024-12-16 14:14:14,384:CRITICAL:Critical level log
+2024-12-16 14:14:14,386:INFO:127.0.0.1 - - [16/Dec/2024 14:14:14] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 14:14:14,399:INFO:127.0.0.1 - - [16/Dec/2024 14:14:14] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:14:14,482:INFO:127.0.0.1 - - [16/Dec/2024 14:14:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:14:19,041:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:14:19,045:DEBUG:Debug level log
+2024-12-16 14:14:19,046:INFO:Info level log
+2024-12-16 14:14:19,048:WARNING:Warning level log
+2024-12-16 14:14:19,051:ERROR:Error level log
+2024-12-16 14:14:19,052:CRITICAL:Critical level log
+2024-12-16 14:14:19,053:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "GET / HTTP/1.1" 200 -
+2024-12-16 14:14:19,074:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:14:19,962:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:14:19,983:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:14:19,988:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:14:19,990:INFO:127.0.0.1 - - [16/Dec/2024 14:14:19] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:14:27,088:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:14:29,639:INFO:127.0.0.1 - - [16/Dec/2024 14:14:29] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:14:33,950:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:14:36,470:INFO:127.0.0.1 - - [16/Dec/2024 14:14:36] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:14:53,585:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:14:56,055:INFO:127.0.0.1 - - [16/Dec/2024 14:14:56] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:15:36,447:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:15:39,051:INFO:127.0.0.1 - - [16/Dec/2024 14:15:39] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:17:17,056:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:17:17,057:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpx30e0gex', reloading
+2024-12-16 14:17:17,057:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:17:18,229:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:17:25,990:WARNING: * Debugger is active!
+2024-12-16 14:17:25,996:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:17:38,249:INFO:127.0.0.1 - - [16/Dec/2024 14:17:38] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:17:38,264:INFO:127.0.0.1 - - [16/Dec/2024 14:17:38] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:17:38,348:INFO:127.0.0.1 - - [16/Dec/2024 14:17:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:17:43,829:INFO:127.0.0.1 - - [16/Dec/2024 14:17:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:17:43,834:DEBUG:Debug level log
+2024-12-16 14:17:43,834:INFO:Info level log
+2024-12-16 14:17:43,836:WARNING:Warning level log
+2024-12-16 14:17:43,838:ERROR:Error level log
+2024-12-16 14:17:43,838:CRITICAL:Critical level log
+2024-12-16 14:17:43,839:INFO:127.0.0.1 - - [16/Dec/2024 14:17:43] "GET / HTTP/1.1" 200 -
+2024-12-16 14:17:43,859:INFO:127.0.0.1 - - [16/Dec/2024 14:17:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:17:45,388:INFO:127.0.0.1 - - [16/Dec/2024 14:17:45] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:17:45,407:INFO:127.0.0.1 - - [16/Dec/2024 14:17:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:17:45,417:INFO:127.0.0.1 - - [16/Dec/2024 14:17:45] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:17:45,421:INFO:127.0.0.1 - - [16/Dec/2024 14:17:45] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:17:48,955:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:17:51,471:INFO:127.0.0.1 - - [16/Dec/2024 14:17:51] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:19:06,148:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:19:06,149:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpstb9h09h', reloading
+2024-12-16 14:19:06,149:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:19:07,401:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:19:14,274:WARNING: * Debugger is active!
+2024-12-16 14:19:14,280:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:19:15,915:INFO:127.0.0.1 - - [16/Dec/2024 14:19:15] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:19:15,928:INFO:127.0.0.1 - - [16/Dec/2024 14:19:15] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:19:16,013:INFO:127.0.0.1 - - [16/Dec/2024 14:19:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:19:19,449:INFO:127.0.0.1 - - [16/Dec/2024 14:19:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:19:19,454:DEBUG:Debug level log
+2024-12-16 14:19:19,454:INFO:Info level log
+2024-12-16 14:19:19,457:WARNING:Warning level log
+2024-12-16 14:19:19,459:ERROR:Error level log
+2024-12-16 14:19:19,460:CRITICAL:Critical level log
+2024-12-16 14:19:19,461:INFO:127.0.0.1 - - [16/Dec/2024 14:19:19] "GET / HTTP/1.1" 200 -
+2024-12-16 14:19:19,485:INFO:127.0.0.1 - - [16/Dec/2024 14:19:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:19:20,322:INFO:127.0.0.1 - - [16/Dec/2024 14:19:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:19:20,341:INFO:127.0.0.1 - - [16/Dec/2024 14:19:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:19:20,352:INFO:127.0.0.1 - - [16/Dec/2024 14:19:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:19:20,354:INFO:127.0.0.1 - - [16/Dec/2024 14:19:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:19:29,882:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:19:32,402:INFO:127.0.0.1 - - [16/Dec/2024 14:19:32] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:19:41,293:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:19:43,860:INFO:127.0.0.1 - - [16/Dec/2024 14:19:43] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:22:18,943:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:22:18,944:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpghr842g1', reloading
+2024-12-16 14:22:18,944:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:22:20,223:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:22:26,980:WARNING: * Debugger is active!
+2024-12-16 14:22:26,988:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:22:30,344:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:22:30,344:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpljy_a9rp', reloading
+2024-12-16 14:22:30,346:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:22:31,699:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:22:38,698:WARNING: * Debugger is active!
+2024-12-16 14:22:38,705:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:23:13,508:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:23:13,510:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpsey2dipt', reloading
+2024-12-16 14:23:13,512:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:23:14,527:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:23:21,338:WARNING: * Debugger is active!
+2024-12-16 14:23:21,344:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:24:43,052:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:24:43,054:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp9nnwybgs', reloading
+2024-12-16 14:24:43,055:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:24:44,511:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:24:51,543:WARNING: * Debugger is active!
+2024-12-16 14:24:51,549:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:25:05,567:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:25:05,568:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpzi4o3klj', reloading
+2024-12-16 14:25:05,568:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:25:06,288:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:25:12,850:WARNING: * Debugger is active!
+2024-12-16 14:25:12,858:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:26:15,191:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:15,191:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpfo7niw1h', reloading
+2024-12-16 14:26:15,192:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:15,933:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:26:22,709:WARNING: * Debugger is active!
+2024-12-16 14:26:22,715:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:26:37,604:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:37,605:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpwa2zia95', reloading
+2024-12-16 14:26:37,605:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:38,485:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:26:45,644:WARNING: * Debugger is active!
+2024-12-16 14:26:45,650:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:26:57,421:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:57,422:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpb2p90kqj', reloading
+2024-12-16 14:26:57,423:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:26:58,397:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:27:05,476:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:27:07,998:WARNING: * Debugger is active!
+2024-12-16 14:27:08,004:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:27:11,918:INFO:127.0.0.1 - - [16/Dec/2024 14:27:11] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:27:11,945:INFO:127.0.0.1 - - [16/Dec/2024 14:27:11] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:27:12,025:INFO:127.0.0.1 - - [16/Dec/2024 14:27:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:16,304:INFO:127.0.0.1 - - [16/Dec/2024 14:27:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:27:16,308:DEBUG:Debug level log
+2024-12-16 14:27:16,309:INFO:Info level log
+2024-12-16 14:27:16,311:WARNING:Warning level log
+2024-12-16 14:27:16,313:ERROR:Error level log
+2024-12-16 14:27:16,314:CRITICAL:Critical level log
+2024-12-16 14:27:16,315:INFO:127.0.0.1 - - [16/Dec/2024 14:27:16] "GET / HTTP/1.1" 200 -
+2024-12-16 14:27:16,339:INFO:127.0.0.1 - - [16/Dec/2024 14:27:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:18,222:INFO:127.0.0.1 - - [16/Dec/2024 14:27:18] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:27:18,242:INFO:127.0.0.1 - - [16/Dec/2024 14:27:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:18,244:INFO:127.0.0.1 - - [16/Dec/2024 14:27:18] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:18,251:INFO:127.0.0.1 - - [16/Dec/2024 14:27:18] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:20,921:INFO:127.0.0.1 - - [16/Dec/2024 14:27:20] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:27:23,245:INFO:127.0.0.1 - - [16/Dec/2024 14:27:23] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:27:40,168:INFO:127.0.0.1 - - [16/Dec/2024 14:27:40] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:27:44,789:INFO:127.0.0.1 - - [16/Dec/2024 14:27:44] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:27:47,992:INFO:127.0.0.1 - - [16/Dec/2024 14:27:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:27:50,347:INFO:127.0.0.1 - - [16/Dec/2024 14:27:50] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:27:52,162:INFO:127.0.0.1 - - [16/Dec/2024 14:27:52] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:27:52,177:INFO:127.0.0.1 - - [16/Dec/2024 14:27:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:52,185:INFO:127.0.0.1 - - [16/Dec/2024 14:27:52] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:52,189:INFO:127.0.0.1 - - [16/Dec/2024 14:27:52] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:27:55,089:INFO:127.0.0.1 - - [16/Dec/2024 14:27:55] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:29:07,803:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:29:07,804:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpbdf8x144', reloading
+2024-12-16 14:29:07,805:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:29:09,389:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:29:16,492:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:29:18,951:WARNING: * Debugger is active!
+2024-12-16 14:29:18,957:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:29:25,655:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:29:25,655:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpq8xdpd0f', reloading
+2024-12-16 14:29:25,656:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:29:26,696:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:29:33,281:WARNING: * Debugger is active!
+2024-12-16 14:29:33,288:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:30:04,978:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:04,979:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpkirf31mh', reloading
+2024-12-16 14:30:04,980:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:06,170:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:30:12,877:WARNING: * Debugger is active!
+2024-12-16 14:30:12,884:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:30:24,402:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:24,403:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpjqhhoyk6', reloading
+2024-12-16 14:30:24,404:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:25,714:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:30:32,392:WARNING: * Debugger is active!
+2024-12-16 14:30:32,398:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:30:45,671:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:45,673:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpfjc60uwl', reloading
+2024-12-16 14:30:45,676:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:30:47,150:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:30:53,861:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:30:56,376:WARNING: * Debugger is active!
+2024-12-16 14:30:56,382:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:31:07,336:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:31:07,336:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpy95_5lan', reloading
+2024-12-16 14:31:07,337:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:31:08,118:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:31:15,517:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:31:18,195:WARNING: * Debugger is active!
+2024-12-16 14:31:18,201:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:31:18,227:INFO:127.0.0.1 - - [16/Dec/2024 14:31:18] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:31:18,239:INFO:127.0.0.1 - - [16/Dec/2024 14:31:18] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:31:18,315:INFO:127.0.0.1 - - [16/Dec/2024 14:31:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:31:21,667:INFO:127.0.0.1 - - [16/Dec/2024 14:31:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:31:21,671:DEBUG:Debug level log
+2024-12-16 14:31:21,672:INFO:Info level log
+2024-12-16 14:31:21,674:WARNING:Warning level log
+2024-12-16 14:31:21,675:ERROR:Error level log
+2024-12-16 14:31:21,676:CRITICAL:Critical level log
+2024-12-16 14:31:21,677:INFO:127.0.0.1 - - [16/Dec/2024 14:31:21] "GET / HTTP/1.1" 200 -
+2024-12-16 14:31:21,700:INFO:127.0.0.1 - - [16/Dec/2024 14:31:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:31:22,566:INFO:127.0.0.1 - - [16/Dec/2024 14:31:22] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:31:22,583:INFO:127.0.0.1 - - [16/Dec/2024 14:31:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:31:22,593:INFO:127.0.0.1 - - [16/Dec/2024 14:31:22] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:31:22,594:INFO:127.0.0.1 - - [16/Dec/2024 14:31:22] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:31:25,088:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:31:25,089:INFO:127.0.0.1 - - [16/Dec/2024 14:31:25] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:32:23,220:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:32:23,222:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpp0l0rxkx', reloading
+2024-12-16 14:32:23,223:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:32:24,302:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:32:31,458:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:32:34,028:WARNING: * Debugger is active!
+2024-12-16 14:32:34,034:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:32:39,873:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:32:39,874:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp9e03sc7c', reloading
+2024-12-16 14:32:39,874:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:32:40,857:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:32:47,922:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:32:50,616:WARNING: * Debugger is active!
+2024-12-16 14:32:50,622:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:32:50,647:INFO:127.0.0.1 - - [16/Dec/2024 14:32:50] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:32:50,658:INFO:127.0.0.1 - - [16/Dec/2024 14:32:50] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:32:50,729:INFO:127.0.0.1 - - [16/Dec/2024 14:32:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:32:54,961:INFO:127.0.0.1 - - [16/Dec/2024 14:32:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:32:54,966:DEBUG:Debug level log
+2024-12-16 14:32:54,967:INFO:Info level log
+2024-12-16 14:32:54,969:WARNING:Warning level log
+2024-12-16 14:32:54,970:ERROR:Error level log
+2024-12-16 14:32:54,970:CRITICAL:Critical level log
+2024-12-16 14:32:54,972:INFO:127.0.0.1 - - [16/Dec/2024 14:32:54] "GET / HTTP/1.1" 200 -
+2024-12-16 14:32:54,993:INFO:127.0.0.1 - - [16/Dec/2024 14:32:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:32:55,880:INFO:127.0.0.1 - - [16/Dec/2024 14:32:55] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:32:55,903:INFO:127.0.0.1 - - [16/Dec/2024 14:32:55] "[35m[1mGET /entry-video-feed HTTP/1.1[0m" 500 -
+2024-12-16 14:33:00,687:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:33:04,394:INFO:127.0.0.1 - - [16/Dec/2024 14:33:04] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:33:04,406:INFO:127.0.0.1 - - [16/Dec/2024 14:33:04] "GET /static/recognized_images/captured_20241216_143300.jpg HTTP/1.1" 200 -
+2024-12-16 14:33:36,400:INFO:127.0.0.1 - - [16/Dec/2024 14:33:36] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:33:36,415:INFO:127.0.0.1 - - [16/Dec/2024 14:33:36] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:33:36,416:INFO:127.0.0.1 - - [16/Dec/2024 14:33:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:33:36,418:INFO:127.0.0.1 - - [16/Dec/2024 14:33:36] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:33:36,429:INFO:127.0.0.1 - - [16/Dec/2024 14:33:36] "[35m[1mGET /entry-video-feed HTTP/1.1[0m" 500 -
+2024-12-16 14:33:48,612:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:33:52,095:INFO:127.0.0.1 - - [16/Dec/2024 14:33:52] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:33:52,106:INFO:127.0.0.1 - - [16/Dec/2024 14:33:52] "GET /static/recognized_images/captured_20241216_143348.jpg HTTP/1.1" 200 -
+2024-12-16 14:34:41,101:INFO:127.0.0.1 - - [16/Dec/2024 14:34:41] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:34:41,118:INFO:127.0.0.1 - - [16/Dec/2024 14:34:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:34:41,125:INFO:127.0.0.1 - - [16/Dec/2024 14:34:41] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:34:41,131:INFO:127.0.0.1 - - [16/Dec/2024 14:34:41] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:34:43,909:INFO:127.0.0.1 - - [16/Dec/2024 14:34:43] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:36:09,442:INFO:127.0.0.1 - - [16/Dec/2024 14:36:09] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:09,463:INFO:127.0.0.1 - - [16/Dec/2024 14:36:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:09,466:INFO:127.0.0.1 - - [16/Dec/2024 14:36:09] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:09,474:INFO:127.0.0.1 - - [16/Dec/2024 14:36:09] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:12,277:INFO:127.0.0.1 - - [16/Dec/2024 14:36:12] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:36:26,458:INFO:127.0.0.1 - - [16/Dec/2024 14:36:26] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:26,495:INFO:127.0.0.1 - - [16/Dec/2024 14:36:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:26,501:INFO:127.0.0.1 - - [16/Dec/2024 14:36:26] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:26,503:INFO:127.0.0.1 - - [16/Dec/2024 14:36:26] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:29,175:INFO:127.0.0.1 - - [16/Dec/2024 14:36:29] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:29,195:INFO:127.0.0.1 - - [16/Dec/2024 14:36:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:29,198:INFO:127.0.0.1 - - [16/Dec/2024 14:36:29] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:29,203:INFO:127.0.0.1 - - [16/Dec/2024 14:36:29] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:34,070:INFO:127.0.0.1 - - [16/Dec/2024 14:36:34] "[35m[1mGET /entry-video-feed HTTP/1.1[0m" 500 -
+2024-12-16 14:36:41,638:INFO:127.0.0.1 - - [16/Dec/2024 14:36:41] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:41,662:INFO:127.0.0.1 - - [16/Dec/2024 14:36:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:41,664:INFO:127.0.0.1 - - [16/Dec/2024 14:36:41] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:41,665:INFO:127.0.0.1 - - [16/Dec/2024 14:36:41] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:44,079:INFO:127.0.0.1 - - [16/Dec/2024 14:36:44] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:36:47,797:INFO:127.0.0.1 - - [16/Dec/2024 14:36:47] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:47,818:INFO:127.0.0.1 - - [16/Dec/2024 14:36:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:47,823:INFO:127.0.0.1 - - [16/Dec/2024 14:36:47] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:47,826:INFO:127.0.0.1 - - [16/Dec/2024 14:36:47] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:48,643:INFO:127.0.0.1 - - [16/Dec/2024 14:36:48] "[35m[1mGET /entry-video-feed HTTP/1.1[0m" 500 -
+2024-12-16 14:36:52,117:INFO:127.0.0.1 - - [16/Dec/2024 14:36:52] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:52,148:INFO:127.0.0.1 - - [16/Dec/2024 14:36:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:52,155:INFO:127.0.0.1 - - [16/Dec/2024 14:36:52] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:52,155:INFO:127.0.0.1 - - [16/Dec/2024 14:36:52] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:53,776:INFO:127.0.0.1 - - [16/Dec/2024 14:36:53] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:36:53,801:INFO:127.0.0.1 - - [16/Dec/2024 14:36:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:53,809:INFO:127.0.0.1 - - [16/Dec/2024 14:36:53] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:53,813:INFO:127.0.0.1 - - [16/Dec/2024 14:36:53] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:36:56,293:INFO:127.0.0.1 - - [16/Dec/2024 14:36:56] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:37:27,456:INFO:127.0.0.1 - - [16/Dec/2024 14:37:27] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:37:30,138:INFO:127.0.0.1 - - [16/Dec/2024 14:37:30] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:37:37,162:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:37:37,164:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpu8mrg2dl', reloading
+2024-12-16 14:37:37,165:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:37:38,028:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:37:45,210:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:37:47,761:WARNING: * Debugger is active!
+2024-12-16 14:37:47,768:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:37:47,792:INFO:127.0.0.1 - - [16/Dec/2024 14:37:47] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:37:47,804:INFO:127.0.0.1 - - [16/Dec/2024 14:37:47] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:37:47,883:INFO:127.0.0.1 - - [16/Dec/2024 14:37:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:37:48,019:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:37:48,020:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmppam88yxc', reloading
+2024-12-16 14:37:48,020:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:37:49,485:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:37:56,476:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:37:59,114:WARNING: * Debugger is active!
+2024-12-16 14:37:59,121:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:37:59,470:INFO:127.0.0.1 - - [16/Dec/2024 14:37:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:37:59,474:DEBUG:Debug level log
+2024-12-16 14:37:59,475:INFO:Info level log
+2024-12-16 14:37:59,476:WARNING:Warning level log
+2024-12-16 14:37:59,478:ERROR:Error level log
+2024-12-16 14:37:59,478:CRITICAL:Critical level log
+2024-12-16 14:37:59,484:INFO:127.0.0.1 - - [16/Dec/2024 14:37:59] "GET / HTTP/1.1" 200 -
+2024-12-16 14:37:59,575:INFO:127.0.0.1 - - [16/Dec/2024 14:37:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:38:06,748:INFO:127.0.0.1 - - [16/Dec/2024 14:38:06] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:38:18,431:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:38:18,432:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpockmu9g_', reloading
+2024-12-16 14:38:18,433:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:38:19,154:INFO:127.0.0.1 - - [16/Dec/2024 14:38:19] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:38:20,114:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:38:26,930:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:38:29,420:WARNING: * Debugger is active!
+2024-12-16 14:38:29,425:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:38:29,472:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:38:29,473:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpg0tq30rz', reloading
+2024-12-16 14:38:29,475:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:38:31,264:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:38:38,259:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:38:40,793:WARNING: * Debugger is active!
+2024-12-16 14:38:40,799:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:38:40,823:INFO:127.0.0.1 - - [16/Dec/2024 14:38:40] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:38:40,834:INFO:127.0.0.1 - - [16/Dec/2024 14:38:40] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:38:40,909:INFO:127.0.0.1 - - [16/Dec/2024 14:38:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:38:45,564:INFO:127.0.0.1 - - [16/Dec/2024 14:38:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:38:45,568:DEBUG:Debug level log
+2024-12-16 14:38:45,569:INFO:Info level log
+2024-12-16 14:38:45,571:WARNING:Warning level log
+2024-12-16 14:38:45,571:ERROR:Error level log
+2024-12-16 14:38:45,572:CRITICAL:Critical level log
+2024-12-16 14:38:45,574:INFO:127.0.0.1 - - [16/Dec/2024 14:38:45] "GET / HTTP/1.1" 200 -
+2024-12-16 14:38:45,599:INFO:127.0.0.1 - - [16/Dec/2024 14:38:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:38:46,399:INFO:127.0.0.1 - - [16/Dec/2024 14:38:46] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:38:54,831:INFO:127.0.0.1 - - [16/Dec/2024 14:38:54] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:38:54,852:INFO:127.0.0.1 - - [16/Dec/2024 14:38:54] "GET /static/recognized_images/captured_20241216_143853.jpg HTTP/1.1" 200 -
+2024-12-16 14:39:14,011:INFO:127.0.0.1 - - [16/Dec/2024 14:39:14] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:39:14,025:INFO:127.0.0.1 - - [16/Dec/2024 14:39:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:39:14,029:INFO:127.0.0.1 - - [16/Dec/2024 14:39:14] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:39:14,030:INFO:127.0.0.1 - - [16/Dec/2024 14:39:14] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:39:16,394:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:39:16,395:INFO:127.0.0.1 - - [16/Dec/2024 14:39:16] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:39:45,510:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:39:45,510:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpteoixo_j', reloading
+2024-12-16 14:39:45,511:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:39:46,994:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:39:55,091:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:39:58,084:WARNING: * Debugger is active!
+2024-12-16 14:39:58,090:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:40:02,733:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:40:02,733:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpeteb2_hz', reloading
+2024-12-16 14:40:02,733:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:40:03,935:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:40:12,120:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:40:14,651:WARNING: * Debugger is active!
+2024-12-16 14:40:14,657:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:40:24,984:INFO:127.0.0.1 - - [16/Dec/2024 14:40:24] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:40:24,997:INFO:127.0.0.1 - - [16/Dec/2024 14:40:24] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:40:25,081:INFO:127.0.0.1 - - [16/Dec/2024 14:40:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:40:27,918:INFO:127.0.0.1 - - [16/Dec/2024 14:40:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:40:27,923:DEBUG:Debug level log
+2024-12-16 14:40:27,923:INFO:Info level log
+2024-12-16 14:40:27,924:WARNING:Warning level log
+2024-12-16 14:40:27,924:ERROR:Error level log
+2024-12-16 14:40:27,924:CRITICAL:Critical level log
+2024-12-16 14:40:27,925:INFO:127.0.0.1 - - [16/Dec/2024 14:40:27] "GET / HTTP/1.1" 200 -
+2024-12-16 14:40:27,949:INFO:127.0.0.1 - - [16/Dec/2024 14:40:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:40:29,035:INFO:127.0.0.1 - - [16/Dec/2024 14:40:29] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:40:29,053:INFO:127.0.0.1 - - [16/Dec/2024 14:40:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:40:29,057:INFO:127.0.0.1 - - [16/Dec/2024 14:40:29] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:40:29,063:INFO:127.0.0.1 - - [16/Dec/2024 14:40:29] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:40:31,584:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:40:31,585:INFO:127.0.0.1 - - [16/Dec/2024 14:40:31] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:40:45,330:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:40:45,332:INFO:127.0.0.1 - - [16/Dec/2024 14:40:45] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:41:49,464:INFO:127.0.0.1 - - [16/Dec/2024 14:41:49] "[33mGET /static/recognized_images/ HTTP/1.1[0m" 404 -
+2024-12-16 14:42:05,142:INFO:127.0.0.1 - - [16/Dec/2024 14:42:05] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:42:18,680:INFO:127.0.0.1 - - [16/Dec/2024 14:42:18] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:42:18,702:INFO:127.0.0.1 - - [16/Dec/2024 14:42:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:42:18,704:INFO:127.0.0.1 - - [16/Dec/2024 14:42:18] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:42:18,710:INFO:127.0.0.1 - - [16/Dec/2024 14:42:18] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:42:21,202:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:42:21,203:INFO:127.0.0.1 - - [16/Dec/2024 14:42:21] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:43:20,792:INFO:127.0.0.1 - - [16/Dec/2024 14:43:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:43:20,805:INFO:127.0.0.1 - - [16/Dec/2024 14:43:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:43:20,813:INFO:127.0.0.1 - - [16/Dec/2024 14:43:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:43:20,814:INFO:127.0.0.1 - - [16/Dec/2024 14:43:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:43:23,012:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:43:23,012:INFO:127.0.0.1 - - [16/Dec/2024 14:43:23] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:43:44,784:ERROR:À¥Ä·À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:43:44,785:INFO:127.0.0.1 - - [16/Dec/2024 14:43:44] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:46:01,566:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:46:01,567:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpck7a10_l', reloading
+2024-12-16 14:46:01,567:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:46:02,333:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:46:09,524:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:46:12,047:WARNING: * Debugger is active!
+2024-12-16 14:46:12,054:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:46:12,078:INFO:127.0.0.1 - - [16/Dec/2024 14:46:12] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:46:12,080:INFO:127.0.0.1 - - [16/Dec/2024 14:46:12] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:46:12,091:INFO:127.0.0.1 - - [16/Dec/2024 14:46:12] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:46:12,169:INFO:127.0.0.1 - - [16/Dec/2024 14:46:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:46:19,294:INFO:127.0.0.1 - - [16/Dec/2024 14:46:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:46:19,297:DEBUG:Debug level log
+2024-12-16 14:46:19,299:INFO:Info level log
+2024-12-16 14:46:19,299:WARNING:Warning level log
+2024-12-16 14:46:19,299:ERROR:Error level log
+2024-12-16 14:46:19,299:CRITICAL:Critical level log
+2024-12-16 14:46:19,300:INFO:127.0.0.1 - - [16/Dec/2024 14:46:19] "GET / HTTP/1.1" 200 -
+2024-12-16 14:46:19,325:INFO:127.0.0.1 - - [16/Dec/2024 14:46:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:46:20,341:INFO:127.0.0.1 - - [16/Dec/2024 14:46:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:46:20,360:INFO:127.0.0.1 - - [16/Dec/2024 14:46:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:46:20,369:INFO:127.0.0.1 - - [16/Dec/2024 14:46:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:46:20,373:INFO:127.0.0.1 - - [16/Dec/2024 14:46:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:46:22,656:INFO:127.0.0.1 - - [16/Dec/2024 14:46:22] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:47:15,828:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:47:15,830:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpxrcfomi1', reloading
+2024-12-16 14:47:15,831:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:47:17,213:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:47:29,858:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:47:36,832:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:47:39,423:WARNING: * Debugger is active!
+2024-12-16 14:47:39,429:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:47:39,453:INFO:127.0.0.1 - - [16/Dec/2024 14:47:39] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:47:39,465:INFO:127.0.0.1 - - [16/Dec/2024 14:47:39] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:47:39,544:INFO:127.0.0.1 - - [16/Dec/2024 14:47:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:43,516:INFO:127.0.0.1 - - [16/Dec/2024 14:47:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:47:43,521:DEBUG:Debug level log
+2024-12-16 14:47:43,521:INFO:Info level log
+2024-12-16 14:47:43,522:WARNING:Warning level log
+2024-12-16 14:47:43,522:ERROR:Error level log
+2024-12-16 14:47:43,522:CRITICAL:Critical level log
+2024-12-16 14:47:43,523:INFO:127.0.0.1 - - [16/Dec/2024 14:47:43] "GET / HTTP/1.1" 200 -
+2024-12-16 14:47:43,545:INFO:127.0.0.1 - - [16/Dec/2024 14:47:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:44,545:INFO:127.0.0.1 - - [16/Dec/2024 14:47:44] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:47:44,561:INFO:127.0.0.1 - - [16/Dec/2024 14:47:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:44,571:INFO:127.0.0.1 - - [16/Dec/2024 14:47:44] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:44,573:INFO:127.0.0.1 - - [16/Dec/2024 14:47:44] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:53,623:INFO:127.0.0.1 - - [16/Dec/2024 14:47:53] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:47:53,654:INFO:127.0.0.1 - - [16/Dec/2024 14:47:53] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:53,656:INFO:127.0.0.1 - - [16/Dec/2024 14:47:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:47:53,660:INFO:127.0.0.1 - - [16/Dec/2024 14:47:53] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:48:05,371:ERROR:À¥Ä¸À» ¿­ ¼ö ¾ø½À´Ï´Ù.
+2024-12-16 14:48:05,372:INFO:127.0.0.1 - - [16/Dec/2024 14:48:05] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:48:39,631:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:48:39,631:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmp6hs1kz_d', reloading
+2024-12-16 14:48:39,632:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:48:40,551:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:48:47,666:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:48:50,177:WARNING: * Debugger is active!
+2024-12-16 14:48:50,183:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:48:50,683:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:48:50,683:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpn_64zsui', reloading
+2024-12-16 14:48:50,684:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 14:48:52,117:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 14:48:59,101:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 14:49:01,568:WARNING: * Debugger is active!
+2024-12-16 14:49:01,574:INFO: * Debugger PIN: 541-312-457
+2024-12-16 14:49:01,597:INFO:127.0.0.1 - - [16/Dec/2024 14:49:01] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-16 14:49:01,609:INFO:127.0.0.1 - - [16/Dec/2024 14:49:01] "GET /login HTTP/1.1" 200 -
+2024-12-16 14:49:01,686:INFO:127.0.0.1 - - [16/Dec/2024 14:49:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:49:05,798:INFO:127.0.0.1 - - [16/Dec/2024 14:49:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 14:49:05,802:DEBUG:Debug level log
+2024-12-16 14:49:05,803:INFO:Info level log
+2024-12-16 14:49:05,803:WARNING:Warning level log
+2024-12-16 14:49:05,804:ERROR:Error level log
+2024-12-16 14:49:05,804:CRITICAL:Critical level log
+2024-12-16 14:49:05,805:INFO:127.0.0.1 - - [16/Dec/2024 14:49:05] "GET / HTTP/1.1" 200 -
+2024-12-16 14:49:05,829:INFO:127.0.0.1 - - [16/Dec/2024 14:49:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:49:06,650:INFO:127.0.0.1 - - [16/Dec/2024 14:49:06] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:49:06,670:INFO:127.0.0.1 - - [16/Dec/2024 14:49:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:49:06,674:INFO:127.0.0.1 - - [16/Dec/2024 14:49:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:49:06,677:INFO:127.0.0.1 - - [16/Dec/2024 14:49:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:49:16,939:INFO:127.0.0.1 - - [16/Dec/2024 14:49:16] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:49:16,965:INFO:127.0.0.1 - - [16/Dec/2024 14:49:16] "GET /static/recognized_images/captured_20241216_144915.jpg HTTP/1.1" 200 -
+2024-12-16 14:49:32,092:INFO:127.0.0.1 - - [16/Dec/2024 14:49:32] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:49:32,104:INFO:127.0.0.1 - - [16/Dec/2024 14:49:32] "GET /static/recognized_images/captured_20241216_144930.jpg HTTP/1.1" 200 -
+2024-12-16 14:49:38,820:INFO:127.0.0.1 - - [16/Dec/2024 14:49:38] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:49:38,834:INFO:127.0.0.1 - - [16/Dec/2024 14:49:38] "GET /static/recognized_images/captured_20241216_144937.jpg HTTP/1.1" 200 -
+2024-12-16 14:50:54,516:INFO:127.0.0.1 - - [16/Dec/2024 14:50:54] "GET /capture-image HTTP/1.1" 200 -
+2024-12-16 14:50:54,528:INFO:127.0.0.1 - - [16/Dec/2024 14:50:54] "GET /static/recognized_images/captured_20241216_145053.jpg HTTP/1.1" 200 -
+2024-12-16 14:50:57,191:INFO:127.0.0.1 - - [16/Dec/2024 14:50:57] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:50:57,224:INFO:127.0.0.1 - - [16/Dec/2024 14:50:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:50:57,227:INFO:127.0.0.1 - - [16/Dec/2024 14:50:57] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:50:57,232:INFO:127.0.0.1 - - [16/Dec/2024 14:50:57] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:01,358:INFO:127.0.0.1 - - [16/Dec/2024 14:51:01] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:51:13,280:INFO:127.0.0.1 - - [16/Dec/2024 14:51:13] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:51:19,338:INFO:127.0.0.1 - - [16/Dec/2024 14:51:19] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:51:19,370:INFO:127.0.0.1 - - [16/Dec/2024 14:51:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:19,374:INFO:127.0.0.1 - - [16/Dec/2024 14:51:19] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:19,379:INFO:127.0.0.1 - - [16/Dec/2024 14:51:19] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:23,341:INFO:127.0.0.1 - - [16/Dec/2024 14:51:23] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 14:51:26,111:INFO:127.0.0.1 - - [16/Dec/2024 14:51:26] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 14:51:26,141:INFO:127.0.0.1 - - [16/Dec/2024 14:51:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:26,143:INFO:127.0.0.1 - - [16/Dec/2024 14:51:26] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:26,147:INFO:127.0.0.1 - - [16/Dec/2024 14:51:26] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 14:51:39,617:INFO:127.0.0.1 - - [16/Dec/2024 14:51:39] "[35m[1mGET /capture-image HTTP/1.1[0m" 500 -
+2024-12-16 15:54:54,331:INFO:127.0.0.1 - - [16/Dec/2024 15:54:54] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:54:54,349:INFO:127.0.0.1 - - [16/Dec/2024 15:54:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:54,351:INFO:127.0.0.1 - - [16/Dec/2024 15:54:54] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:54,351:INFO:127.0.0.1 - - [16/Dec/2024 15:54:54] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:55,690:INFO:127.0.0.1 - - [16/Dec/2024 15:54:55] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:54:55,707:INFO:127.0.0.1 - - [16/Dec/2024 15:54:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:55,721:INFO:127.0.0.1 - - [16/Dec/2024 15:54:55] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:55,722:INFO:127.0.0.1 - - [16/Dec/2024 15:54:55] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:56,695:INFO:127.0.0.1 - - [16/Dec/2024 15:54:56] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:54:56,716:INFO:127.0.0.1 - - [16/Dec/2024 15:54:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:56,718:INFO:127.0.0.1 - - [16/Dec/2024 15:54:56] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:56,723:INFO:127.0.0.1 - - [16/Dec/2024 15:54:56] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:57,309:INFO:127.0.0.1 - - [16/Dec/2024 15:54:57] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 15:54:57,327:INFO:127.0.0.1 - - [16/Dec/2024 15:54:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:57,338:INFO:127.0.0.1 - - [16/Dec/2024 15:54:57] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:57,340:INFO:127.0.0.1 - - [16/Dec/2024 15:54:57] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:05,262:INFO:127.0.0.1 - - [16/Dec/2024 15:55:05] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-16 15:55:05,284:INFO:127.0.0.1 - - [16/Dec/2024 15:55:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:05,288:INFO:127.0.0.1 - - [16/Dec/2024 15:55:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:05,292:INFO:127.0.0.1 - - [16/Dec/2024 15:55:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:07,334:INFO:127.0.0.1 - - [16/Dec/2024 15:55:07] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 15:55:07,352:INFO:127.0.0.1 - - [16/Dec/2024 15:55:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:07,360:INFO:127.0.0.1 - - [16/Dec/2024 15:55:07] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:07,362:INFO:127.0.0.1 - - [16/Dec/2024 15:55:07] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:11,219:INFO:127.0.0.1 - - [16/Dec/2024 15:55:11] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-16 15:55:11,238:INFO:127.0.0.1 - - [16/Dec/2024 15:55:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:11,247:INFO:127.0.0.1 - - [16/Dec/2024 15:55:11] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:11,249:INFO:127.0.0.1 - - [16/Dec/2024 15:55:11] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:14,363:INFO:127.0.0.1 - - [16/Dec/2024 15:55:14] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:55:14,379:INFO:127.0.0.1 - - [16/Dec/2024 15:55:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:14,381:INFO:127.0.0.1 - - [16/Dec/2024 15:55:14] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:14,385:INFO:127.0.0.1 - - [16/Dec/2024 15:55:14] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:16,007:INFO:127.0.0.1 - - [16/Dec/2024 15:55:16] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-16 15:55:16,025:INFO:127.0.0.1 - - [16/Dec/2024 15:55:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:16,037:INFO:127.0.0.1 - - [16/Dec/2024 15:55:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:16,039:INFO:127.0.0.1 - - [16/Dec/2024 15:55:16] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:16,041:INFO:127.0.0.1 - - [16/Dec/2024 15:55:16] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:17,424:INFO:127.0.0.1 - - [16/Dec/2024 15:55:17] "GET /entry-recognition-data?page=2 HTTP/1.1" 200 -
+2024-12-16 15:55:17,441:INFO:127.0.0.1 - - [16/Dec/2024 15:55:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:17,453:INFO:127.0.0.1 - - [16/Dec/2024 15:55:17] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:17,454:INFO:127.0.0.1 - - [16/Dec/2024 15:55:17] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:17,456:INFO:127.0.0.1 - - [16/Dec/2024 15:55:17] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,627:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "GET /entry-recognition-data?page=3 HTTP/1.1" 200 -
+2024-12-16 15:55:18,651:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,652:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,656:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,658:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,791:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "GET /entry-recognition-data?page=4 HTTP/1.1" 200 -
+2024-12-16 15:55:18,810:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,821:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,825:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,826:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:18,976:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "GET /entry-recognition-data?page=5 HTTP/1.1" 200 -
+2024-12-16 15:55:18,993:INFO:127.0.0.1 - - [16/Dec/2024 15:55:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,001:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,006:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,007:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,146:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "GET /entry-recognition-data?page=6 HTTP/1.1" 200 -
+2024-12-16 15:55:19,170:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,175:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,177:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,179:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,322:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "GET /entry-recognition-data?page=7 HTTP/1.1" 200 -
+2024-12-16 15:55:19,342:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,352:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,355:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,356:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,500:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "GET /entry-recognition-data?page=8 HTTP/1.1" 200 -
+2024-12-16 15:55:19,523:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,525:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,527:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:19,529:INFO:127.0.0.1 - - [16/Dec/2024 15:55:19] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:21,075:INFO:127.0.0.1 - - [16/Dec/2024 15:55:21] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:21,105:INFO:127.0.0.1 - - [16/Dec/2024 15:55:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:21,105:INFO:127.0.0.1 - - [16/Dec/2024 15:55:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:21,108:INFO:127.0.0.1 - - [16/Dec/2024 15:55:21] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:22,973:INFO:127.0.0.1 - - [16/Dec/2024 15:55:22] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:55:22,991:INFO:127.0.0.1 - - [16/Dec/2024 15:55:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:23,003:INFO:127.0.0.1 - - [16/Dec/2024 15:55:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:23,005:INFO:127.0.0.1 - - [16/Dec/2024 15:55:23] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:24,021:INFO:127.0.0.1 - - [16/Dec/2024 15:55:24] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-16 15:55:24,040:INFO:127.0.0.1 - - [16/Dec/2024 15:55:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:24,052:INFO:127.0.0.1 - - [16/Dec/2024 15:55:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:24,054:INFO:127.0.0.1 - - [16/Dec/2024 15:55:24] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:24,056:INFO:127.0.0.1 - - [16/Dec/2024 15:55:24] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:25,878:INFO:127.0.0.1 - - [16/Dec/2024 15:55:25] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:25,902:INFO:127.0.0.1 - - [16/Dec/2024 15:55:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:25,905:INFO:127.0.0.1 - - [16/Dec/2024 15:55:25] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:25,910:INFO:127.0.0.1 - - [16/Dec/2024 15:55:25] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:28,010:INFO:127.0.0.1 - - [16/Dec/2024 15:55:28] "POST /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:28,029:INFO:127.0.0.1 - - [16/Dec/2024 15:55:28] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:28,030:INFO:127.0.0.1 - - [16/Dec/2024 15:55:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:28,031:INFO:127.0.0.1 - - [16/Dec/2024 15:55:28] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:28,535:INFO:127.0.0.1 - - [16/Dec/2024 15:55:28] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:31,507:INFO:127.0.0.1 - - [16/Dec/2024 15:55:31] "GET /report HTTP/1.1" 200 -
+2024-12-16 15:55:31,520:INFO:127.0.0.1 - - [16/Dec/2024 15:55:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:31,527:INFO:127.0.0.1 - - [16/Dec/2024 15:55:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:31,529:INFO:127.0.0.1 - - [16/Dec/2024 15:55:31] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,437:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "POST /report HTTP/1.1" 200 -
+2024-12-16 15:55:32,452:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,456:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,459:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,735:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[32mPOST /report HTTP/1.1[0m" 302 -
+2024-12-16 15:55:32,743:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "GET /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:32,762:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,763:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:32,767:INFO:127.0.0.1 - - [16/Dec/2024 15:55:32] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,055:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "POST /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:33,069:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,076:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,078:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,384:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[32mPOST /report?page=1 HTTP/1.1[0m" 302 -
+2024-12-16 15:55:33,392:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "GET /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:33,404:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,412:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:33,413:INFO:127.0.0.1 - - [16/Dec/2024 15:55:33] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,034:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[32mPOST /report?page=1 HTTP/1.1[0m" 302 -
+2024-12-16 15:55:34,043:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "GET /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:34,057:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,066:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,067:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,365:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "POST /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:34,379:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,381:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,385:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,636:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "POST /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:34,652:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,655:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,658:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,841:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "POST /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:34,857:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,865:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:34,866:INFO:127.0.0.1 - - [16/Dec/2024 15:55:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:35,170:INFO:127.0.0.1 - - [16/Dec/2024 15:55:35] "[32mPOST /report?page=1 HTTP/1.1[0m" 302 -
+2024-12-16 15:55:35,178:INFO:127.0.0.1 - - [16/Dec/2024 15:55:35] "GET /report?page=1 HTTP/1.1" 200 -
+2024-12-16 15:55:35,192:INFO:127.0.0.1 - - [16/Dec/2024 15:55:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:35,195:INFO:127.0.0.1 - - [16/Dec/2024 15:55:35] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:35,200:INFO:127.0.0.1 - - [16/Dec/2024 15:55:35] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:36,507:INFO:127.0.0.1 - - [16/Dec/2024 15:55:36] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 15:55:36,525:INFO:127.0.0.1 - - [16/Dec/2024 15:55:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:36,538:INFO:127.0.0.1 - - [16/Dec/2024 15:55:36] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:36,542:INFO:127.0.0.1 - - [16/Dec/2024 15:55:36] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:40,551:INFO:127.0.0.1 - - [16/Dec/2024 15:55:40] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:40,576:INFO:127.0.0.1 - - [16/Dec/2024 15:55:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:40,578:INFO:127.0.0.1 - - [16/Dec/2024 15:55:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:40,583:INFO:127.0.0.1 - - [16/Dec/2024 15:55:40] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:41,008:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "GET /alerts HTTP/1.1" 200 -
+2024-12-16 15:55:41,024:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:41,616:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "GET /search-results HTTP/1.1" 200 -
+2024-12-16 15:55:41,640:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:41,642:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:41,646:INFO:127.0.0.1 - - [16/Dec/2024 15:55:41] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:43,260:INFO:127.0.0.1 - - [16/Dec/2024 15:55:43] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:55:43,276:INFO:127.0.0.1 - - [16/Dec/2024 15:55:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:43,286:INFO:127.0.0.1 - - [16/Dec/2024 15:55:43] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:43,291:INFO:127.0.0.1 - - [16/Dec/2024 15:55:43] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:44,298:INFO:127.0.0.1 - - [16/Dec/2024 15:55:44] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-16 15:55:44,322:INFO:127.0.0.1 - - [16/Dec/2024 15:55:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:44,324:INFO:127.0.0.1 - - [16/Dec/2024 15:55:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:44,326:INFO:127.0.0.1 - - [16/Dec/2024 15:55:44] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:44,331:INFO:127.0.0.1 - - [16/Dec/2024 15:55:44] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:53,914:INFO:127.0.0.1 - - [16/Dec/2024 15:55:53] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 15:55:53,939:INFO:127.0.0.1 - - [16/Dec/2024 15:55:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:53,953:INFO:127.0.0.1 - - [16/Dec/2024 15:55:53] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 15:55:53,955:INFO:127.0.0.1 - - [16/Dec/2024 15:55:53] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:12,193:INFO:127.0.0.1 - - [16/Dec/2024 15:57:12] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:57:12,213:INFO:127.0.0.1 - - [16/Dec/2024 15:57:12] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:12,217:INFO:127.0.0.1 - - [16/Dec/2024 15:57:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:12,218:INFO:127.0.0.1 - - [16/Dec/2024 15:57:12] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:13,470:INFO:127.0.0.1 - - [16/Dec/2024 15:57:13] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-16 15:57:13,492:INFO:127.0.0.1 - - [16/Dec/2024 15:57:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:13,494:INFO:127.0.0.1 - - [16/Dec/2024 15:57:13] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:13,501:INFO:127.0.0.1 - - [16/Dec/2024 15:57:13] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:13,507:INFO:127.0.0.1 - - [16/Dec/2024 15:57:13] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,075:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "GET /entry-recognition-data?page=2 HTTP/1.1" 200 -
+2024-12-16 15:57:22,095:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,110:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,113:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,123:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,502:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "GET /entry-recognition-data?page=1 HTTP/1.1" 200 -
+2024-12-16 15:57:22,524:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,526:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,531:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,533:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,930:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "GET /entry-recognition-data?page=2 HTTP/1.1" 200 -
+2024-12-16 15:57:22,953:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,958:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,960:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:22,963:INFO:127.0.0.1 - - [16/Dec/2024 15:57:22] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:33,089:INFO:127.0.0.1 - - [16/Dec/2024 15:57:33] "GET /search HTTP/1.1" 200 -
+2024-12-16 15:57:33,106:INFO:127.0.0.1 - - [16/Dec/2024 15:57:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:33,116:INFO:127.0.0.1 - - [16/Dec/2024 15:57:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:33,121:INFO:127.0.0.1 - - [16/Dec/2024 15:57:33] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-16 15:57:45,014:INFO:127.0.0.1 - - [16/Dec/2024 15:57:45] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 15:57:45,020:INFO:127.0.0.1 - - [16/Dec/2024 15:57:45] "GET /login HTTP/1.1" 200 -
+2024-12-16 15:57:45,051:INFO:127.0.0.1 - - [16/Dec/2024 15:57:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:01:13,265:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:01:13,266:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpu6xxfg_v', reloading
+2024-12-16 16:01:13,267:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:01:14,252:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:01:20,815:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:01:23,251:WARNING: * Debugger is active!
+2024-12-16 16:01:23,257:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:02:24,665:INFO:127.0.0.1 - - [16/Dec/2024 16:02:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 16:02:24,669:DEBUG:Debug level log
+2024-12-16 16:02:24,670:INFO:Info level log
+2024-12-16 16:02:24,671:WARNING:Warning level log
+2024-12-16 16:02:24,671:ERROR:Error level log
+2024-12-16 16:02:24,671:CRITICAL:Critical level log
+2024-12-16 16:02:24,677:INFO:127.0.0.1 - - [16/Dec/2024 16:02:24] "GET / HTTP/1.1" 200 -
+2024-12-16 16:02:24,771:INFO:127.0.0.1 - - [16/Dec/2024 16:02:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,593:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 16:02:25,619:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,624:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,626:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,808:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-16 16:02:25,833:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,834:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:02:25,839:INFO:127.0.0.1 - - [16/Dec/2024 16:02:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:09,444:INFO:127.0.0.1 - - [16/Dec/2024 16:05:09] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 16:05:09,454:INFO:127.0.0.1 - - [16/Dec/2024 16:05:09] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:09,475:INFO:127.0.0.1 - - [16/Dec/2024 16:05:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:12,165:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-16 16:05:12,170:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:12,185:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:12,396:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[32mGET /alerts HTTP/1.1[0m" 302 -
+2024-12-16 16:05:12,401:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:12,417:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:12,569:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[32mGET /emergencies HTTP/1.1[0m" 302 -
+2024-12-16 16:05:12,575:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:12,593:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:12,720:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[32mGET /report HTTP/1.1[0m" 302 -
+2024-12-16 16:05:12,727:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:12,743:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:12,998:INFO:127.0.0.1 - - [16/Dec/2024 16:05:12] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-16 16:05:13,002:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:13,018:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:13,124:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-16 16:05:13,130:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:13,148:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:13,379:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[32mGET /emergencies HTTP/1.1[0m" 302 -
+2024-12-16 16:05:13,386:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:13,403:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:13,501:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[32mGET /emergencies HTTP/1.1[0m" 302 -
+2024-12-16 16:05:13,507:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:13,527:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:13,640:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[32mGET /alerts HTTP/1.1[0m" 302 -
+2024-12-16 16:05:13,645:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:13,662:INFO:127.0.0.1 - - [16/Dec/2024 16:05:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:15,646:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "[32mGET /emergencies HTTP/1.1[0m" 302 -
+2024-12-16 16:05:15,652:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:15,667:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:15,884:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "[32mGET /report HTTP/1.1[0m" 302 -
+2024-12-16 16:05:15,889:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:15,909:INFO:127.0.0.1 - - [16/Dec/2024 16:05:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:16,251:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[32mGET /settings HTTP/1.1[0m" 302 -
+2024-12-16 16:05:16,259:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:16,276:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:16,449:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[32mGET /alerts HTTP/1.1[0m" 302 -
+2024-12-16 16:05:16,458:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:16,474:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:16,609:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-16 16:05:16,614:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:16,629:INFO:127.0.0.1 - - [16/Dec/2024 16:05:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:17,175:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[32mGET /exit-recognition HTTP/1.1[0m" 302 -
+2024-12-16 16:05:17,181:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:17,197:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:17,379:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[32mGET /light-vehicle-recognition HTTP/1.1[0m" 302 -
+2024-12-16 16:05:17,385:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:17,401:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:17,597:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[32mGET /disabled-vehicle-recognition HTTP/1.1[0m" 302 -
+2024-12-16 16:05:17,603:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:17,622:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:17,769:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[32mGET /illegal-parking-recognition HTTP/1.1[0m" 302 -
+2024-12-16 16:05:17,776:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:05:17,792:INFO:127.0.0.1 - - [16/Dec/2024 16:05:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:05:22,670:INFO:127.0.0.1 - - [16/Dec/2024 16:05:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 16:05:22,674:DEBUG:Debug level log
+2024-12-16 16:05:22,675:INFO:Info level log
+2024-12-16 16:05:22,675:WARNING:Warning level log
+2024-12-16 16:05:22,676:ERROR:Error level log
+2024-12-16 16:05:22,676:CRITICAL:Critical level log
+2024-12-16 16:05:22,677:INFO:127.0.0.1 - - [16/Dec/2024 16:05:22] "GET / HTTP/1.1" 200 -
+2024-12-16 16:05:22,700:INFO:127.0.0.1 - - [16/Dec/2024 16:05:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:06:25,158:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:06:25,159:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpu1nq0awn', reloading
+2024-12-16 16:06:25,161:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:06:26,669:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:06:33,617:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:06:36,290:WARNING: * Debugger is active!
+2024-12-16 16:06:36,296:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:06:36,327:DEBUG:Debug level log
+2024-12-16 16:06:36,328:INFO:Info level log
+2024-12-16 16:06:36,328:WARNING:Warning level log
+2024-12-16 16:06:36,328:ERROR:Error level log
+2024-12-16 16:06:36,328:CRITICAL:Critical level log
+2024-12-16 16:06:36,330:INFO:127.0.0.1 - - [16/Dec/2024 16:06:36] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-16 16:06:36,330:INFO:127.0.0.1 - - [16/Dec/2024 16:06:36] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 16:06:36,334:INFO:127.0.0.1 - - [16/Dec/2024 16:06:36] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-12-16 16:06:41,819:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:06:41,821:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpiq1yoqan', reloading
+2024-12-16 16:06:41,823:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:06:43,155:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:06:49,438:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:06:51,936:WARNING: * Debugger is active!
+2024-12-16 16:06:51,942:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:06:51,974:INFO:127.0.0.1 - - [16/Dec/2024 16:06:51] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:06:52,050:INFO:127.0.0.1 - - [16/Dec/2024 16:06:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:07:16,389:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:16,389:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpvi9cx544', reloading
+2024-12-16 16:07:16,390:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:17,918:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:07:24,545:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:07:27,124:WARNING: * Debugger is active!
+2024-12-16 16:07:27,130:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:07:27,453:INFO:127.0.0.1 - - [16/Dec/2024 16:07:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 16:07:27,458:DEBUG:Debug level log
+2024-12-16 16:07:27,458:INFO:Info level log
+2024-12-16 16:07:27,459:WARNING:Warning level log
+2024-12-16 16:07:27,459:ERROR:Error level log
+2024-12-16 16:07:27,459:CRITICAL:Critical level log
+2024-12-16 16:07:27,465:INFO:127.0.0.1 - - [16/Dec/2024 16:07:27] "GET / HTTP/1.1" 200 -
+2024-12-16 16:07:27,557:INFO:127.0.0.1 - - [16/Dec/2024 16:07:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:07:34,041:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:34,042:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpg3_1h7po', reloading
+2024-12-16 16:07:34,042:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:35,091:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:07:42,021:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:07:44,556:WARNING: * Debugger is active!
+2024-12-16 16:07:44,562:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:07:44,586:INFO:127.0.0.1 - - [16/Dec/2024 16:07:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-16 16:07:44,597:INFO:127.0.0.1 - - [16/Dec/2024 16:07:44] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:07:44,681:INFO:127.0.0.1 - - [16/Dec/2024 16:07:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:07:44,782:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:44,783:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\tmpptbfgvnm', reloading
+2024-12-16 16:07:44,783:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\cctv\\cctv.py', reloading
+2024-12-16 16:07:46,373:INFO: * Restarting with watchdog (windowsapi)
+2024-12-16 16:07:53,077:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-16 16:07:55,536:WARNING: * Debugger is active!
+2024-12-16 16:07:55,543:INFO: * Debugger PIN: 541-312-457
+2024-12-16 16:07:55,566:DEBUG:Debug level log
+2024-12-16 16:07:55,568:INFO:Info level log
+2024-12-16 16:07:55,568:WARNING:Warning level log
+2024-12-16 16:07:55,568:ERROR:Error level log
+2024-12-16 16:07:55,569:CRITICAL:Critical level log
+2024-12-16 16:07:55,570:INFO:127.0.0.1 - - [16/Dec/2024 16:07:55] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-16 16:07:55,580:INFO:127.0.0.1 - - [16/Dec/2024 16:07:55] "GET /login HTTP/1.1" 200 -
+2024-12-16 16:07:55,670:INFO:127.0.0.1 - - [16/Dec/2024 16:07:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:09:21,832:INFO:127.0.0.1 - - [16/Dec/2024 16:09:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-16 16:09:21,837:DEBUG:Debug level log
+2024-12-16 16:09:21,838:INFO:Info level log
+2024-12-16 16:09:21,838:WARNING:Warning level log
+2024-12-16 16:09:21,838:ERROR:Error level log
+2024-12-16 16:09:21,839:CRITICAL:Critical level log
+2024-12-16 16:09:21,840:INFO:127.0.0.1 - - [16/Dec/2024 16:09:21] "GET / HTTP/1.1" 200 -
+2024-12-16 16:09:21,873:INFO:127.0.0.1 - - [16/Dec/2024 16:09:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:09:26,743:INFO:127.0.0.1 - - [16/Dec/2024 16:09:26] "GET /search HTTP/1.1" 200 -
+2024-12-16 16:09:26,766:INFO:127.0.0.1 - - [16/Dec/2024 16:09:26] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-16 16:09:26,768:INFO:127.0.0.1 - - [16/Dec/2024 16:09:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-16 16:09:26,769:INFO:127.0.0.1 - - [16/Dec/2024 16:09:26] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
