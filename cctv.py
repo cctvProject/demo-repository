@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for, flash, session, send_file
+from flask import Flask, request, render_template, redirect, url_for, flash, session, send_file, Response
 from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
@@ -33,6 +33,23 @@ def login_required(f):
     wrap.__name__ = f.__name__
     return wrap
 
+# 웹캡 초기화 (기본카메라 사용 0)
+camera = cv2.VideoCapture(0)
+
+def generate_frames():
+    while True:
+        # 웹캠에서 프레임 읽기
+        success, frame = camera.read()
+        if not success:
+            break
+        else:
+            # 프레임을 JPEG 형식으로 인코딩
+            _, buffer = cv2.imencode('.jpg', frame)
+            frame = buffer.tobytes()
+            # 프레임 반환
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+            
 # 사용자 모델 생성
 class User(db.Model):
     __tablename__ = 'users'  # 테이블 이름 명시
@@ -523,17 +540,23 @@ def entry_recognition():
 
     # 결과를 템플릿에 전달
     return render_template(
-        'entry-recognition.html',
+        'entry_recognition.html',
         ocr_results=ocr_results,
         original_image='images/original_image.jpg',
         enhanced_image='images/enhanced_image.jpg'
     )
 
-# 출차 인식
+# 출차 인식 
 @app.route('/exit-recognition')
 @login_required  # 로그인된 사용자만 접근 가능
 def exit_recognition():
-    return render_template('exit-recognition.html')
+    return render_template('exit_recognition.html')
+
+# 출차 비디오 피드
+@app.route('/exit-recognition-feed')
+def exit_video_feed():
+    # 비디오 피드 스트림 생성
+    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
 # 경차 인식
@@ -608,6 +631,10 @@ def export_category_data(category, file_format):
 
     flash("Invalid file format!", "danger")
     return redirect(url_for('search'))
+
+
+            
+
 
 # 서버 실행
 if __name__ == '__main__':

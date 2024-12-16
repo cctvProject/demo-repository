@@ -3,6 +3,7 @@
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='search_results.css') }}">
+
 <!-- 검색 입력 폼 -->
 <form method="POST" action="{{ url_for('search_results') }}" class="fixed-form">
     <label for="query">차량 번호 4자리:</label>
@@ -10,11 +11,12 @@
     <button type="submit">검색</button>
 </form>
 
+<!-- 검색 결과 -->
 {% if query %}
 <h2>검색 결과: "{{ query }}"</h2>
 
     {% for category, records in results.items() %}
-        {% if records|length > 0 %} <!-- 값이 있을 경우에만 표시 -->
+        {% if records|length > 0 %}
         <h3 class="search-category-title">{{ category }}</h3>
         <table class="search-results-table">
             <thead>

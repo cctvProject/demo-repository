@@ -59,76 +59,203 @@ CREATE TABLE illegal_parking_vehicle_recognition (
 );
 
 DELIMITER //
-
-CREATE PROCEDURE InsertSampleData1()
+CREATE PROCEDURE InsertRandom1(IN total_rows INT)
 BEGIN
-    DECLARE i INT DEFAULT 1;
-    WHILE i <= 10 DO
-        INSERT INTO illegal_parking_vehicle_recognition (vehicle_number, phone_number, recognition_time)
-        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
-        SET i = i + 1;
-    END WHILE;
-END //
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
 
-DELIMITER ;
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
 
-DELIMITER //
-
-CREATE PROCEDURE InsertSampleData2()
-BEGIN
-    DECLARE i INT DEFAULT 1;
-    WHILE i <= 10 DO
+        -- 데이터 삽입
         INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time)
-        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
-        SET i = i + 1;
-    END WHILE;
-END //
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW()
+        );
 
-DELIMITER ;
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
+//DELIMITER ;
 
 DELIMITER //
-CREATE PROCEDURE InsertSampleData3()
+CREATE PROCEDURE InsertRandom2(IN total_rows INT)
 BEGIN
-    DECLARE i INT DEFAULT 1;
-    WHILE i <= 10 DO
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
+
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
+
+        -- 데이터 삽입
         INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time)
-        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
-        SET i = i + 1;
-    END WHILE;
-END //
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW()
+        );
 
-DELIMITER ;
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
+//DELIMITER ;
+
 
 DELIMITER //
-CREATE PROCEDURE InsertSampleData4()
+CREATE PROCEDURE InsertRandom3(IN total_rows INT)
 BEGIN
-    DECLARE i INT DEFAULT 1;
-    WHILE i <= 10 DO
-        INSERT INTO disabled_vehicle_recognition (vehicle_number, phone_number, recognition_time)
-        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
-        SET i = i + 1;
-    END WHILE;
-END //
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
 
-DELIMITER ;
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
 
-DELIMITER //
-CREATE PROCEDURE InsertSampleData5()
-BEGIN
-    DECLARE i INT DEFAULT 1;
-    WHILE i <= 100 DO
+        -- 데이터 삽입
         INSERT INTO light_vehicle_recognition (vehicle_number, phone_number, recognition_time)
-        VALUES (CONCAT('27가 ', LPAD(i, 4, '0')), CONCAT('010-', LPAD(i, 4, '0'), '-', LPAD(i, 4, '0')), NOW());
-        SET i = i + 1;
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW()
+        );
+
+        SET i = i + 1; -- 반복문 증가
     END WHILE;
-END //
+END;
+//DELIMITER ;
 
-DELIMITER ;
+DELIMITER //
+CREATE PROCEDURE InsertRandom4(IN total_rows INT)
+BEGIN
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
 
-CALL InsertSampleData5();
-DROP PROCEDURE IF EXISTS InsertSampleData5;
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
 
-DELETE FROM illegal_parking_vehicle_recognition 
+        -- 데이터 삽입
+        INSERT INTO disabled_vehicle_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW()
+        );
+
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
+//DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE InsertRandom4(IN total_rows INT)
+BEGIN
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
+
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
+
+        -- 데이터 삽입
+        INSERT INTO illegal_parking_vehicle_recognition (vehicle_number, phone_number, recognition_time)
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW()
+        );
+
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
+//DELIMITER ;
+
+CALL insd();
+
+DROP PROCEDURE IF EXISTS insertrandom1;
+
+
+
+DELETE FROM disabled_vehicle_recognition 
 WHERE id NOT IN (
     SELECT id 
     FROM (
