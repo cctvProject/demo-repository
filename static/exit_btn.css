@@ -1,6 +1,6 @@
 /* 우측 하단 버튼 스타일 */
-.exit-recognition-btn {
-    position: absolute; /* 부모 요소를 기준으로 고정 */
+.list-recognition-btn {
+    position: fixed; /* 부모 요소를 기준으로 고정 */
     bottom: 15px; /* 부모 요소 하단에서 15px 간격 */
     right: 15px; /* 부모 요소 우측에서 15px 간격 */
     background: linear-gradient(135deg, #555, #444); /* 그라데이션 효과 */
@@ -15,7 +15,7 @@
 }
 
 /* 버튼 hover 상태 */
-.exit-recognition-btn:hover {
+.list-recognition-btn:hover {
     background: linear-gradient(135deg, #444, #333); /* hover 시 어두운 그라데이션 */
     transform: translateY(-3px) scale(1.1); /* 살짝 위로 올라가며 확대 */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* 더 강한 그림자 */

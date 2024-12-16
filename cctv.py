@@ -10,6 +10,9 @@ import torch
 import pandas as pd
 import openpyxl
 import os
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 
@@ -21,7 +24,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:1234@localhost/cctv_db'  #
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # SQLAlchemy 및 Bcrypt 초기화
-db = SQLAlchemy(app)
+try:
+    db = SQLAlchemy(app)
+except Exception as e:
+    print(f"Error: Could not connect to the database. {str(e)}")
+    exit(1)  # 애플리케이션 종료
+
 bcrypt = Bcrypt(app)
 
 # 로그인 확인을 위한 데코레이터
@@ -35,20 +43,35 @@ def login_required(f):
 
 # 웹캡 초기화 (기본카메라 사용 0)
 camera = cv2.VideoCapture(0)
+if not camera.isOpened():
+    print("Error: Could not open webcam.")
+    camera = None  # 카메라를 비활성화
 
 def generate_frames():
+    if camera is None:
+        while True:
+            frame = cv2.putText(
+                np.zeros((480, 640, 3), dtype=np.uint8),
+                "Camera not available",
+                (50, 250),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                1,
+                (0, 0, 255),
+                2,
+                cv2.LINE_AA
+            )
+            _, buffer = cv2.imencode('.jpg', frame)
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + buffer.tobytes() + b'\r\n')
     while True:
-        # 웹캠에서 프레임 읽기
         success, frame = camera.read()
         if not success:
             break
-        else:
-            # 프레임을 JPEG 형식으로 인코딩
-            _, buffer = cv2.imencode('.jpg', frame)
-            frame = buffer.tobytes()
-            # 프레임 반환
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+        _, buffer = cv2.imencode('.jpg', frame)
+        frame = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
             
 # 사용자 모델 생성
 class User(db.Model):
@@ -251,12 +274,12 @@ def login():
     return render_template('login.html')
 
 # 로그아웃 처리
-@app.route('/logout', methods=['POST'])
+@app.route('/logout', methods=['GET', 'POST'])
 def logout():
-    session.pop('logged_in', None)  # 세션에서 'logged_in'을 제거
-    session.pop('username', None)  # 세션에서 'username'을 제거
-    flash("로그아웃되었습니다.", "info")  # 로그아웃 메시지 표시
-    return redirect(url_for('login'))  # 로그인 페이지로 리디렉션
+    session.clear()
+    flash("로그아웃되었습니다.", "info")
+    return redirect(url_for('login'))
+
 
 # 회원가입 처리
 @app.route('/signup', methods=['GET', 'POST'])
@@ -267,6 +290,7 @@ def signup():
         email = request.form['email']
         name = request.form['name']
         phone = request.form['phone']
+        font_path = os.getenv('FONT_PATH', 'static/fonts/NanumGothic.ttf')
 
         # 비밀번호 해싱
         hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
@@ -546,37 +570,85 @@ def entry_recognition():
         enhanced_image='images/enhanced_image.jpg'
     )
 
-# 출차 인식 
-@app.route('/exit-recognition')
-@login_required  # 로그인된 사용자만 접근 가능
-def exit_recognition():
-    return render_template('exit_recognition.html')
-
-# 출차 비디오 피드
-@app.route('/exit-recognition-feed')
-def exit_video_feed():
-    # 비디오 피드 스트림 생성
+# 비디오 피드
+def generate_video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+# 비디오 피드와 관련 HTML 템플릿
+@app.route('/<category>-recognition')
+@login_required
+def video_recognition(category):
+    # 카테고리 정보
+    categories = {
+        'entry': {
+            'title': '입차 인식',
+            'video_feed': 'entry_video_feed',
+            'list_page': 'entry_recognition_data',
+            'button_text': '입차 리스트'
+        },
+        'exit': {
+            'title': '출차 인식',
+            'video_feed': 'exit_video_feed',
+            'list_page': 'exit_recognition_data',
+            'button_text': '출차 리스트'
+        },
+        'light-vehicle': {
+            'title': '경차 인식',
+            'video_feed': 'light_vehicle_recognition_video_feed',
+            'list_page': 'light_vehicle_recognition_data',
+            'button_text': '경차 리스트'
+        },
+        'disabled-vehicle': {
+            'title': '장애인 차량 인식',
+            'video_feed': 'disabled_vehicle_recognition_video_feed',
+            'list_page': 'disabled_vehicle_recognition_data',
+            'button_text': '장애인 차량 리스트'
+        },
+        'illegal-parking': {
+            'title': '불법 주차 인식',
+            'video_feed': 'illegal_parking_vehicle_recognition_video_feed',  # 올바른 엔드포인트 이름
+            'list_page': 'illegal_parking_vehicle_recognition_data',
+            'button_text': '불법 주차 리스트'
+        }
+    }
 
-# 경차 인식
-@app.route('/light-vehicle-recognition')
-@login_required  # 로그인된 사용자만 접근 가능
-def light_vehicle_recognition():
-    return render_template('light-vehicle-recognition.html')
 
-# 장애인 차량 인식
-@app.route('/disabled-vehicle-recognition')
-@login_required  # 로그인된 사용자만 접근 가능
-def disabled_vehicle_recognition():
-    return render_template('disabled-vehicle-recognition.html')
+    if category not in categories:
+        flash('잘못된 카테고리입니다.', 'danger')
+        return redirect(url_for('home'))
 
-# 불법주차 차량 인식
-@app.route('/illegal-parking-recognition')
-@login_required  # 로그인된 사용자만 접근 가능
-def illegal_parking_vehicle_recognition():
-    return render_template('illegal-parking-recognition.html')
-        
+    # 카테고리 데이터 가져오기
+    data = categories[category]
+
+    return render_template(
+        'video_template.html',
+        title=data['title'],
+        video_feed=data['video_feed'],
+        list_page=data['list_page'],
+        button_text=data['button_text']
+    )
+
+# 비디오 피드 엔드포인트
+@app.route('/entry-recognition-feed')
+def entry_video_feed():
+    return generate_video_feed()
+
+@app.route('/exit-recognition-feed')
+def exit_video_feed():
+    return generate_video_feed()
+
+@app.route('/light-vehicle-recognition-feed')
+def light_vehicle_recognition_video_feed():
+    return generate_video_feed()
+
+@app.route('/disabled-vehicle-recognition-feed')
+def disabled_vehicle_recognition_video_feed():
+    return generate_video_feed()
+
+@app.route('/illegal-parking-vehicle-recognition-feed')
+def illegal_parking_vehicle_recognition_video_feed():
+    return generate_video_feed()
+    
 # PDF, EXEL 저장
 @app.route('/export/<string:category>/<string:file_format>', methods=['GET'])
 @login_required
