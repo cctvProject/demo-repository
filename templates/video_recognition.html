@@ -1,0 +1,36 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='video.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='exit_btn.css') }}">
+
+<div class="video-container">
+    <h1 class="video-title">{{ title }}</h1>
+
+    <!-- 비디오 스트리밍을 위한 이미지 태그 -->
+    <div class="video-section">
+        <div class="video-container">
+            <!-- 실시간 비디오 스트리밍을 위한 이미지 태그 -->
+            <img src="{{ url_for(video_feed) }}" alt="{{ title }} 비디오 스트리밍">
+        </div>
+    </div>
+</div>
+
+<!-- OCR 결과 섹션 -->
+<div class="ocr-results-section">
+    {% if ocr_results %}
+    <h2>인식된 번호판</h2>
+    <ul class="ocr-results">
+        {% for result in ocr_results %}
+        <li>{{ result }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="no-results">번호판을 인식하지 못했습니다.</p>
+    {% endif %}
+</div>
+
+<!-- 우측 하단 버튼 -->
+<button class="list-recognition-btn" onclick="location.href='{{ url_for(list_page) }}'">{{ button_text }}</button>
+
+{% endblock %}

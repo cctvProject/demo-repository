@@ -12,9 +12,12 @@ import openpyxl
 import os
 import logging
 
-logging.basicConfig(level=logging.INFO)
-
 app = Flask(__name__)
+
+app.logger.setLevel(logging.DEBUG)
+
+# 로그를 파일로 저장합니다. 추가적으로 날짜와 시간, 로그 레벨도 포함하도록 합니다
+logging.basicConfig(filename="application.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s' )
 
 # Secret key for session management
 app.secret_key = os.urandom(24)
@@ -40,38 +43,6 @@ def login_required(f):
         return f(*args, **kwargs)
     wrap.__name__ = f.__name__
     return wrap
-
-# 웹캡 초기화 (기본카메라 사용 0)
-camera = cv2.VideoCapture(0)
-if not camera.isOpened():
-    print("Error: Could not open webcam.")
-    camera = None  # 카메라를 비활성화
-
-def generate_frames():
-    if camera is None:
-        while True:
-            frame = cv2.putText(
-                np.zeros((480, 640, 3), dtype=np.uint8),
-                "Camera not available",
-                (50, 250),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                1,
-                (0, 0, 255),
-                2,
-                cv2.LINE_AA
-            )
-            _, buffer = cv2.imencode('.jpg', frame)
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + buffer.tobytes() + b'\r\n')
-    while True:
-        success, frame = camera.read()
-        if not success:
-            break
-        _, buffer = cv2.imencode('.jpg', frame)
-        frame = buffer.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-
             
 # 사용자 모델 생성
 class User(db.Model):
@@ -290,7 +261,6 @@ def signup():
         email = request.form['email']
         name = request.form['name']
         phone = request.form['phone']
-        font_path = os.getenv('FONT_PATH', 'static/fonts/NanumGothic.ttf')
 
         # 비밀번호 해싱
         hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
@@ -335,6 +305,11 @@ def gen():
 # 홈 페이지
 @app.route('/')
 def home():
+    app.logger.debug('Debug level log') #디버그 메시지
+    app.logger.info('Info level log') # 정보 메시지
+    app.logger.warning('Warning level log') #경고 메시지
+    app.logger.error('Error level log') # 오류 메시지
+    app.logger.critical('Critical level log') #크리티컬 메시지
     if 'logged_in' in session:
         return render_template('home.html')  # 로그인된 상태일 때 홈 화면을 렌더링
     return redirect(url_for('login'))  # 로그인되지 않으면 로그인 페이지로 리디렉션
@@ -525,54 +500,45 @@ def security():
 def settings():
     return render_template('settings.html')
 
-# 입차 인식
-@app.route('/entry-recognition')
-@login_required  # 로그인된 사용자만 접근 가능
-def entry_recognition():
-    # 이미지 경로 설정
-    image_path = r"D:\AI3\study\flask_study\cctv\py\carimg.jpg"
-    original_image_save_path = r"static/images/original_image.jpg"
-    enhanced_image_save_path = r"static/images/enhanced_image.jpg"
+# 웹캡 초기화 (기본카메라 사용 0)
+camera = cv2.VideoCapture(0)
     
-    # OpenCV로 이미지 로드
-    image = cv2.imread(image_path)
-    if image is None:
-        flash("이미지를 불러올 수 없습니다. 경로를 확인하세요.", "danger")
-        return redirect(url_for('home'))
+# 공통 비디오 스트리밍 및 OCR 처리 함수
+def generate_frames(category):
+    # 웹캠 캡처
+    camera = cv2.VideoCapture(0)  # 기본 웹캠 사용
+    reader = easyocr.Reader(['en', 'ko'])  # OCR 리더 초기화
 
-    # 원본 이미지를 저장
-    cv2.imwrite(original_image_save_path, image)
+    while True:
+        ret, frame = camera.read()
+        if not ret:
+            break
 
-    # 그레이스케일 변환
-    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        # OCR을 위한 전처리 (그레이스케일 변환, 대비 조정)
+        gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        enhanced_image = cv2.convertScaleAbs(gray_image, alpha=1.5, beta=0)
 
-    # 대비 조정
-    enhanced_image = cv2.convertScaleAbs(gray_image, alpha=1.5, beta=0)
+        # OCR 실행
+        ocr_results = reader.readtext(enhanced_image)
 
-    # 처리된 이미지 저장
-    cv2.imwrite(enhanced_image_save_path, enhanced_image)
+        # OCR 결과 추출 및 화면에 표시
+        for detection in ocr_results:
+            text = detection[1]  # 인식된 텍스트
+            box = detection[0]
+            top_left = tuple(box[0])
+            bottom_right = tuple(box[2])
 
-    # OCR 실행
-    reader = easyocr.Reader(['en', 'ko'])
-    result = reader.readtext(enhanced_image)
+            # 결과를 이미지에 표시
+            cv2.rectangle(frame, top_left, bottom_right, (0, 255, 0), 2)
+            cv2.putText(frame, text, (top_left[0], top_left[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 
-    # OCR 결과 추출
-    ocr_results = []
-    for detection in result:
-        text = detection[1]  # 인식된 텍스트
-        ocr_results.append(text)
+        # 프레임을 JPEG로 인코딩하여 스트리밍
+        _, buffer = cv2.imencode('.jpg', frame)
+        frame = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-    # 결과를 템플릿에 전달
-    return render_template(
-        'entry_recognition.html',
-        ocr_results=ocr_results,
-        original_image='images/original_image.jpg',
-        enhanced_image='images/enhanced_image.jpg'
-    )
-
-# 비디오 피드
-def generate_video_feed():
-    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    camera.release()
 
 # 비디오 피드와 관련 HTML 템플릿
 @app.route('/<category>-recognition')
@@ -606,12 +572,11 @@ def video_recognition(category):
         },
         'illegal-parking': {
             'title': '불법 주차 인식',
-            'video_feed': 'illegal_parking_vehicle_recognition_video_feed',  # 올바른 엔드포인트 이름
+            'video_feed': 'illegal_parking_vehicle_recognition_video_feed',
             'list_page': 'illegal_parking_vehicle_recognition_data',
             'button_text': '불법 주차 리스트'
         }
     }
-
 
     if category not in categories:
         flash('잘못된 카테고리입니다.', 'danger')
@@ -621,33 +586,40 @@ def video_recognition(category):
     data = categories[category]
 
     return render_template(
-        'video_template.html',
+        'video_recognition.html',
         title=data['title'],
         video_feed=data['video_feed'],
         list_page=data['list_page'],
         button_text=data['button_text']
     )
 
-# 비디오 피드 엔드포인트
-@app.route('/entry-recognition-feed')
+
+# 비디오 스트리밍 처리
+@app.route('/entry-video-feed')
 def entry_video_feed():
-    return generate_video_feed()
+    # 비디오 스트리밍 처리
+    return Response(generate_frames('entry'), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/exit-recognition-feed')
+@app.route('/exit-video-feed')
 def exit_video_feed():
-    return generate_video_feed()
+    # 비디오 스트리밍 처리
+    return Response(generate_frames('exit'), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/light-vehicle-recognition-feed')
+@app.route('/light-vehicle-video-feed')
 def light_vehicle_recognition_video_feed():
-    return generate_video_feed()
+    # 비디오 스트리밍 처리
+    return Response(generate_frames('light-vehicle'), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/disabled-vehicle-recognition-feed')
+@app.route('/disabled-vehicle-video-feed')
 def disabled_vehicle_recognition_video_feed():
-    return generate_video_feed()
+    # 비디오 스트리밍 처리
+    return Response(generate_frames('disabled-vehicle'), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/illegal-parking-vehicle-recognition-feed')
+@app.route('/illegal-parking-vehicle-video-feed')
 def illegal_parking_vehicle_recognition_video_feed():
-    return generate_video_feed()
+    # 비디오 스트리밍 처리
+    return Response(generate_frames('illegal-parking'), mimetype='multipart/x-mixed-replace; boundary=frame')
+
     
 # PDF, EXEL 저장
 @app.route('/export/<string:category>/<string:file_format>', methods=['GET'])
