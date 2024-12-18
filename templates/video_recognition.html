@@ -1,12 +1,15 @@
 {% extends 'home.html' %}
 
 {% block content %}
+
 <link rel="stylesheet" href="{{ url_for('static', filename='video.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='exit_btn.css') }}">
 
 <main>
+
     <div class="video-container" style="display: block;">
         <div class="video-section" style="display: block;">
+           <!-- videoFeed의 src를 동적으로 설정 -->
            <video id="videoFeed" width="80%" height="auto" autoplay></video>
         </div>
     </div>
@@ -23,13 +26,11 @@
         <button id="captureButton" style="display: none;">이미지 캡처 및 OCR</button>
         <button id="stopButton" style="display: none;">웹캠 끄기</button>
     </div>
+    <div id="categoryContainer" data-category="{{ category }}"></div>
 
-       <div class="captured-image-section" style="display: none;">
-        <h2>캡처된 이미지</h2>
-        <img id="capturedImage" src="" alt="Captured Image" style="width: 80%; height: auto;">
-    </div>
 </main>
 
+<script src="{{ url_for('static', filename='js/webcam.js') }}"></script>
 
 
 {% endblock %}
