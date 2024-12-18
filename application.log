@@ -338,3 +338,98 @@
 2024-12-18 15:44:31,478:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
 2024-12-18 15:44:31,479:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpj7p516w4', reloading
 2024-12-18 15:44:31,479:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-18 15:44:32,259:INFO: * Restarting with watchdog (windowsapi)
+2024-12-18 15:44:38,914:WARNING: * Debugger is active!
+2024-12-18 15:44:38,920:INFO: * Debugger PIN: 740-254-266
+2024-12-18 15:44:38,946:INFO:127.0.0.1 - - [18/Dec/2024 15:44:38] "[32mGET /report HTTP/1.1[0m" 302 -
+2024-12-18 15:44:38,959:INFO:127.0.0.1 - - [18/Dec/2024 15:44:38] "GET /login HTTP/1.1" 200 -
+2024-12-18 15:44:39,041:INFO:127.0.0.1 - - [18/Dec/2024 15:44:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:43,281:INFO:127.0.0.1 - - [18/Dec/2024 15:44:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-18 15:44:43,286:DEBUG:Debug level log
+2024-12-18 15:44:43,286:INFO:Info level log
+2024-12-18 15:44:43,288:WARNING:Warning level log
+2024-12-18 15:44:43,288:ERROR:Error level log
+2024-12-18 15:44:43,289:CRITICAL:Critical level log
+2024-12-18 15:44:43,290:INFO:127.0.0.1 - - [18/Dec/2024 15:44:43] "GET / HTTP/1.1" 200 -
+2024-12-18 15:44:43,316:INFO:127.0.0.1 - - [18/Dec/2024 15:44:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:45,392:INFO:127.0.0.1 - - [18/Dec/2024 15:44:45] "GET /report HTTP/1.1" 200 -
+2024-12-18 15:44:45,415:INFO:127.0.0.1 - - [18/Dec/2024 15:44:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:45,420:INFO:127.0.0.1 - - [18/Dec/2024 15:44:45] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:45,422:INFO:127.0.0.1 - - [18/Dec/2024 15:44:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:46,233:INFO:127.0.0.1 - - [18/Dec/2024 15:44:46] "POST /report HTTP/1.1" 200 -
+2024-12-18 15:44:46,247:INFO:127.0.0.1 - - [18/Dec/2024 15:44:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:46,255:INFO:127.0.0.1 - - [18/Dec/2024 15:44:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:46,257:INFO:127.0.0.1 - - [18/Dec/2024 15:44:46] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:47,158:INFO:127.0.0.1 - - [18/Dec/2024 15:44:47] "POST /report HTTP/1.1" 200 -
+2024-12-18 15:44:47,172:INFO:127.0.0.1 - - [18/Dec/2024 15:44:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:47,176:INFO:127.0.0.1 - - [18/Dec/2024 15:44:47] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:47,177:INFO:127.0.0.1 - - [18/Dec/2024 15:44:47] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:49,025:INFO:127.0.0.1 - - [18/Dec/2024 15:44:49] "GET /security HTTP/1.1" 200 -
+2024-12-18 15:44:49,040:INFO:127.0.0.1 - - [18/Dec/2024 15:44:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:49,042:INFO:127.0.0.1 - - [18/Dec/2024 15:44:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:50,170:INFO:127.0.0.1 - - [18/Dec/2024 15:44:50] "GET /settings HTTP/1.1" 200 -
+2024-12-18 15:44:50,197:INFO:127.0.0.1 - - [18/Dec/2024 15:44:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:50,199:INFO:127.0.0.1 - - [18/Dec/2024 15:44:50] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:51,396:INFO:127.0.0.1 - - [18/Dec/2024 15:44:51] "GET /emergencies HTTP/1.1" 200 -
+2024-12-18 15:44:51,416:INFO:127.0.0.1 - - [18/Dec/2024 15:44:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:52,244:INFO:127.0.0.1 - - [18/Dec/2024 15:44:52] "GET /alerts HTTP/1.1" 200 -
+2024-12-18 15:44:52,264:INFO:127.0.0.1 - - [18/Dec/2024 15:44:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:52,268:INFO:127.0.0.1 - - [18/Dec/2024 15:44:52] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,097:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "GET /search-results HTTP/1.1" 200 -
+2024-12-18 15:44:53,116:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,125:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,129:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,566:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "GET /search HTTP/1.1" 200 -
+2024-12-18 15:44:53,584:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,591:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:44:53,595:INFO:127.0.0.1 - - [18/Dec/2024 15:44:53] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:15,224:INFO:127.0.0.1 - - [18/Dec/2024 15:46:15] "GET /settings HTTP/1.1" 200 -
+2024-12-18 15:46:15,249:INFO:127.0.0.1 - - [18/Dec/2024 15:46:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:15,254:INFO:127.0.0.1 - - [18/Dec/2024 15:46:15] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:17,601:DEBUG:Debug level log
+2024-12-18 15:46:17,602:INFO:Info level log
+2024-12-18 15:46:17,602:WARNING:Warning level log
+2024-12-18 15:46:17,604:ERROR:Error level log
+2024-12-18 15:46:17,604:CRITICAL:Critical level log
+2024-12-18 15:46:17,605:INFO:127.0.0.1 - - [18/Dec/2024 15:46:17] "GET / HTTP/1.1" 200 -
+2024-12-18 15:46:17,628:INFO:127.0.0.1 - - [18/Dec/2024 15:46:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:18,973:INFO:127.0.0.1 - - [18/Dec/2024 15:46:18] "GET /search HTTP/1.1" 200 -
+2024-12-18 15:46:18,992:INFO:127.0.0.1 - - [18/Dec/2024 15:46:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:18,995:INFO:127.0.0.1 - - [18/Dec/2024 15:46:18] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:19,001:INFO:127.0.0.1 - - [18/Dec/2024 15:46:19] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:20,777:INFO:127.0.0.1 - - [18/Dec/2024 15:46:20] "GET /search-results HTTP/1.1" 200 -
+2024-12-18 15:46:20,796:INFO:127.0.0.1 - - [18/Dec/2024 15:46:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:20,798:INFO:127.0.0.1 - - [18/Dec/2024 15:46:20] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:20,803:INFO:127.0.0.1 - - [18/Dec/2024 15:46:20] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:21,978:INFO:127.0.0.1 - - [18/Dec/2024 15:46:21] "GET /search HTTP/1.1" 200 -
+2024-12-18 15:46:21,996:INFO:127.0.0.1 - - [18/Dec/2024 15:46:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:21,999:INFO:127.0.0.1 - - [18/Dec/2024 15:46:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:22,003:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:22,815:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-18 15:46:22,833:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:22,842:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:22,846:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:22,854:INFO:127.0.0.1 - - [18/Dec/2024 15:46:22] "GET /static/excel_pdf.css HTTP/1.1" 200 -
+2024-12-18 15:46:24,441:INFO:127.0.0.1 - - [18/Dec/2024 15:46:24] "GET /search-results HTTP/1.1" 200 -
+2024-12-18 15:46:24,462:INFO:127.0.0.1 - - [18/Dec/2024 15:46:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:24,464:INFO:127.0.0.1 - - [18/Dec/2024 15:46:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:24,470:INFO:127.0.0.1 - - [18/Dec/2024 15:46:24] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:26,556:INFO:127.0.0.1 - - [18/Dec/2024 15:46:26] "POST /search-results HTTP/1.1" 200 -
+2024-12-18 15:46:26,576:INFO:127.0.0.1 - - [18/Dec/2024 15:46:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:26,580:INFO:127.0.0.1 - - [18/Dec/2024 15:46:26] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:26,582:INFO:127.0.0.1 - - [18/Dec/2024 15:46:26] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:28,222:INFO:127.0.0.1 - - [18/Dec/2024 15:46:28] "GET /alerts HTTP/1.1" 200 -
+2024-12-18 15:46:28,235:INFO:127.0.0.1 - - [18/Dec/2024 15:46:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:28,241:INFO:127.0.0.1 - - [18/Dec/2024 15:46:28] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:30,928:INFO:127.0.0.1 - - [18/Dec/2024 15:46:30] "GET /emergencies HTTP/1.1" 200 -
+2024-12-18 15:46:30,949:INFO:127.0.0.1 - - [18/Dec/2024 15:46:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:31,723:INFO:127.0.0.1 - - [18/Dec/2024 15:46:31] "GET /report HTTP/1.1" 200 -
+2024-12-18 15:46:31,746:INFO:127.0.0.1 - - [18/Dec/2024 15:46:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:31,748:INFO:127.0.0.1 - - [18/Dec/2024 15:46:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:31,753:INFO:127.0.0.1 - - [18/Dec/2024 15:46:31] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:33,781:INFO:127.0.0.1 - - [18/Dec/2024 15:46:33] "GET /security HTTP/1.1" 200 -
+2024-12-18 15:46:33,800:INFO:127.0.0.1 - - [18/Dec/2024 15:46:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:33,812:INFO:127.0.0.1 - - [18/Dec/2024 15:46:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:35,412:INFO:127.0.0.1 - - [18/Dec/2024 15:46:35] "GET /settings HTTP/1.1" 200 -
+2024-12-18 15:46:35,434:INFO:127.0.0.1 - - [18/Dec/2024 15:46:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-18 15:46:35,435:INFO:127.0.0.1 - - [18/Dec/2024 15:46:35] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
