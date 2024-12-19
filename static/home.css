@@ -163,3 +163,14 @@ nav a:hover {
 .form-actions button:hover {
     background-color: #777;
 }
+
+/* admin_email 스타일 */
+.admin_email {
+    position: fixed;          /* 화면에 고정 */
+    bottom: 20px;             /* 하단에서 20px 위로 */
+    left: 20px;               /* 좌측에서 20px 오른쪽으로 */
+    color: white;             /* 텍스트 색상 */
+    padding: 10px 15px;       /* 내부 여백 */
+    font-size: 14px;          /* 글꼴 크기 */
+    z-index: 1000;            /* 다른 요소 위에 표시되도록 설정 */
+}

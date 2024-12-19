@@ -33,8 +33,8 @@
             <li><a href="/search">검색 리스트</a></li>
             <li><a href="/search-results">검색 결과</a></li>
             <li><a href="/alerts">알람 현황</a></li>
-            <li><a href="/emergencies">긴급 상황</a></li>
-            <li><a href="/report">보고서 작성</a></li>
+            <li><a href="/report">출퇴근 목록</a></li>
+            <li><a href="/emergencies">문의 사항</a></li>
             <li><a href="/security">보안 / 로그인</a></li>
             <li><a href="/settings">환경 설정</a></li>
         </ul>
@@ -45,6 +45,9 @@
         {% block content %}
         <h1>HOME</h1>
         {% endblock %}
+    </div>
+    <div class="admin_email">
+        관리자 이메일 <p></p>{{ g.admin_email }}
     </div>
 </body>
 </html>
