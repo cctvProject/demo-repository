@@ -5061,3 +5061,1094 @@ AttributeError: 'RedisSessionInterface' object has no attribute 'redis'
 2024-12-19 15:14:36,413:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
 2024-12-19 15:14:36,413:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpup1slnsh', reloading
 2024-12-19 15:14:36,413:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:14:37,077:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:14:43,560:WARNING: * Debugger is active!
+2024-12-19 15:14:43,566:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:14:43,620:INFO:127.0.0.1 - - [19/Dec/2024 15:14:43] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-19 15:14:43,633:INFO:127.0.0.1 - - [19/Dec/2024 15:14:43] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:14:43,716:INFO:127.0.0.1 - - [19/Dec/2024 15:14:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:49,050:INFO:127.0.0.1 - - [19/Dec/2024 15:14:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:14:49,058:INFO:127.0.0.1 - - [19/Dec/2024 15:14:49] "GET / HTTP/1.1" 200 -
+2024-12-19 15:14:49,091:INFO:127.0.0.1 - - [19/Dec/2024 15:14:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:50,607:INFO:127.0.0.1 - - [19/Dec/2024 15:14:50] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:14:50,631:INFO:127.0.0.1 - - [19/Dec/2024 15:14:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:50,640:INFO:127.0.0.1 - - [19/Dec/2024 15:14:50] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:50,643:INFO:127.0.0.1 - - [19/Dec/2024 15:14:50] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:51,325:INFO:127.0.0.1 - - [19/Dec/2024 15:14:51] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:14:51,342:INFO:127.0.0.1 - - [19/Dec/2024 15:14:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:51,354:INFO:127.0.0.1 - - [19/Dec/2024 15:14:51] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:51,357:INFO:127.0.0.1 - - [19/Dec/2024 15:14:51] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:52,283:INFO:127.0.0.1 - - [19/Dec/2024 15:14:52] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:14:52,309:INFO:127.0.0.1 - - [19/Dec/2024 15:14:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:52,318:INFO:127.0.0.1 - - [19/Dec/2024 15:14:52] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:52,996:INFO:127.0.0.1 - - [19/Dec/2024 15:14:52] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:14:53,021:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:53,022:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:53,027:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:53,964:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:14:53,991:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:53,996:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:53,996:INFO:127.0.0.1 - - [19/Dec/2024 15:14:53] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:55,104:INFO:127.0.0.1 - - [19/Dec/2024 15:14:55] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:14:55,123:INFO:127.0.0.1 - - [19/Dec/2024 15:14:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:55,135:INFO:127.0.0.1 - - [19/Dec/2024 15:14:55] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:55,135:INFO:127.0.0.1 - - [19/Dec/2024 15:14:55] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:57,342:INFO:127.0.0.1 - - [19/Dec/2024 15:14:57] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:14:57,364:INFO:127.0.0.1 - - [19/Dec/2024 15:14:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:58,210:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:14:58,229:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:58,242:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:58,244:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:58,656:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:14:58,677:INFO:127.0.0.1 - - [19/Dec/2024 15:14:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:59,232:INFO:127.0.0.1 - - [19/Dec/2024 15:14:59] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:14:59,256:INFO:127.0.0.1 - - [19/Dec/2024 15:14:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:59,256:INFO:127.0.0.1 - - [19/Dec/2024 15:14:59] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:14:59,262:INFO:127.0.0.1 - - [19/Dec/2024 15:14:59] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:00,613:INFO:127.0.0.1 - - [19/Dec/2024 15:15:00] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:15:00,641:INFO:127.0.0.1 - - [19/Dec/2024 15:15:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:00,643:INFO:127.0.0.1 - - [19/Dec/2024 15:15:00] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:01,577:INFO:127.0.0.1 - - [19/Dec/2024 15:15:01] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:15:01,596:INFO:127.0.0.1 - - [19/Dec/2024 15:15:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:01,607:INFO:127.0.0.1 - - [19/Dec/2024 15:15:01] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:01,610:INFO:127.0.0.1 - - [19/Dec/2024 15:15:01] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:01,997:INFO:127.0.0.1 - - [19/Dec/2024 15:15:01] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:15:02,024:INFO:127.0.0.1 - - [19/Dec/2024 15:15:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:15:02,027:INFO:127.0.0.1 - - [19/Dec/2024 15:15:02] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:36,298:INFO:127.0.0.1 - - [19/Dec/2024 15:16:36] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:16:36,327:INFO:127.0.0.1 - - [19/Dec/2024 15:16:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:36,339:INFO:127.0.0.1 - - [19/Dec/2024 15:16:36] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:36,344:INFO:127.0.0.1 - - [19/Dec/2024 15:16:36] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:37,763:INFO:127.0.0.1 - - [19/Dec/2024 15:16:37] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:16:37,791:INFO:127.0.0.1 - - [19/Dec/2024 15:16:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:37,794:INFO:127.0.0.1 - - [19/Dec/2024 15:16:37] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:38,424:INFO:127.0.0.1 - - [19/Dec/2024 15:16:38] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:16:38,443:INFO:127.0.0.1 - - [19/Dec/2024 15:16:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:39,467:INFO:127.0.0.1 - - [19/Dec/2024 15:16:39] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:16:39,503:INFO:127.0.0.1 - - [19/Dec/2024 15:16:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:39,509:INFO:127.0.0.1 - - [19/Dec/2024 15:16:39] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:39,510:INFO:127.0.0.1 - - [19/Dec/2024 15:16:39] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:40,111:INFO:127.0.0.1 - - [19/Dec/2024 15:16:40] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:16:40,131:INFO:127.0.0.1 - - [19/Dec/2024 15:16:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:16:40,138:INFO:127.0.0.1 - - [19/Dec/2024 15:16:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:56,673:INFO:127.0.0.1 - - [19/Dec/2024 15:24:56] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:24:56,698:INFO:127.0.0.1 - - [19/Dec/2024 15:24:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:56,708:INFO:127.0.0.1 - - [19/Dec/2024 15:24:56] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:56,711:INFO:127.0.0.1 - - [19/Dec/2024 15:24:56] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:57,905:INFO:127.0.0.1 - - [19/Dec/2024 15:24:57] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:24:57,939:INFO:127.0.0.1 - - [19/Dec/2024 15:24:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:57,940:INFO:127.0.0.1 - - [19/Dec/2024 15:24:57] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:58,313:INFO:127.0.0.1 - - [19/Dec/2024 15:24:58] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:24:58,332:INFO:127.0.0.1 - - [19/Dec/2024 15:24:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:58,343:INFO:127.0.0.1 - - [19/Dec/2024 15:24:58] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:58,346:INFO:127.0.0.1 - - [19/Dec/2024 15:24:58] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:59,355:INFO:127.0.0.1 - - [19/Dec/2024 15:24:59] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:24:59,383:INFO:127.0.0.1 - - [19/Dec/2024 15:24:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:59,383:INFO:127.0.0.1 - - [19/Dec/2024 15:24:59] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:24:59,384:INFO:127.0.0.1 - - [19/Dec/2024 15:24:59] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:00,265:INFO:127.0.0.1 - - [19/Dec/2024 15:25:00] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:25:00,284:INFO:127.0.0.1 - - [19/Dec/2024 15:25:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:00,296:INFO:127.0.0.1 - - [19/Dec/2024 15:25:00] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:00,297:INFO:127.0.0.1 - - [19/Dec/2024 15:25:00] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:01,357:INFO:127.0.0.1 - - [19/Dec/2024 15:25:01] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:25:01,380:INFO:127.0.0.1 - - [19/Dec/2024 15:25:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:02,043:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:25:02,075:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:02,078:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:02,079:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:02,551:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:25:02,571:INFO:127.0.0.1 - - [19/Dec/2024 15:25:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:03,151:INFO:127.0.0.1 - - [19/Dec/2024 15:25:03] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:25:03,179:INFO:127.0.0.1 - - [19/Dec/2024 15:25:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:03,180:INFO:127.0.0.1 - - [19/Dec/2024 15:25:03] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:03,739:INFO:127.0.0.1 - - [19/Dec/2024 15:25:03] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:25:03,761:INFO:127.0.0.1 - - [19/Dec/2024 15:25:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:25:29,020:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:25:30,338:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:30:08,571:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:30:14,681:WARNING: * Debugger is active!
+2024-12-19 15:30:14,687:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:30:16,788:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:30:18,343:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:30:24,513:WARNING: * Debugger is active!
+2024-12-19 15:30:24,518:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:30:32,400:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:30:32,401:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:30:32,402:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:30:33,223:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:30:39,616:WARNING: * Debugger is active!
+2024-12-19 15:30:39,622:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:30:40,907:INFO:127.0.0.1 - - [19/Dec/2024 15:30:40] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-19 15:30:40,922:INFO:127.0.0.1 - - [19/Dec/2024 15:30:40] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:30:41,013:INFO:127.0.0.1 - - [19/Dec/2024 15:30:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:42,590:INFO:127.0.0.1 - - [19/Dec/2024 15:30:42] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-19 15:30:42,598:INFO:127.0.0.1 - - [19/Dec/2024 15:30:42] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:30:42,614:INFO:127.0.0.1 - - [19/Dec/2024 15:30:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:43,504:INFO:127.0.0.1 - - [19/Dec/2024 15:30:43] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-19 15:30:43,511:INFO:127.0.0.1 - - [19/Dec/2024 15:30:43] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:30:43,527:INFO:127.0.0.1 - - [19/Dec/2024 15:30:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:44,435:INFO:127.0.0.1 - - [19/Dec/2024 15:30:44] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-19 15:30:44,441:INFO:127.0.0.1 - - [19/Dec/2024 15:30:44] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:30:44,458:INFO:127.0.0.1 - - [19/Dec/2024 15:30:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:47,623:INFO:127.0.0.1 - - [19/Dec/2024 15:30:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:30:47,628:DEBUG:Debug level log
+2024-12-19 15:30:47,629:INFO:Info level log
+2024-12-19 15:30:47,629:WARNING:Warning level log
+2024-12-19 15:30:47,629:ERROR:Error level log
+2024-12-19 15:30:47,629:CRITICAL:Critical level log
+2024-12-19 15:30:47,631:INFO:127.0.0.1 - - [19/Dec/2024 15:30:47] "GET / HTTP/1.1" 200 -
+2024-12-19 15:30:47,653:INFO:127.0.0.1 - - [19/Dec/2024 15:30:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,302:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:30:49,325:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,336:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,341:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,597:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:30:49,623:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,623:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,627:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,944:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:30:49,968:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:49,968:INFO:127.0.0.1 - - [19/Dec/2024 15:30:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:50,552:INFO:127.0.0.1 - - [19/Dec/2024 15:30:50] "GET /report HTTP/1.1" 200 -
+2024-12-19 15:30:50,572:INFO:127.0.0.1 - - [19/Dec/2024 15:30:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:50,582:INFO:127.0.0.1 - - [19/Dec/2024 15:30:50] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:30:50,584:INFO:127.0.0.1 - - [19/Dec/2024 15:30:50] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:32:12,310:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:32:12,312:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpp9ehkrwl', reloading
+2024-12-19 15:32:12,314:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:32:13,767:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:32:19,870:WARNING: * Debugger is active!
+2024-12-19 15:32:19,876:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:32:31,404:INFO:127.0.0.1 - - [19/Dec/2024 15:32:31] "[32mGET /report HTTP/1.1[0m" 302 -
+2024-12-19 15:32:31,419:INFO:127.0.0.1 - - [19/Dec/2024 15:32:31] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:32:31,501:INFO:127.0.0.1 - - [19/Dec/2024 15:32:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:32:35,246:INFO:127.0.0.1 - - [19/Dec/2024 15:32:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:32:35,252:DEBUG:Debug level log
+2024-12-19 15:32:35,253:INFO:Info level log
+2024-12-19 15:32:35,253:WARNING:Warning level log
+2024-12-19 15:32:35,253:ERROR:Error level log
+2024-12-19 15:32:35,253:CRITICAL:Critical level log
+2024-12-19 15:32:35,255:INFO:127.0.0.1 - - [19/Dec/2024 15:32:35] "GET / HTTP/1.1" 200 -
+2024-12-19 15:32:35,283:INFO:127.0.0.1 - - [19/Dec/2024 15:32:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:32:36,518:INFO:127.0.0.1 - - [19/Dec/2024 15:32:36] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:32:36,536:INFO:127.0.0.1 - - [19/Dec/2024 15:32:36] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:32:36,544:INFO:127.0.0.1 - - [19/Dec/2024 15:32:36] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:32:36,554:INFO:127.0.0.1 - - [19/Dec/2024 15:32:36] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=F4HYpk1OFnfI8OgjjyPk HTTP/1.1" 200 -
+2024-12-19 15:32:36,573:INFO:127.0.0.1 - - [19/Dec/2024 15:32:36] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:32:41,476:INFO:127.0.0.1 - - [19/Dec/2024 15:32:41] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:32:41,497:INFO:127.0.0.1 - - [19/Dec/2024 15:32:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:32:42,250:INFO:127.0.0.1 - - [19/Dec/2024 15:32:42] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-12-19 15:32:42,270:INFO:127.0.0.1 - - [19/Dec/2024 15:32:42] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-19 15:32:42,277:INFO:127.0.0.1 - - [19/Dec/2024 15:32:42] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-19 15:32:42,287:INFO:127.0.0.1 - - [19/Dec/2024 15:32:42] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=F4HYpk1OFnfI8OgjjyPk HTTP/1.1" 200 -
+2024-12-19 15:32:42,299:INFO:127.0.0.1 - - [19/Dec/2024 15:32:42] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-19 15:33:22,847:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-19 15:33:22,848:INFO:[33mPress CTRL+C to quit[0m
+2024-12-19 15:33:22,858:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:33:29,184:WARNING: * Debugger is active!
+2024-12-19 15:33:29,190:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:33:29,239:INFO:127.0.0.1 - - [19/Dec/2024 15:33:29] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-19 15:33:29,252:INFO:127.0.0.1 - - [19/Dec/2024 15:33:29] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:33:29,330:INFO:127.0.0.1 - - [19/Dec/2024 15:33:29] "GET /static/home.css HTTP/1.1" 200 -
+2024-12-19 15:33:34,272:INFO:127.0.0.1 - - [19/Dec/2024 15:33:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:33:34,278:INFO:127.0.0.1 - - [19/Dec/2024 15:33:34] "GET / HTTP/1.1" 200 -
+2024-12-19 15:33:34,302:INFO:127.0.0.1 - - [19/Dec/2024 15:33:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:33:35,283:INFO:127.0.0.1 - - [19/Dec/2024 15:33:35] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:33:35,303:INFO:127.0.0.1 - - [19/Dec/2024 15:33:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:33:35,311:INFO:127.0.0.1 - - [19/Dec/2024 15:33:35] "GET /static/report.css HTTP/1.1" 200 -
+2024-12-19 15:33:35,314:INFO:127.0.0.1 - - [19/Dec/2024 15:33:35] "GET /static/security.css HTTP/1.1" 200 -
+2024-12-19 15:33:36,160:INFO:127.0.0.1 - - [19/Dec/2024 15:33:36] "[33mGET /report HTTP/1.1[0m" 404 -
+2024-12-19 15:34:22,172:INFO:127.0.0.1 - - [19/Dec/2024 15:34:22] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:34:22,190:INFO:127.0.0.1 - - [19/Dec/2024 15:34:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:22,203:INFO:127.0.0.1 - - [19/Dec/2024 15:34:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:22,203:INFO:127.0.0.1 - - [19/Dec/2024 15:34:22] "GET /static/back.css HTTP/1.1" 200 -
+2024-12-19 15:34:34,559:INFO:127.0.0.1 - - [19/Dec/2024 15:34:34] "[33mGET /report HTTP/1.1[0m" 404 -
+2024-12-19 15:34:48,474:INFO:127.0.0.1 - - [19/Dec/2024 15:34:48] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:34:48,487:INFO:127.0.0.1 - - [19/Dec/2024 15:34:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:48,496:INFO:127.0.0.1 - - [19/Dec/2024 15:34:48] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:48,498:INFO:127.0.0.1 - - [19/Dec/2024 15:34:48] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:49,689:INFO:127.0.0.1 - - [19/Dec/2024 15:34:49] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:34:49,703:INFO:127.0.0.1 - - [19/Dec/2024 15:34:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:49,710:INFO:127.0.0.1 - - [19/Dec/2024 15:34:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:49,711:INFO:127.0.0.1 - - [19/Dec/2024 15:34:49] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:50,819:INFO:127.0.0.1 - - [19/Dec/2024 15:34:50] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:34:50,838:INFO:127.0.0.1 - - [19/Dec/2024 15:34:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:50,848:INFO:127.0.0.1 - - [19/Dec/2024 15:34:50] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:51,299:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:34:51,321:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:51,325:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:51,327:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:51,891:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:34:51,909:INFO:127.0.0.1 - - [19/Dec/2024 15:34:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:52,341:INFO:127.0.0.1 - - [19/Dec/2024 15:34:52] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:34:52,361:INFO:127.0.0.1 - - [19/Dec/2024 15:34:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:52,372:INFO:127.0.0.1 - - [19/Dec/2024 15:34:52] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:52,373:INFO:127.0.0.1 - - [19/Dec/2024 15:34:52] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:53,138:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:34:53,157:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:53,167:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "GET /static/setting.css HTTP/1.1" 200 -
+2024-12-19 15:34:53,912:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:34:53,936:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:53,938:INFO:127.0.0.1 - - [19/Dec/2024 15:34:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:54,311:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:34:54,334:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:54,338:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:54,341:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "GET /static/search_results.css HTTP/1.1" 200 -
+2024-12-19 15:34:54,795:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:34:54,818:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:54,820:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:34:54,826:INFO:127.0.0.1 - - [19/Dec/2024 15:34:54] "GET /static/view.css HTTP/1.1" 200 -
+2024-12-19 15:36:04,339:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:36:04,339:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpa__fwdja', reloading
+2024-12-19 15:36:04,340:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:36:05,740:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:36:11,987:WARNING: * Debugger is active!
+2024-12-19 15:36:11,993:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:37:10,303:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-19 15:37:10,330:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:37:10,439:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:37:10,440:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:37:10,476:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=IP0Cxa5YR4cLBAloBBU1 HTTP/1.1" 200 -
+2024-12-19 15:37:10,488:INFO:127.0.0.1 - - [19/Dec/2024 15:37:10] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:37:14,624:INFO:127.0.0.1 - - [19/Dec/2024 15:37:14] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-19 15:37:14,640:INFO:127.0.0.1 - - [19/Dec/2024 15:37:14] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:37:14,655:INFO:127.0.0.1 - - [19/Dec/2024 15:37:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:37:14,661:INFO:127.0.0.1 - - [19/Dec/2024 15:37:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:37:14,673:INFO:127.0.0.1 - - [19/Dec/2024 15:37:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=IP0Cxa5YR4cLBAloBBU1 HTTP/1.1[0m" 304 -
+2024-12-19 15:37:16,547:INFO:127.0.0.1 - - [19/Dec/2024 15:37:16] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-19 15:37:16,559:INFO:127.0.0.1 - - [19/Dec/2024 15:37:16] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:37:16,576:INFO:127.0.0.1 - - [19/Dec/2024 15:37:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:37:16,583:INFO:127.0.0.1 - - [19/Dec/2024 15:37:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:37:16,589:INFO:127.0.0.1 - - [19/Dec/2024 15:37:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=IP0Cxa5YR4cLBAloBBU1 HTTP/1.1[0m" 304 -
+2024-12-19 15:37:20,225:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:37:20,227:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpq24ckyy0', reloading
+2024-12-19 15:37:20,229:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:37:21,024:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:37:27,509:WARNING: * Debugger is active!
+2024-12-19 15:37:27,515:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:37:27,571:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-19 15:37:27,571:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-19 15:37:27,592:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:37:27,701:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:37:27,702:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:37:27,719:INFO:127.0.0.1 - - [19/Dec/2024 15:37:27] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=6e47X3Eb0O28OBpH8SOQ HTTP/1.1" 200 -
+2024-12-19 15:38:15,965:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:38:15,966:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp9qj7ffw0', reloading
+2024-12-19 15:38:15,968:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:38:17,449:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:38:23,671:WARNING: * Debugger is active!
+2024-12-19 15:38:23,677:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:38:23,743:INFO:127.0.0.1 - - [19/Dec/2024 15:38:23] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:38:23,846:INFO:127.0.0.1 - - [19/Dec/2024 15:38:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:38:23,847:INFO:127.0.0.1 - - [19/Dec/2024 15:38:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:38:23,861:INFO:127.0.0.1 - - [19/Dec/2024 15:38:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=SXDOfnUAIrhnyteT2ZYu HTTP/1.1" 200 -
+2024-12-19 15:38:23,872:INFO:127.0.0.1 - - [19/Dec/2024 15:38:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:38:40,335:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:38:40,336:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmppzw37hku', reloading
+2024-12-19 15:38:40,336:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:38:41,466:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:38:47,899:WARNING: * Debugger is active!
+2024-12-19 15:38:47,905:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:39:33,232:INFO:127.0.0.1 - - [19/Dec/2024 15:39:33] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:39:33,329:INFO:127.0.0.1 - - [19/Dec/2024 15:39:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:39:33,329:INFO:127.0.0.1 - - [19/Dec/2024 15:39:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:39:33,344:INFO:127.0.0.1 - - [19/Dec/2024 15:39:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=LAvmZV3nO0cziuOC2SZ2 HTTP/1.1" 200 -
+2024-12-19 15:39:33,354:INFO:127.0.0.1 - - [19/Dec/2024 15:39:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:39:35,856:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:39:35,858:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpkezcq7az', reloading
+2024-12-19 15:39:35,859:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:39:36,801:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:39:43,230:WARNING: * Debugger is active!
+2024-12-19 15:39:43,236:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:39:43,299:INFO:127.0.0.1 - - [19/Dec/2024 15:39:43] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:39:43,408:INFO:127.0.0.1 - - [19/Dec/2024 15:39:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:39:43,408:INFO:127.0.0.1 - - [19/Dec/2024 15:39:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:39:43,422:INFO:127.0.0.1 - - [19/Dec/2024 15:39:43] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=gA85WCDPf8w89ymNEWaf HTTP/1.1" 200 -
+2024-12-19 15:39:43,431:INFO:127.0.0.1 - - [19/Dec/2024 15:39:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:39:44,958:INFO:127.0.0.1 - - [19/Dec/2024 15:39:44] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:39:44,975:INFO:127.0.0.1 - - [19/Dec/2024 15:39:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:39:44,983:INFO:127.0.0.1 - - [19/Dec/2024 15:39:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:39:44,995:INFO:127.0.0.1 - - [19/Dec/2024 15:39:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=gA85WCDPf8w89ymNEWaf HTTP/1.1[0m" 304 -
+2024-12-19 15:39:45,005:INFO:127.0.0.1 - - [19/Dec/2024 15:39:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:40:23,649:INFO:127.0.0.1 - - [19/Dec/2024 15:40:23] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:40:23,667:INFO:127.0.0.1 - - [19/Dec/2024 15:40:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:40:43,086:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:40:43,087:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmps_noe2iz', reloading
+2024-12-19 15:40:43,087:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:40:44,317:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:40:50,688:WARNING: * Debugger is active!
+2024-12-19 15:40:50,694:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:40:50,759:INFO:127.0.0.1 - - [19/Dec/2024 15:40:50] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-19 15:40:50,865:INFO:127.0.0.1 - - [19/Dec/2024 15:40:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:40:50,866:INFO:127.0.0.1 - - [19/Dec/2024 15:40:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:40:50,880:INFO:127.0.0.1 - - [19/Dec/2024 15:40:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=975Yac8SSFtsU5kUgyh3 HTTP/1.1" 200 -
+2024-12-19 15:40:50,896:INFO:127.0.0.1 - - [19/Dec/2024 15:40:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:40:57,833:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:40:57,835:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp27zds3gg', reloading
+2024-12-19 15:40:57,837:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:40:59,484:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:41:05,921:WARNING: * Debugger is active!
+2024-12-19 15:41:05,928:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:41:05,986:INFO:127.0.0.1 - - [19/Dec/2024 15:41:05] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:41:06,060:INFO:127.0.0.1 - - [19/Dec/2024 15:41:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:14,198:INFO:127.0.0.1 - - [19/Dec/2024 15:41:14] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-19 15:41:14,207:INFO:127.0.0.1 - - [19/Dec/2024 15:41:14] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:41:14,222:INFO:127.0.0.1 - - [19/Dec/2024 15:41:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:17,446:INFO:127.0.0.1 - - [19/Dec/2024 15:41:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:41:17,452:INFO:127.0.0.1 - - [19/Dec/2024 15:41:17] "GET / HTTP/1.1" 200 -
+2024-12-19 15:41:17,477:INFO:127.0.0.1 - - [19/Dec/2024 15:41:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:18,738:INFO:127.0.0.1 - - [19/Dec/2024 15:41:18] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:41:18,760:INFO:127.0.0.1 - - [19/Dec/2024 15:41:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:18,766:INFO:127.0.0.1 - - [19/Dec/2024 15:41:18] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:19,157:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:41:19,179:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:19,183:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:19,184:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:19,700:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:41:19,719:INFO:127.0.0.1 - - [19/Dec/2024 15:41:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:20,377:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:41:20,395:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:20,405:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:20,407:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:20,840:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:41:20,860:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:20,872:INFO:127.0.0.1 - - [19/Dec/2024 15:41:20] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:21,306:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:41:21,330:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:21,332:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:21,340:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:21,654:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:41:21,674:INFO:127.0.0.1 - - [19/Dec/2024 15:41:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,267:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:41:22,293:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,295:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,296:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,564:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:41:22,584:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,590:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,930:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:41:22,958:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,960:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:22,962:INFO:127.0.0.1 - - [19/Dec/2024 15:41:22] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:23,365:INFO:127.0.0.1 - - [19/Dec/2024 15:41:23] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:41:23,392:INFO:127.0.0.1 - - [19/Dec/2024 15:41:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:23,394:INFO:127.0.0.1 - - [19/Dec/2024 15:41:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:23,395:INFO:127.0.0.1 - - [19/Dec/2024 15:41:23] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:41:26,914:INFO:127.0.0.1 - - [19/Dec/2024 15:41:26] "[31m[1mPOST /logout HTTP/1.1[0m" 405 -
+2024-12-19 15:41:28,541:INFO:127.0.0.1 - - [19/Dec/2024 15:41:28] "[31m[1mPOST /logout HTTP/1.1[0m" 405 -
+2024-12-19 15:42:05,783:INFO:127.0.0.1 - - [19/Dec/2024 15:42:05] "[31m[1mPOST /logout HTTP/1.1[0m" 405 -
+2024-12-19 15:42:54,063:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:42:54,064:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpyebbkqfm', reloading
+2024-12-19 15:42:54,064:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:42:55,365:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:43:01,780:WARNING: * Debugger is active!
+2024-12-19 15:43:01,786:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:43:01,840:INFO:127.0.0.1 - - [19/Dec/2024 15:43:01] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 15:43:01,853:INFO:127.0.0.1 - - [19/Dec/2024 15:43:01] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:43:01,932:INFO:127.0.0.1 - - [19/Dec/2024 15:43:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:05,044:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:43:05,050:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "GET / HTTP/1.1" 200 -
+2024-12-19 15:43:05,074:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:05,945:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 15:43:05,951:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:43:05,975:INFO:127.0.0.1 - - [19/Dec/2024 15:43:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:17,559:INFO:127.0.0.1 - - [19/Dec/2024 15:43:17] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2024-12-19 15:43:17,566:INFO:127.0.0.1 - - [19/Dec/2024 15:43:17] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:43:17,582:INFO:127.0.0.1 - - [19/Dec/2024 15:43:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:20,487:INFO:127.0.0.1 - - [19/Dec/2024 15:43:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:43:20,494:INFO:127.0.0.1 - - [19/Dec/2024 15:43:20] "GET / HTTP/1.1" 200 -
+2024-12-19 15:43:20,519:INFO:127.0.0.1 - - [19/Dec/2024 15:43:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:21,616:INFO:127.0.0.1 - - [19/Dec/2024 15:43:21] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 15:43:21,637:INFO:127.0.0.1 - - [19/Dec/2024 15:43:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:21,645:INFO:127.0.0.1 - - [19/Dec/2024 15:43:21] "GET /static/video.css HTTP/1.1" 200 -
+2024-12-19 15:43:21,648:INFO:127.0.0.1 - - [19/Dec/2024 15:43:21] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2024-12-19 15:43:21,650:INFO:127.0.0.1 - - [19/Dec/2024 15:43:21] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2024-12-19 15:43:22,385:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-19 15:43:22,411:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,413:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,418:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,421:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,676:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2024-12-19 15:43:22,696:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,712:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,715:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,715:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 15:43:22,975:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-19 15:43:22,995:INFO:127.0.0.1 - - [19/Dec/2024 15:43:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,010:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,013:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,013:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,253:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2024-12-19 15:43:23,279:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,288:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,289:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:23,290:INFO:127.0.0.1 - - [19/Dec/2024 15:43:23] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 15:43:24,280:INFO:127.0.0.1 - - [19/Dec/2024 15:43:24] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:43:24,299:INFO:127.0.0.1 - - [19/Dec/2024 15:43:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:24,309:INFO:127.0.0.1 - - [19/Dec/2024 15:43:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:24,310:INFO:127.0.0.1 - - [19/Dec/2024 15:43:24] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:25,541:INFO:127.0.0.1 - - [19/Dec/2024 15:43:25] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:43:25,565:INFO:127.0.0.1 - - [19/Dec/2024 15:43:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:25,574:INFO:127.0.0.1 - - [19/Dec/2024 15:43:25] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:25,575:INFO:127.0.0.1 - - [19/Dec/2024 15:43:25] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:26,221:INFO:127.0.0.1 - - [19/Dec/2024 15:43:26] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:43:26,243:INFO:127.0.0.1 - - [19/Dec/2024 15:43:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:26,246:INFO:127.0.0.1 - - [19/Dec/2024 15:43:26] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:26,248:INFO:127.0.0.1 - - [19/Dec/2024 15:43:26] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:27,114:INFO:127.0.0.1 - - [19/Dec/2024 15:43:27] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-19 15:43:27,133:INFO:127.0.0.1 - - [19/Dec/2024 15:43:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:27,146:INFO:127.0.0.1 - - [19/Dec/2024 15:43:27] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:27,147:INFO:127.0.0.1 - - [19/Dec/2024 15:43:27] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:27,150:INFO:127.0.0.1 - - [19/Dec/2024 15:43:27] "GET /static/excel_pdf.css HTTP/1.1" 200 -
+2024-12-19 15:43:30,231:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:43:30,261:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:30,262:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:30,262:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:30,762:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:43:30,781:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:30,790:INFO:127.0.0.1 - - [19/Dec/2024 15:43:30] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:31,815:INFO:127.0.0.1 - - [19/Dec/2024 15:43:31] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:43:31,842:INFO:127.0.0.1 - - [19/Dec/2024 15:43:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:31,844:INFO:127.0.0.1 - - [19/Dec/2024 15:43:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:31,846:INFO:127.0.0.1 - - [19/Dec/2024 15:43:31] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:32,157:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:43:32,180:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:32,186:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:32,441:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "GET /work HTTP/1.1" 200 -
+2024-12-19 15:43:32,465:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:32,472:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:32,473:INFO:127.0.0.1 - - [19/Dec/2024 15:43:32] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:33,516:INFO:127.0.0.1 - - [19/Dec/2024 15:43:33] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:43:33,538:INFO:127.0.0.1 - - [19/Dec/2024 15:43:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:34,292:INFO:127.0.0.1 - - [19/Dec/2024 15:43:34] "GET /security HTTP/1.1" 200 -
+2024-12-19 15:43:34,312:INFO:127.0.0.1 - - [19/Dec/2024 15:43:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:34,324:INFO:127.0.0.1 - - [19/Dec/2024 15:43:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:34,325:INFO:127.0.0.1 - - [19/Dec/2024 15:43:34] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:35,743:INFO:127.0.0.1 - - [19/Dec/2024 15:43:35] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:43:35,762:INFO:127.0.0.1 - - [19/Dec/2024 15:43:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:35,774:INFO:127.0.0.1 - - [19/Dec/2024 15:43:35] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:37,061:INFO:127.0.0.1 - - [19/Dec/2024 15:43:37] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:43:37,086:INFO:127.0.0.1 - - [19/Dec/2024 15:43:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:37,090:INFO:127.0.0.1 - - [19/Dec/2024 15:43:37] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:37,092:INFO:127.0.0.1 - - [19/Dec/2024 15:43:37] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:39,491:INFO:127.0.0.1 - - [19/Dec/2024 15:43:39] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 15:43:39,497:INFO:127.0.0.1 - - [19/Dec/2024 15:43:39] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:43:39,518:INFO:127.0.0.1 - - [19/Dec/2024 15:43:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:42,077:INFO:127.0.0.1 - - [19/Dec/2024 15:43:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:43:42,084:INFO:127.0.0.1 - - [19/Dec/2024 15:43:42] "GET / HTTP/1.1" 200 -
+2024-12-19 15:43:42,110:INFO:127.0.0.1 - - [19/Dec/2024 15:43:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:43:44,199:INFO:127.0.0.1 - - [19/Dec/2024 15:43:44] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 15:43:44,207:INFO:127.0.0.1 - - [19/Dec/2024 15:43:44] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:43:44,228:INFO:127.0.0.1 - - [19/Dec/2024 15:43:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:06,375:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-19 15:44:06,375:INFO:[33mPress CTRL+C to quit[0m
+2024-12-19 15:44:06,386:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:44:12,753:WARNING: * Debugger is active!
+2024-12-19 15:44:12,759:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:44:12,815:INFO:127.0.0.1 - - [19/Dec/2024 15:44:12] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:44:12,890:INFO:127.0.0.1 - - [19/Dec/2024 15:44:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:16,275:INFO:127.0.0.1 - - [19/Dec/2024 15:44:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:44:16,280:DEBUG:Debug level log
+2024-12-19 15:44:16,280:INFO:Info level log
+2024-12-19 15:44:16,281:WARNING:Warning level log
+2024-12-19 15:44:16,282:ERROR:Error level log
+2024-12-19 15:44:16,283:CRITICAL:Critical level log
+2024-12-19 15:44:16,284:INFO:127.0.0.1 - - [19/Dec/2024 15:44:16] "GET / HTTP/1.1" 200 -
+2024-12-19 15:44:16,311:INFO:127.0.0.1 - - [19/Dec/2024 15:44:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,172:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "GET /search HTTP/1.1" 200 -
+2024-12-19 15:44:18,198:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,202:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,207:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,623:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 15:44:18,648:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,651:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:18,651:INFO:127.0.0.1 - - [19/Dec/2024 15:44:18] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:19,034:INFO:127.0.0.1 - - [19/Dec/2024 15:44:19] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 15:44:19,061:INFO:127.0.0.1 - - [19/Dec/2024 15:44:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:19,061:INFO:127.0.0.1 - - [19/Dec/2024 15:44:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:19,347:INFO:127.0.0.1 - - [19/Dec/2024 15:44:19] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 15:44:20,811:INFO:127.0.0.1 - - [19/Dec/2024 15:44:20] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:44:20,829:INFO:127.0.0.1 - - [19/Dec/2024 15:44:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:44:22,187:INFO:127.0.0.1 - - [19/Dec/2024 15:44:22] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:44:22,206:INFO:127.0.0.1 - - [19/Dec/2024 15:44:22] "GET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-19 15:44:22,208:INFO:127.0.0.1 - - [19/Dec/2024 15:44:22] "GET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-19 15:44:22,221:INFO:127.0.0.1 - - [19/Dec/2024 15:44:22] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=owMkrETfLyC1neT9R1zm HTTP/1.1" 200 -
+2024-12-19 15:44:22,242:INFO:127.0.0.1 - - [19/Dec/2024 15:44:22] "GET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-19 15:47:41,888:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:47:41,891:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpeuumezlm', reloading
+2024-12-19 15:47:41,893:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 15:47:42,743:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:47:49,215:WARNING: * Debugger is active!
+2024-12-19 15:47:49,220:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:48:56,883:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:48:56,885:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpgxhwsptq', reloading
+2024-12-19 15:48:56,886:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:48:58,217:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:49:04,686:WARNING: * Debugger is active!
+2024-12-19 15:49:04,692:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:49:10,984:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:49:10,986:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpr73s5wfy', reloading
+2024-12-19 15:49:10,988:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:49:12,498:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:49:18,715:WARNING: * Debugger is active!
+2024-12-19 15:49:18,721:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:49:42,685:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:49:42,687:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpdfmif7e_', reloading
+2024-12-19 15:49:42,689:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:49:43,545:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:49:49,837:WARNING: * Debugger is active!
+2024-12-19 15:49:49,843:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:50:05,592:INFO:127.0.0.1 - - [19/Dec/2024 15:50:05] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 15:50:05,607:INFO:127.0.0.1 - - [19/Dec/2024 15:50:05] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:50:05,690:INFO:127.0.0.1 - - [19/Dec/2024 15:50:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:09,992:INFO:127.0.0.1 - - [19/Dec/2024 15:50:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:50:09,998:DEBUG:Debug level log
+2024-12-19 15:50:09,998:INFO:Info level log
+2024-12-19 15:50:09,999:WARNING:Warning level log
+2024-12-19 15:50:10,000:ERROR:Error level log
+2024-12-19 15:50:10,001:CRITICAL:Critical level log
+2024-12-19 15:50:10,002:INFO:127.0.0.1 - - [19/Dec/2024 15:50:10] "GET / HTTP/1.1" 200 -
+2024-12-19 15:50:10,029:INFO:127.0.0.1 - - [19/Dec/2024 15:50:10] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:10,977:INFO:127.0.0.1 - - [19/Dec/2024 15:50:10] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:50:11,001:INFO:127.0.0.1 - - [19/Dec/2024 15:50:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:11,005:INFO:127.0.0.1 - - [19/Dec/2024 15:50:11] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:13,235:INFO:127.0.0.1 - - [19/Dec/2024 15:50:13] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:50:13,255:INFO:127.0.0.1 - - [19/Dec/2024 15:50:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:13,898:INFO:127.0.0.1 - - [19/Dec/2024 15:50:13] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:50:13,918:INFO:127.0.0.1 - - [19/Dec/2024 15:50:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:13,929:INFO:127.0.0.1 - - [19/Dec/2024 15:50:13] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:14,421:INFO:127.0.0.1 - - [19/Dec/2024 15:50:14] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:50:14,440:INFO:127.0.0.1 - - [19/Dec/2024 15:50:14] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:50:14,442:INFO:127.0.0.1 - - [19/Dec/2024 15:50:14] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:50:14,454:INFO:127.0.0.1 - - [19/Dec/2024 15:50:14] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=yhH17Z96z7S0wV2NBjIU HTTP/1.1" 200 -
+2024-12-19 15:50:46,300:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:50:46,302:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpepb2rcll', reloading
+2024-12-19 15:50:46,303:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:50:47,832:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:50:54,148:WARNING: * Debugger is active!
+2024-12-19 15:50:54,154:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:50:54,204:INFO:127.0.0.1 - - [19/Dec/2024 15:50:54] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 15:50:54,220:INFO:127.0.0.1 - - [19/Dec/2024 15:50:54] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:50:54,293:INFO:127.0.0.1 - - [19/Dec/2024 15:50:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:01,952:INFO:127.0.0.1 - - [19/Dec/2024 15:51:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:51:01,957:DEBUG:Debug level log
+2024-12-19 15:51:01,957:INFO:Info level log
+2024-12-19 15:51:01,961:WARNING:Warning level log
+2024-12-19 15:51:01,961:ERROR:Error level log
+2024-12-19 15:51:01,962:CRITICAL:Critical level log
+2024-12-19 15:51:01,963:INFO:127.0.0.1 - - [19/Dec/2024 15:51:01] "GET / HTTP/1.1" 200 -
+2024-12-19 15:51:01,990:INFO:127.0.0.1 - - [19/Dec/2024 15:51:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:03,631:INFO:127.0.0.1 - - [19/Dec/2024 15:51:03] "GET /settings HTTP/1.1" 200 -
+2024-12-19 15:51:03,655:INFO:127.0.0.1 - - [19/Dec/2024 15:51:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:03,663:INFO:127.0.0.1 - - [19/Dec/2024 15:51:03] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:04,739:INFO:127.0.0.1 - - [19/Dec/2024 15:51:04] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 15:51:04,763:INFO:127.0.0.1 - - [19/Dec/2024 15:51:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:06,492:INFO:127.0.0.1 - - [19/Dec/2024 15:51:06] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:51:06,515:INFO:127.0.0.1 - - [19/Dec/2024 15:51:06] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:06,516:INFO:127.0.0.1 - - [19/Dec/2024 15:51:06] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:51:06,527:INFO:127.0.0.1 - - [19/Dec/2024 15:51:06] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=cYiB3jI7wdY9gv8oI8kw HTTP/1.1" 200 -
+2024-12-19 15:51:06,544:INFO:127.0.0.1 - - [19/Dec/2024 15:51:06] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:51:08,922:INFO:127.0.0.1 - - [19/Dec/2024 15:51:08] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:51:08,940:INFO:127.0.0.1 - - [19/Dec/2024 15:51:08] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:51:08,941:INFO:127.0.0.1 - - [19/Dec/2024 15:51:08] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:51:08,952:INFO:127.0.0.1 - - [19/Dec/2024 15:51:08] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png&s=cYiB3jI7wdY9gv8oI8kw HTTP/1.1[0m" 304 -
+2024-12-19 15:52:58,022:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:52:58,024:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmplx5cp_sc', reloading
+2024-12-19 15:52:58,025:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:52:59,639:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:53:05,949:WARNING: * Debugger is active!
+2024-12-19 15:53:05,955:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:53:06,008:INFO:127.0.0.1 - - [19/Dec/2024 15:53:06] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 15:53:06,024:INFO:127.0.0.1 - - [19/Dec/2024 15:53:06] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:53:06,100:INFO:127.0.0.1 - - [19/Dec/2024 15:53:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:53:09,676:INFO:127.0.0.1 - - [19/Dec/2024 15:53:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:53:09,681:DEBUG:Debug level log
+2024-12-19 15:53:09,682:INFO:Info level log
+2024-12-19 15:53:09,683:WARNING:Warning level log
+2024-12-19 15:53:09,684:ERROR:Error level log
+2024-12-19 15:53:09,684:CRITICAL:Critical level log
+2024-12-19 15:53:09,686:INFO:127.0.0.1 - - [19/Dec/2024 15:53:09] "GET / HTTP/1.1" 200 -
+2024-12-19 15:53:09,717:INFO:127.0.0.1 - - [19/Dec/2024 15:53:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:53:10,972:INFO:127.0.0.1 - - [19/Dec/2024 15:53:10] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:53:10,994:INFO:127.0.0.1 - - [19/Dec/2024 15:53:10] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:53:10,996:INFO:127.0.0.1 - - [19/Dec/2024 15:53:10] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:53:11,006:INFO:127.0.0.1 - - [19/Dec/2024 15:53:11] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=OHeP8uXYVubyo4dfhyoY HTTP/1.1" 200 -
+2024-12-19 15:53:11,026:INFO:127.0.0.1 - - [19/Dec/2024 15:53:11] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:53:37,920:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:53:37,922:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmplgnm6srd', reloading
+2024-12-19 15:53:37,923:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:53:39,006:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:53:46,359:WARNING: * Debugger is active!
+2024-12-19 15:53:46,365:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:53:46,418:INFO:127.0.0.1 - - [19/Dec/2024 15:53:46] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 15:53:46,434:INFO:127.0.0.1 - - [19/Dec/2024 15:53:46] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:53:46,509:INFO:127.0.0.1 - - [19/Dec/2024 15:53:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:54:08,951:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:54:08,951:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmptzaq9ixm', reloading
+2024-12-19 15:54:08,952:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:54:10,160:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:54:16,474:WARNING: * Debugger is active!
+2024-12-19 15:54:16,480:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:56:00,833:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:56:00,834:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp12s7sa8a', reloading
+2024-12-19 15:56:00,836:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:56:01,716:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:56:08,159:WARNING: * Debugger is active!
+2024-12-19 15:56:08,165:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:56:47,549:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:56:47,550:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpf_6_a2if', reloading
+2024-12-19 15:56:47,550:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:56:49,030:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:56:55,518:WARNING: * Debugger is active!
+2024-12-19 15:56:55,524:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:57:16,441:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:57:16,442:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmplbfk90gt', reloading
+2024-12-19 15:57:16,444:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:57:17,336:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:57:23,567:WARNING: * Debugger is active!
+2024-12-19 15:57:23,573:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:57:32,168:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:57:32,169:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpef9ulx41', reloading
+2024-12-19 15:57:32,169:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:57:33,362:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:57:39,625:WARNING: * Debugger is active!
+2024-12-19 15:57:39,631:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:57:39,690:INFO:127.0.0.1 - - [19/Dec/2024 15:57:39] "GET /login HTTP/1.1" 200 -
+2024-12-19 15:57:39,774:INFO:127.0.0.1 - - [19/Dec/2024 15:57:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:57:44,097:INFO:127.0.0.1 - - [19/Dec/2024 15:57:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 15:57:44,103:DEBUG:Debug level log
+2024-12-19 15:57:44,103:INFO:Info level log
+2024-12-19 15:57:44,104:WARNING:Warning level log
+2024-12-19 15:57:44,104:ERROR:Error level log
+2024-12-19 15:57:44,105:CRITICAL:Critical level log
+2024-12-19 15:57:44,106:INFO:127.0.0.1 - - [19/Dec/2024 15:57:44] "GET / HTTP/1.1" 200 -
+2024-12-19 15:57:44,132:INFO:127.0.0.1 - - [19/Dec/2024 15:57:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 15:57:46,768:INFO:127.0.0.1 - - [19/Dec/2024 15:57:46] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 15:57:46,789:INFO:127.0.0.1 - - [19/Dec/2024 15:57:46] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 15:57:46,795:INFO:127.0.0.1 - - [19/Dec/2024 15:57:46] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 15:57:46,805:INFO:127.0.0.1 - - [19/Dec/2024 15:57:46] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=1slUaeMJ1KRAG1gk7fLr HTTP/1.1" 200 -
+2024-12-19 15:57:46,820:INFO:127.0.0.1 - - [19/Dec/2024 15:57:46] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 15:58:45,924:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:58:45,924:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpkzhp99x7', reloading
+2024-12-19 15:58:45,925:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:58:46,689:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:58:52,964:WARNING: * Debugger is active!
+2024-12-19 15:58:52,970:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:58:54,636:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:58:54,638:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpmumssnkh', reloading
+2024-12-19 15:58:54,639:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:58:55,653:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:59:02,041:WARNING: * Debugger is active!
+2024-12-19 15:59:02,047:INFO: * Debugger PIN: 740-254-266
+2024-12-19 15:59:37,294:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:59:37,295:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpyy2kh0ur', reloading
+2024-12-19 15:59:37,297:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 15:59:38,926:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 15:59:45,386:WARNING: * Debugger is active!
+2024-12-19 15:59:45,392:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:00:06,891:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:00:06,892:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpd4z68vo2', reloading
+2024-12-19 16:00:06,892:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:00:08,336:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:00:14,692:WARNING: * Debugger is active!
+2024-12-19 16:00:14,698:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:00:14,749:INFO:127.0.0.1 - - [19/Dec/2024 16:00:14] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 16:00:14,763:INFO:127.0.0.1 - - [19/Dec/2024 16:00:14] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:00:14,844:INFO:127.0.0.1 - - [19/Dec/2024 16:00:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:00:22,456:INFO:127.0.0.1 - - [19/Dec/2024 16:00:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:00:22,461:DEBUG:Debug level log
+2024-12-19 16:00:22,461:INFO:Info level log
+2024-12-19 16:00:22,463:WARNING:Warning level log
+2024-12-19 16:00:22,463:ERROR:Error level log
+2024-12-19 16:00:22,464:CRITICAL:Critical level log
+2024-12-19 16:00:22,466:INFO:127.0.0.1 - - [19/Dec/2024 16:00:22] "GET / HTTP/1.1" 200 -
+2024-12-19 16:00:22,491:INFO:127.0.0.1 - - [19/Dec/2024 16:00:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:00:23,997:INFO:127.0.0.1 - - [19/Dec/2024 16:00:23] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 16:00:24,019:INFO:127.0.0.1 - - [19/Dec/2024 16:00:24] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 16:00:24,022:INFO:127.0.0.1 - - [19/Dec/2024 16:00:24] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 16:00:24,033:INFO:127.0.0.1 - - [19/Dec/2024 16:00:24] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=hprnxpvLDIZfOrZXrJuh HTTP/1.1" 200 -
+2024-12-19 16:00:24,051:INFO:127.0.0.1 - - [19/Dec/2024 16:00:24] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 16:00:33,269:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:00:33,270:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpl4rxcmvj', reloading
+2024-12-19 16:00:33,272:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:00:34,541:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:00:41,141:WARNING: * Debugger is active!
+2024-12-19 16:00:41,146:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:00:41,201:INFO:127.0.0.1 - - [19/Dec/2024 16:00:41] "[32mGET /security HTTP/1.1[0m" 302 -
+2024-12-19 16:00:41,201:INFO:127.0.0.1 - - [19/Dec/2024 16:00:41] "[32mGET /settings HTTP/1.1[0m" 302 -
+2024-12-19 16:00:41,215:INFO:127.0.0.1 - - [19/Dec/2024 16:00:41] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:00:41,284:INFO:127.0.0.1 - - [19/Dec/2024 16:00:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:01:14,154:INFO:127.0.0.1 - - [19/Dec/2024 16:01:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:01:14,159:DEBUG:Debug level log
+2024-12-19 16:01:14,160:INFO:Info level log
+2024-12-19 16:01:14,161:WARNING:Warning level log
+2024-12-19 16:01:14,162:ERROR:Error level log
+2024-12-19 16:01:14,162:CRITICAL:Critical level log
+2024-12-19 16:01:14,164:INFO:127.0.0.1 - - [19/Dec/2024 16:01:14] "GET / HTTP/1.1" 200 -
+2024-12-19 16:01:14,191:INFO:127.0.0.1 - - [19/Dec/2024 16:01:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:01:15,368:INFO:127.0.0.1 - - [19/Dec/2024 16:01:15] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 16:01:18,808:INFO:127.0.0.1 - - [19/Dec/2024 16:01:18] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 16:02:00,979:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:02:00,980:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpqcgsl2_2', reloading
+2024-12-19 16:02:00,980:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:02:02,335:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:02:08,980:WARNING: * Debugger is active!
+2024-12-19 16:02:08,986:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:02:09,039:INFO:127.0.0.1 - - [19/Dec/2024 16:02:09] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 16:02:09,053:INFO:127.0.0.1 - - [19/Dec/2024 16:02:09] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:02:09,138:INFO:127.0.0.1 - - [19/Dec/2024 16:02:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:13,877:INFO:127.0.0.1 - - [19/Dec/2024 16:02:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:02:13,882:DEBUG:Debug level log
+2024-12-19 16:02:13,883:INFO:Info level log
+2024-12-19 16:02:13,885:WARNING:Warning level log
+2024-12-19 16:02:13,886:ERROR:Error level log
+2024-12-19 16:02:13,886:CRITICAL:Critical level log
+2024-12-19 16:02:13,888:INFO:127.0.0.1 - - [19/Dec/2024 16:02:13] "GET / HTTP/1.1" 200 -
+2024-12-19 16:02:13,914:INFO:127.0.0.1 - - [19/Dec/2024 16:02:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:14,875:INFO:127.0.0.1 - - [19/Dec/2024 16:02:14] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:02:14,895:INFO:127.0.0.1 - - [19/Dec/2024 16:02:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:14,905:INFO:127.0.0.1 - - [19/Dec/2024 16:02:14] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:14,909:INFO:127.0.0.1 - - [19/Dec/2024 16:02:14] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:16,369:INFO:127.0.0.1 - - [19/Dec/2024 16:02:16] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:02:16,395:INFO:127.0.0.1 - - [19/Dec/2024 16:02:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:16,403:INFO:127.0.0.1 - - [19/Dec/2024 16:02:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:16,406:INFO:127.0.0.1 - - [19/Dec/2024 16:02:16] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:16,408:INFO:127.0.0.1 - - [19/Dec/2024 16:02:16] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:18,661:INFO:127.0.0.1 - - [19/Dec/2024 16:02:18] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-19 16:02:19,684:INFO:127.0.0.1 - - [19/Dec/2024 16:02:19] "GET /export/entry/excel HTTP/1.1" 200 -
+2024-12-19 16:02:21,185:INFO:127.0.0.1 - - [19/Dec/2024 16:02:21] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:02:21,208:INFO:127.0.0.1 - - [19/Dec/2024 16:02:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:21,210:INFO:127.0.0.1 - - [19/Dec/2024 16:02:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:21,214:INFO:127.0.0.1 - - [19/Dec/2024 16:02:21] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:23,129:INFO:127.0.0.1 - - [19/Dec/2024 16:02:23] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:02:23,158:INFO:127.0.0.1 - - [19/Dec/2024 16:02:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:23,159:INFO:127.0.0.1 - - [19/Dec/2024 16:02:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:23,165:INFO:127.0.0.1 - - [19/Dec/2024 16:02:23] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:24,133:INFO:127.0.0.1 - - [19/Dec/2024 16:02:24] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:02:24,156:INFO:127.0.0.1 - - [19/Dec/2024 16:02:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:24,159:INFO:127.0.0.1 - - [19/Dec/2024 16:02:24] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:24,160:INFO:127.0.0.1 - - [19/Dec/2024 16:02:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:24,165:INFO:127.0.0.1 - - [19/Dec/2024 16:02:24] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:25,989:INFO:127.0.0.1 - - [19/Dec/2024 16:02:25] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:02:26,013:INFO:127.0.0.1 - - [19/Dec/2024 16:02:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:26,026:INFO:127.0.0.1 - - [19/Dec/2024 16:02:26] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:26,026:INFO:127.0.0.1 - - [19/Dec/2024 16:02:26] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:27,630:INFO:127.0.0.1 - - [19/Dec/2024 16:02:27] "POST /search-results HTTP/1.1" 200 -
+2024-12-19 16:02:27,649:INFO:127.0.0.1 - - [19/Dec/2024 16:02:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:27,652:INFO:127.0.0.1 - - [19/Dec/2024 16:02:27] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:27,652:INFO:127.0.0.1 - - [19/Dec/2024 16:02:27] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:30,171:INFO:127.0.0.1 - - [19/Dec/2024 16:02:30] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 16:02:30,188:INFO:127.0.0.1 - - [19/Dec/2024 16:02:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:30,190:INFO:127.0.0.1 - - [19/Dec/2024 16:02:30] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:31,869:INFO:127.0.0.1 - - [19/Dec/2024 16:02:31] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 16:02:33,087:INFO:127.0.0.1 - - [19/Dec/2024 16:02:33] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 16:02:33,105:INFO:127.0.0.1 - - [19/Dec/2024 16:02:33] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:33,110:INFO:127.0.0.1 - - [19/Dec/2024 16:02:33] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 16:02:33,128:INFO:127.0.0.1 - - [19/Dec/2024 16:02:33] "GET /security?__debugger__=yes&cmd=resource&f=console.png&s=HSR0Vl8y8RjNvN5HCaSJ HTTP/1.1" 200 -
+2024-12-19 16:02:34,073:INFO:127.0.0.1 - - [19/Dec/2024 16:02:34] "GET /settings HTTP/1.1" 200 -
+2024-12-19 16:02:34,091:INFO:127.0.0.1 - - [19/Dec/2024 16:02:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:34,100:INFO:127.0.0.1 - - [19/Dec/2024 16:02:34] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:34,773:INFO:127.0.0.1 - - [19/Dec/2024 16:02:34] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 16:02:34,794:INFO:127.0.0.1 - - [19/Dec/2024 16:02:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:41,228:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "GET /settings HTTP/1.1" 200 -
+2024-12-19 16:02:41,249:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:41,257:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:41,791:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "GET /settings HTTP/1.1" 200 -
+2024-12-19 16:02:41,806:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:41,812:INFO:127.0.0.1 - - [19/Dec/2024 16:02:41] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:42,234:INFO:127.0.0.1 - - [19/Dec/2024 16:02:42] "[35m[1mGET /security HTTP/1.1[0m" 500 -
+2024-12-19 16:02:42,254:INFO:127.0.0.1 - - [19/Dec/2024 16:02:42] "[36mGET /security?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 16:02:42,256:INFO:127.0.0.1 - - [19/Dec/2024 16:02:42] "[36mGET /security?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 16:02:42,264:INFO:127.0.0.1 - - [19/Dec/2024 16:02:42] "[36mGET /security?__debugger__=yes&cmd=resource&f=console.png&s=HSR0Vl8y8RjNvN5HCaSJ HTTP/1.1[0m" 304 -
+2024-12-19 16:02:43,622:INFO:127.0.0.1 - - [19/Dec/2024 16:02:43] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 16:02:45,210:INFO:127.0.0.1 - - [19/Dec/2024 16:02:45] "[33mGET /work HTTP/1.1[0m" 404 -
+2024-12-19 16:04:22,168:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-19 16:04:22,168:INFO:[33mPress CTRL+C to quit[0m
+2024-12-19 16:04:22,183:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:04:28,622:WARNING: * Debugger is active!
+2024-12-19 16:04:28,627:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:04:28,676:INFO:127.0.0.1 - - [19/Dec/2024 16:04:28] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-19 16:04:28,691:INFO:127.0.0.1 - - [19/Dec/2024 16:04:28] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:04:28,775:INFO:127.0.0.1 - - [19/Dec/2024 16:04:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:38,418:INFO:127.0.0.1 - - [19/Dec/2024 16:04:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:04:38,425:INFO:127.0.0.1 - - [19/Dec/2024 16:04:38] "GET / HTTP/1.1" 200 -
+2024-12-19 16:04:38,451:INFO:127.0.0.1 - - [19/Dec/2024 16:04:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,139:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:04:40,161:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,172:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,176:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,871:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:04:40,896:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,901:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:40,901:INFO:127.0.0.1 - - [19/Dec/2024 16:04:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:42,067:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 16:04:42,090:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:42,091:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:42,868:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "GET /work HTTP/1.1" 200 -
+2024-12-19 16:04:42,891:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:42,896:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:42,897:INFO:127.0.0.1 - - [19/Dec/2024 16:04:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:44,209:INFO:127.0.0.1 - - [19/Dec/2024 16:04:44] "GET /security HTTP/1.1" 200 -
+2024-12-19 16:04:44,230:INFO:127.0.0.1 - - [19/Dec/2024 16:04:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:44,240:INFO:127.0.0.1 - - [19/Dec/2024 16:04:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:44,241:INFO:127.0.0.1 - - [19/Dec/2024 16:04:44] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:45,296:INFO:127.0.0.1 - - [19/Dec/2024 16:04:45] "[35m[1mGET /settings HTTP/1.1[0m" 500 -
+2024-12-19 16:04:45,313:INFO:127.0.0.1 - - [19/Dec/2024 16:04:45] "[36mGET /settings?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-19 16:04:45,321:INFO:127.0.0.1 - - [19/Dec/2024 16:04:45] "[36mGET /settings?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-19 16:04:45,333:INFO:127.0.0.1 - - [19/Dec/2024 16:04:45] "GET /settings?__debugger__=yes&cmd=resource&f=console.png&s=c7Ev6nKnqZUqK0dBfjg2 HTTP/1.1" 200 -
+2024-12-19 16:04:45,348:INFO:127.0.0.1 - - [19/Dec/2024 16:04:45] "[36mGET /settings?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-19 16:05:28,857:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 16:05:28,858:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp8gzlgf60', reloading
+2024-12-19 16:05:28,858:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 16:05:29,671:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:05:37,255:WARNING: * Debugger is active!
+2024-12-19 16:05:37,261:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:05:41,010:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:05:41,010:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpkfptkx11', reloading
+2024-12-19 16:05:41,013:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:05:42,155:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:05:48,454:WARNING: * Debugger is active!
+2024-12-19 16:05:48,460:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:05:48,514:INFO:127.0.0.1 - - [19/Dec/2024 16:05:48] "[32mGET /settings HTTP/1.1[0m" 302 -
+2024-12-19 16:05:48,530:INFO:127.0.0.1 - - [19/Dec/2024 16:05:48] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:05:48,605:INFO:127.0.0.1 - - [19/Dec/2024 16:05:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:05:53,576:INFO:127.0.0.1 - - [19/Dec/2024 16:05:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:05:53,583:INFO:127.0.0.1 - - [19/Dec/2024 16:05:53] "GET / HTTP/1.1" 200 -
+2024-12-19 16:05:53,609:INFO:127.0.0.1 - - [19/Dec/2024 16:05:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:05:55,677:INFO:127.0.0.1 - - [19/Dec/2024 16:05:55] "GET /settings HTTP/1.1" 200 -
+2024-12-19 16:05:55,700:INFO:127.0.0.1 - - [19/Dec/2024 16:05:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:05:55,708:INFO:127.0.0.1 - - [19/Dec/2024 16:05:55] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:07,506:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 16:06:07,508:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpomyxl31w', reloading
+2024-12-19 16:06:07,509:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-19 16:06:08,280:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:06:14,768:WARNING: * Debugger is active!
+2024-12-19 16:06:14,774:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:06:14,830:INFO:127.0.0.1 - - [19/Dec/2024 16:06:14] "[32mGET /settings HTTP/1.1[0m" 302 -
+2024-12-19 16:06:14,848:INFO:127.0.0.1 - - [19/Dec/2024 16:06:14] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:06:14,926:INFO:127.0.0.1 - - [19/Dec/2024 16:06:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:18,326:INFO:127.0.0.1 - - [19/Dec/2024 16:06:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:06:18,332:INFO:127.0.0.1 - - [19/Dec/2024 16:06:18] "GET / HTTP/1.1" 200 -
+2024-12-19 16:06:18,359:INFO:127.0.0.1 - - [19/Dec/2024 16:06:18] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:20,018:INFO:127.0.0.1 - - [19/Dec/2024 16:06:20] "GET /settings HTTP/1.1" 200 -
+2024-12-19 16:06:20,040:INFO:127.0.0.1 - - [19/Dec/2024 16:06:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:20,047:INFO:127.0.0.1 - - [19/Dec/2024 16:06:20] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:20,475:INFO:127.0.0.1 - - [19/Dec/2024 16:06:20] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 16:06:20,495:INFO:127.0.0.1 - - [19/Dec/2024 16:06:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,140:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "GET /security HTTP/1.1" 200 -
+2024-12-19 16:06:21,162:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,168:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,168:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,492:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "GET /work HTTP/1.1" 200 -
+2024-12-19 16:06:21,512:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,524:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:21,525:INFO:127.0.0.1 - - [19/Dec/2024 16:06:21] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:23,303:INFO:127.0.0.1 - - [19/Dec/2024 16:06:23] "GET /work HTTP/1.1" 200 -
+2024-12-19 16:06:23,329:INFO:127.0.0.1 - - [19/Dec/2024 16:06:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:23,330:INFO:127.0.0.1 - - [19/Dec/2024 16:06:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:23,335:INFO:127.0.0.1 - - [19/Dec/2024 16:06:23] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:24,045:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 16:06:24,064:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:24,070:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:24,676:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:06:24,695:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:24,708:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:24,708:INFO:127.0.0.1 - - [19/Dec/2024 16:06:24] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:25,104:INFO:127.0.0.1 - - [19/Dec/2024 16:06:25] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:06:25,130:INFO:127.0.0.1 - - [19/Dec/2024 16:06:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:25,132:INFO:127.0.0.1 - - [19/Dec/2024 16:06:25] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:25,132:INFO:127.0.0.1 - - [19/Dec/2024 16:06:25] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:27,464:INFO:127.0.0.1 - - [19/Dec/2024 16:06:27] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-19 16:06:27,471:INFO:127.0.0.1 - - [19/Dec/2024 16:06:27] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:06:27,493:INFO:127.0.0.1 - - [19/Dec/2024 16:06:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:45,918:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-19 16:06:45,919:INFO:[33mPress CTRL+C to quit[0m
+2024-12-19 16:06:45,930:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:06:52,225:WARNING: * Debugger is active!
+2024-12-19 16:06:52,231:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:06:52,297:INFO:127.0.0.1 - - [19/Dec/2024 16:06:52] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:06:52,376:INFO:127.0.0.1 - - [19/Dec/2024 16:06:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:58,264:INFO:127.0.0.1 - - [19/Dec/2024 16:06:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:06:58,269:DEBUG:Debug level log
+2024-12-19 16:06:58,270:INFO:Info level log
+2024-12-19 16:06:58,272:WARNING:Warning level log
+2024-12-19 16:06:58,272:ERROR:Error level log
+2024-12-19 16:06:58,273:CRITICAL:Critical level log
+2024-12-19 16:06:58,275:INFO:127.0.0.1 - - [19/Dec/2024 16:06:58] "GET / HTTP/1.1" 200 -
+2024-12-19 16:06:58,299:INFO:127.0.0.1 - - [19/Dec/2024 16:06:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:59,664:INFO:127.0.0.1 - - [19/Dec/2024 16:06:59] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:06:59,686:INFO:127.0.0.1 - - [19/Dec/2024 16:06:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:59,695:INFO:127.0.0.1 - - [19/Dec/2024 16:06:59] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:06:59,700:INFO:127.0.0.1 - - [19/Dec/2024 16:06:59] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:00,783:INFO:127.0.0.1 - - [19/Dec/2024 16:07:00] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:07:00,808:INFO:127.0.0.1 - - [19/Dec/2024 16:07:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:00,808:INFO:127.0.0.1 - - [19/Dec/2024 16:07:00] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:00,813:INFO:127.0.0.1 - - [19/Dec/2024 16:07:00] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:01,745:INFO:127.0.0.1 - - [19/Dec/2024 16:07:01] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 16:07:01,766:INFO:127.0.0.1 - - [19/Dec/2024 16:07:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:01,774:INFO:127.0.0.1 - - [19/Dec/2024 16:07:01] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:02,949:INFO:127.0.0.1 - - [19/Dec/2024 16:07:02] "GET /report HTTP/1.1" 200 -
+2024-12-19 16:07:02,968:INFO:127.0.0.1 - - [19/Dec/2024 16:07:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:02,978:INFO:127.0.0.1 - - [19/Dec/2024 16:07:02] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:02,979:INFO:127.0.0.1 - - [19/Dec/2024 16:07:02] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:03,834:INFO:127.0.0.1 - - [19/Dec/2024 16:07:03] "GET /emergencies HTTP/1.1" 200 -
+2024-12-19 16:07:03,854:INFO:127.0.0.1 - - [19/Dec/2024 16:07:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:04,952:INFO:127.0.0.1 - - [19/Dec/2024 16:07:04] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 16:07:04,980:INFO:127.0.0.1 - - [19/Dec/2024 16:07:04] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:04,981:INFO:127.0.0.1 - - [19/Dec/2024 16:07:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:04,989:INFO:127.0.0.1 - - [19/Dec/2024 16:07:04] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:04,990:INFO:127.0.0.1 - - [19/Dec/2024 16:07:04] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:07:05,933:INFO:127.0.0.1 - - [19/Dec/2024 16:07:05] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-19 16:07:05,955:INFO:127.0.0.1 - - [19/Dec/2024 16:07:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:05,971:INFO:127.0.0.1 - - [19/Dec/2024 16:07:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:05,974:INFO:127.0.0.1 - - [19/Dec/2024 16:07:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:05,976:INFO:127.0.0.1 - - [19/Dec/2024 16:07:05] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,360:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2024-12-19 16:07:06,382:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,398:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,398:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,399:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,730:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-19 16:07:06,757:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,763:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,764:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:06,766:INFO:127.0.0.1 - - [19/Dec/2024 16:07:06] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:07:07,061:INFO:127.0.0.1 - - [19/Dec/2024 16:07:07] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2024-12-19 16:07:07,081:INFO:127.0.0.1 - - [19/Dec/2024 16:07:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:07,096:INFO:127.0.0.1 - - [19/Dec/2024 16:07:07] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:07,096:INFO:127.0.0.1 - - [19/Dec/2024 16:07:07] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:07:07,097:INFO:127.0.0.1 - - [19/Dec/2024 16:07:07] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:17:32,307:INFO:127.0.0.1 - - [19/Dec/2024 16:17:32] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:17:32,330:INFO:127.0.0.1 - - [19/Dec/2024 16:17:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:32,336:INFO:127.0.0.1 - - [19/Dec/2024 16:17:32] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:32,337:INFO:127.0.0.1 - - [19/Dec/2024 16:17:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:34,271:INFO:127.0.0.1 - - [19/Dec/2024 16:17:34] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:17:34,290:INFO:127.0.0.1 - - [19/Dec/2024 16:17:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:34,302:INFO:127.0.0.1 - - [19/Dec/2024 16:17:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:34,303:INFO:127.0.0.1 - - [19/Dec/2024 16:17:34] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:34,303:INFO:127.0.0.1 - - [19/Dec/2024 16:17:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:37,080:INFO:127.0.0.1 - - [19/Dec/2024 16:17:37] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-19 16:17:38,047:INFO:127.0.0.1 - - [19/Dec/2024 16:17:38] "GET /export/entry/excel HTTP/1.1" 200 -
+2024-12-19 16:17:50,450:INFO:127.0.0.1 - - [19/Dec/2024 16:17:50] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 16:17:50,470:INFO:127.0.0.1 - - [19/Dec/2024 16:17:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:50,486:INFO:127.0.0.1 - - [19/Dec/2024 16:17:50] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:17:50,487:INFO:127.0.0.1 - - [19/Dec/2024 16:17:50] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:17:50,487:INFO:127.0.0.1 - - [19/Dec/2024 16:17:50] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:16,462:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-19 16:18:23,593:INFO:127.0.0.1 - - [19/Dec/2024 16:18:23] "POST /capture-image HTTP/1.1" 200 -
+2024-12-19 16:18:29,304:INFO:127.0.0.1 - - [19/Dec/2024 16:18:29] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:18:29,330:INFO:127.0.0.1 - - [19/Dec/2024 16:18:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:29,332:INFO:127.0.0.1 - - [19/Dec/2024 16:18:29] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:29,333:INFO:127.0.0.1 - - [19/Dec/2024 16:18:29] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:31,191:INFO:127.0.0.1 - - [19/Dec/2024 16:18:31] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:18:31,220:INFO:127.0.0.1 - - [19/Dec/2024 16:18:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:31,221:INFO:127.0.0.1 - - [19/Dec/2024 16:18:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:31,224:INFO:127.0.0.1 - - [19/Dec/2024 16:18:31] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:31,227:INFO:127.0.0.1 - - [19/Dec/2024 16:18:31] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:32,203:INFO:127.0.0.1 - - [19/Dec/2024 16:18:32] "GET /static/captured_images/entry_20241219_161816.jpg HTTP/1.1" 200 -
+2024-12-19 16:18:44,743:INFO:127.0.0.1 - - [19/Dec/2024 16:18:44] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:18:44,766:INFO:127.0.0.1 - - [19/Dec/2024 16:18:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:44,769:INFO:127.0.0.1 - - [19/Dec/2024 16:18:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:44,769:INFO:127.0.0.1 - - [19/Dec/2024 16:18:44] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:45,759:INFO:127.0.0.1 - - [19/Dec/2024 16:18:45] "GET /alerts HTTP/1.1" 200 -
+2024-12-19 16:18:45,780:INFO:127.0.0.1 - - [19/Dec/2024 16:18:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:18:45,781:INFO:127.0.0.1 - - [19/Dec/2024 16:18:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:01,323:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:21:01,324:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmpr86qvlzt', reloading
+2024-12-19 16:21:01,325:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:21:02,815:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:21:09,466:WARNING: * Debugger is active!
+2024-12-19 16:21:09,471:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:21:09,523:INFO:127.0.0.1 - - [19/Dec/2024 16:21:09] "[32mGET /alerts HTTP/1.1[0m" 302 -
+2024-12-19 16:21:09,538:INFO:127.0.0.1 - - [19/Dec/2024 16:21:09] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:21:09,625:INFO:127.0.0.1 - - [19/Dec/2024 16:21:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:13,427:INFO:127.0.0.1 - - [19/Dec/2024 16:21:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:21:13,433:DEBUG:Debug level log
+2024-12-19 16:21:13,434:INFO:Info level log
+2024-12-19 16:21:13,435:WARNING:Warning level log
+2024-12-19 16:21:13,436:ERROR:Error level log
+2024-12-19 16:21:13,436:CRITICAL:Critical level log
+2024-12-19 16:21:13,438:INFO:127.0.0.1 - - [19/Dec/2024 16:21:13] "GET / HTTP/1.1" 200 -
+2024-12-19 16:21:13,463:INFO:127.0.0.1 - - [19/Dec/2024 16:21:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:14,410:INFO:127.0.0.1 - - [19/Dec/2024 16:21:14] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 16:21:14,431:INFO:127.0.0.1 - - [19/Dec/2024 16:21:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:14,437:INFO:127.0.0.1 - - [19/Dec/2024 16:21:14] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:14,442:INFO:127.0.0.1 - - [19/Dec/2024 16:21:14] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:21:14,444:INFO:127.0.0.1 - - [19/Dec/2024 16:21:14] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:21:21,835:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-19 16:21:27,938:INFO:127.0.0.1 - - [19/Dec/2024 16:21:27] "POST /capture-image HTTP/1.1" 200 -
+2024-12-19 16:22:07,333:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:22:07,355:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:07,357:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:07,358:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:07,913:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "GET /search-results HTTP/1.1" 200 -
+2024-12-19 16:22:07,938:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:07,941:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:07,944:INFO:127.0.0.1 - - [19/Dec/2024 16:22:07] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:09,261:INFO:127.0.0.1 - - [19/Dec/2024 16:22:09] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:22:09,287:INFO:127.0.0.1 - - [19/Dec/2024 16:22:09] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:09,288:INFO:127.0.0.1 - - [19/Dec/2024 16:22:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:09,294:INFO:127.0.0.1 - - [19/Dec/2024 16:22:09] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:10,172:INFO:127.0.0.1 - - [19/Dec/2024 16:22:10] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:22:10,193:INFO:127.0.0.1 - - [19/Dec/2024 16:22:10] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:10,201:INFO:127.0.0.1 - - [19/Dec/2024 16:22:10] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:10,207:INFO:127.0.0.1 - - [19/Dec/2024 16:22:10] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:10,208:INFO:127.0.0.1 - - [19/Dec/2024 16:22:10] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:22:12,841:INFO:127.0.0.1 - - [19/Dec/2024 16:22:12] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-19 16:23:27,250:INFO:127.0.0.1 - - [19/Dec/2024 16:23:27] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:23:27,273:INFO:127.0.0.1 - - [19/Dec/2024 16:23:27] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:27,275:INFO:127.0.0.1 - - [19/Dec/2024 16:23:27] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:27,280:INFO:127.0.0.1 - - [19/Dec/2024 16:23:27] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:28,024:INFO:127.0.0.1 - - [19/Dec/2024 16:23:28] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 16:23:28,045:INFO:127.0.0.1 - - [19/Dec/2024 16:23:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:28,060:INFO:127.0.0.1 - - [19/Dec/2024 16:23:28] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:28,060:INFO:127.0.0.1 - - [19/Dec/2024 16:23:28] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:23:28,061:INFO:127.0.0.1 - - [19/Dec/2024 16:23:28] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:24:20,739:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:24:20,740:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp4sgk2uj2', reloading
+2024-12-19 16:24:20,741:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\admin_app.py', reloading
+2024-12-19 16:24:21,716:INFO: * Restarting with watchdog (windowsapi)
+2024-12-19 16:24:29,163:WARNING: * Debugger is active!
+2024-12-19 16:24:29,198:INFO: * Debugger PIN: 740-254-266
+2024-12-19 16:24:41,245:INFO:127.0.0.1 - - [19/Dec/2024 16:24:41] "[32mGET /search HTTP/1.1[0m" 302 -
+2024-12-19 16:24:41,260:INFO:127.0.0.1 - - [19/Dec/2024 16:24:41] "GET /login HTTP/1.1" 200 -
+2024-12-19 16:24:41,353:INFO:127.0.0.1 - - [19/Dec/2024 16:24:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:44,480:INFO:127.0.0.1 - - [19/Dec/2024 16:24:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-19 16:24:44,486:DEBUG:Debug level log
+2024-12-19 16:24:44,486:INFO:Info level log
+2024-12-19 16:24:44,488:WARNING:Warning level log
+2024-12-19 16:24:44,488:ERROR:Error level log
+2024-12-19 16:24:44,489:CRITICAL:Critical level log
+2024-12-19 16:24:44,490:INFO:127.0.0.1 - - [19/Dec/2024 16:24:44] "GET / HTTP/1.1" 200 -
+2024-12-19 16:24:44,522:INFO:127.0.0.1 - - [19/Dec/2024 16:24:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:45,523:INFO:127.0.0.1 - - [19/Dec/2024 16:24:45] "GET /search HTTP/1.1" 200 -
+2024-12-19 16:24:45,541:INFO:127.0.0.1 - - [19/Dec/2024 16:24:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:45,553:INFO:127.0.0.1 - - [19/Dec/2024 16:24:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:45,557:INFO:127.0.0.1 - - [19/Dec/2024 16:24:45] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:47,006:INFO:127.0.0.1 - - [19/Dec/2024 16:24:47] "GET /entry_recognition_list HTTP/1.1" 200 -
+2024-12-19 16:24:47,027:INFO:127.0.0.1 - - [19/Dec/2024 16:24:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:47,043:INFO:127.0.0.1 - - [19/Dec/2024 16:24:47] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:47,043:INFO:127.0.0.1 - - [19/Dec/2024 16:24:47] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-19 16:24:47,047:INFO:127.0.0.1 - - [19/Dec/2024 16:24:47] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-19 16:26:04,618:INFO:127.0.0.1 - - [19/Dec/2024 16:26:04] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-19 16:27:05,679:INFO:127.0.0.1 - - [19/Dec/2024 16:27:05] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-19 16:27:21,660:INFO:127.0.0.1 - - [19/Dec/2024 16:27:21] "GET /export/entry/excel HTTP/1.1" 200 -
+2024-12-19 16:27:37,378:INFO:127.0.0.1 - - [19/Dec/2024 16:27:37] "GET /static/captured_images/entry_20241219_162121.jpg HTTP/1.1" 200 -
+2024-12-19 16:27:50,212:INFO:127.0.0.1 - - [19/Dec/2024 16:27:50] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-19 16:27:50,233:INFO:127.0.0.1 - - [19/Dec/2024 16:27:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-19 16:27:50,242:INFO:127.0.0.1 - - [19/Dec/2024 16:27:50] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-19 16:27:50,244:INFO:127.0.0.1 - - [19/Dec/2024 16:27:50] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-19 16:27:50,246:INFO:127.0.0.1 - - [19/Dec/2024 16:27:50] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-19 16:27:58,593:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-19 16:28:04,746:INFO:127.0.0.1 - - [19/Dec/2024 16:28:04] "POST /capture-image HTTP/1.1" 200 -
+2024-12-19 16:28:23,301:DEBUG:Debug level log
+2024-12-19 16:28:23,301:INFO:Info level log
+2024-12-19 16:28:23,303:WARNING:Warning level log
+2024-12-19 16:28:23,304:ERROR:Error level log
+2024-12-19 16:28:23,305:CRITICAL:Critical level log
+2024-12-19 16:28:23,307:INFO:127.0.0.1 - - [19/Dec/2024 16:28:23] "GET / HTTP/1.1" 200 -
+2024-12-19 16:28:23,334:INFO:127.0.0.1 - - [19/Dec/2024 16:28:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -

@@ -30,13 +30,27 @@
     <!-- 좌측 사이드 바 -->
     <nav>
         <ul>
-            <li><a href="/search">검색 리스트</a></li>
-            <li><a href="/search-results">검색 결과</a></li>
-            <li><a href="/alerts">알람 현황</a></li>
-            <li><a href="/report">출퇴근 목록</a></li>
-            <li><a href="/emergencies">문의 사항</a></li>
-            <li><a href="/security">보안 / 로그인</a></li>
-            <li><a href="/settings">환경 설정</a></li>
+            {% if session['logged_in'] %}
+                <!-- 모든 사용자가 볼 수 있는 링크 -->
+                <li><a href="/search">검색 리스트</a></li>
+                <li><a href="/search-results">검색 결과</a></li>
+                <li><a href="/alerts">알람 현황</a></li>
+                
+                <!-- 관리자만 볼 수 있는 링크 -->
+                {% if session['role'] == 'admin' %}
+                    <li><a href="/work">출퇴근 목록</a></li>
+                    <li><a href="/security">보안 / 로그인</a></li>
+                    <li><a href="/settings">환경 설정</a></li>
+                {% endif %}
+                
+                <!-- 일반 사용자만 볼 수 있는 링크 -->
+                {% if session['role'] == 'user' %}
+                    <li><a href="/report">보고서 작성</a></li>
+                {% endif %}
+                
+                <!-- 모든 사용자 공통 링크 -->
+                <li><a href="/emergencies">문의 사항</a></li>
+            {% endif %}
         </ul>
     </nav>
 
