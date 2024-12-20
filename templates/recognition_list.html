@@ -9,6 +9,7 @@
     <h1>{{ category_name }} 리스트</h1>
     {% if data %}
     <table border="1">
+    
         <thead>
             <tr>
                 <th>차량 번호</th>
@@ -25,7 +26,7 @@
                 <td>{{ record.recognition_time }}</td>
                 <td>
                     {% if record.image_path %}
-                        <a href="{{ record.image_path }}" target="_blank">보기</a>
+                        <a href="{{ url_for('static', filename=record.image_path) }}" target="_blank">보기</a>
                     {% else %}
                         없음
                     {% endif %}

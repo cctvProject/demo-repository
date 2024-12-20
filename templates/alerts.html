@@ -2,8 +2,6 @@
 
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-
-<main>
     <h1>알람 현황</h1>
 
     <!-- 모든 카테고리의 데이터를 시간순으로 정렬하여 10개씩 표시 -->
@@ -50,6 +48,4 @@
             <a href="{{ url_for('alerts', page=page+1) }}">다음</a>
         {% endif %}
     </div>
-</main>
-
 {% endblock %}

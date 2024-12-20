@@ -1,0 +1,32 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='inquiry_write_go.css') }}">
+
+<h1>문의 사항 보기</h1>
+    <table class="inquiry-table">
+        <thead>
+            <tr>
+                <th>작성자</th>
+                <th>메시지</th>
+                <th>작성 시간</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for inquiry in inquiries %}
+            <tr>
+                <td>{{ inquiry.username }}</td>
+                <td>{{ inquiry.message }}</td>
+                <td>{{ inquiry.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+<div class="inquiry-actions">
+    <form action="{{ url_for('inquiry_write') }}" method="get">
+        <button type="submit" class="btn btn-primary">문의 사항 작성</button>
+    </form>
+</div>
+
+{% endblock %}
