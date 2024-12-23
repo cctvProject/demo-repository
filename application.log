@@ -10020,3 +10020,14 @@ AttributeError: 'RedisSessionInterface' object has no attribute 'redis'
 2024-12-20 18:01:28,868:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
 2024-12-20 18:01:31,196:WARNING: * Debugger is active!
 2024-12-20 18:01:31,202:INFO: * Debugger PIN: 139-565-004
+2024-12-23 11:20:38,231:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 11:20:41,446:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-23 11:20:41,446:INFO:[33mPress CTRL+C to quit[0m
+2024-12-23 11:20:41,470:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 11:20:48,935:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 11:20:51,622:WARNING: * Debugger is active!
+2024-12-23 11:20:51,628:INFO: * Debugger PIN: 740-254-266
+2024-12-23 11:21:39,921:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-23 11:21:39,921:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp8wz8msxh', reloading
+2024-12-23 11:21:39,922:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading

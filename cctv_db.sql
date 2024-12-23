@@ -130,9 +130,8 @@ BEGIN
 END;
 //
 
-CALL InsertRandom(1000); -- 10개의 랜덤 데이터 삽입
-
 INSERT INTO users (username, password, email, name, phone, role)
 VALUES ('admin', '$2b$12$tXpmbHqehJd.xDKR2ZskLejU1wTSKm1Q0sF44yi1lt38UIEG605eK', 'admin@example.com', '관리자', '010-1234-5678', 'admin');
 
 select * from users;
+SELECT * FROM users WHERE username = 'admin';
