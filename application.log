@@ -12669,3 +12669,4 @@ FROM inquiry LEFT OUTER JOIN users AS users_1 ON users_1.name = inquiry.user_id]
 2024-12-23 15:50:21,587:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
 2024-12-23 15:50:24,687:WARNING: * Debugger is active!
 2024-12-23 15:50:24,687:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:54:52,994:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\past\\cctv\\app.py', reloading
