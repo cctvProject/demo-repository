@@ -32,6 +32,12 @@ logging.basicConfig(
     format='%(asctime)s:%(levelname)s:%(message)s'
 )
 
+# 원시 비밀번호
+plain_password = "1234"
+
+# 비밀번호 해시 생성
+hashed_password = bcrypt.generate_password_hash(plain_password).decode('utf-8')
+print(hashed_password)
 # 전역 카메라 객체
 camera = None
 
