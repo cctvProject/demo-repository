@@ -12364,3 +12364,304 @@ FROM inquiry LEFT OUTER JOIN users AS users_1 ON users_1.name = inquiry.user_id]
 2024-12-23 15:19:58,427:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
 2024-12-23 15:19:58,427:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\tmp_h4_q7pc', reloading
 2024-12-23 15:19:58,428:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\app.py', reloading
+2024-12-23 15:19:59,390:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:20:06,438:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:20:08,912:WARNING: * Debugger is active!
+2024-12-23 15:20:08,917:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:20:08,965:INFO:127.0.0.1 - - [23/Dec/2024 15:20:08] "[32mGET /work HTTP/1.1[0m" 302 -
+2024-12-23 15:20:08,969:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:08,979:INFO:127.0.0.1 - - [23/Dec/2024 15:20:08] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:09,049:INFO:127.0.0.1 - - [23/Dec/2024 15:20:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:14,491:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:14,768:INFO:127.0.0.1 - - [23/Dec/2024 15:20:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:20:14,774:INFO:127.0.0.1 - - [23/Dec/2024 15:20:14] "GET / HTTP/1.1" 200 -
+2024-12-23 15:20:14,800:INFO:127.0.0.1 - - [23/Dec/2024 15:20:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,009:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "GET /search HTTP/1.1" 200 -
+2024-12-23 15:20:16,032:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,044:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,049:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,369:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "GET /search-results HTTP/1.1" 200 -
+2024-12-23 15:20:16,397:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,397:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,402:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,866:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "GET /alerts HTTP/1.1" 200 -
+2024-12-23 15:20:16,887:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:16,894:INFO:127.0.0.1 - - [23/Dec/2024 15:20:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,232:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "GET /report HTTP/1.1" 200 -
+2024-12-23 15:20:17,252:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,265:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,266:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,920:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "GET /inquiry HTTP/1.1" 200 -
+2024-12-23 15:20:17,945:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,947:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:17,950:INFO:127.0.0.1 - - [23/Dec/2024 15:20:17] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,274:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "GET /search HTTP/1.1" 200 -
+2024-12-23 15:20:19,300:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,304:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,306:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,657:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "GET /search-results HTTP/1.1" 200 -
+2024-12-23 15:20:19,679:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,687:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:19,687:INFO:127.0.0.1 - - [23/Dec/2024 15:20:19] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:20,055:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "GET /alerts HTTP/1.1" 200 -
+2024-12-23 15:20:20,078:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:20,080:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:20,446:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "GET /report HTTP/1.1" 200 -
+2024-12-23 15:20:20,467:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:20,479:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:20,480:INFO:127.0.0.1 - - [23/Dec/2024 15:20:20] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,032:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "GET /report HTTP/1.1" 200 -
+2024-12-23 15:20:22,047:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,053:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,061:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,631:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "GET /report HTTP/1.1" 200 -
+2024-12-23 15:20:22,647:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,655:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:22,656:INFO:127.0.0.1 - - [23/Dec/2024 15:20:22] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:23,678:INFO:127.0.0.1 - - [23/Dec/2024 15:20:23] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:20:23,683:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:23,684:INFO:127.0.0.1 - - [23/Dec/2024 15:20:23] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:23,705:INFO:127.0.0.1 - - [23/Dec/2024 15:20:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:31,717:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:31,994:INFO:127.0.0.1 - - [23/Dec/2024 15:20:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:20:32,000:INFO:127.0.0.1 - - [23/Dec/2024 15:20:32] "GET / HTTP/1.1" 200 -
+2024-12-23 15:20:32,029:INFO:127.0.0.1 - - [23/Dec/2024 15:20:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:33,454:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "GET /search-results HTTP/1.1" 200 -
+2024-12-23 15:20:33,476:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:33,483:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:33,484:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:33,960:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "GET /alerts HTTP/1.1" 200 -
+2024-12-23 15:20:33,984:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:33,985:INFO:127.0.0.1 - - [23/Dec/2024 15:20:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:34,312:INFO:127.0.0.1 - - [23/Dec/2024 15:20:34] "GET /report HTTP/1.1" 200 -
+2024-12-23 15:20:34,336:INFO:127.0.0.1 - - [23/Dec/2024 15:20:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:34,339:INFO:127.0.0.1 - - [23/Dec/2024 15:20:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:34,339:INFO:127.0.0.1 - - [23/Dec/2024 15:20:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:35,643:INFO:127.0.0.1 - - [23/Dec/2024 15:20:35] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:20:35,648:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:35,649:INFO:127.0.0.1 - - [23/Dec/2024 15:20:35] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:35,675:INFO:127.0.0.1 - - [23/Dec/2024 15:20:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:37,794:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:38,068:INFO:127.0.0.1 - - [23/Dec/2024 15:20:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:20:38,075:INFO:127.0.0.1 - - [23/Dec/2024 15:20:38] "GET / HTTP/1.1" 200 -
+2024-12-23 15:20:38,102:INFO:127.0.0.1 - - [23/Dec/2024 15:20:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:39,414:INFO:127.0.0.1 - - [23/Dec/2024 15:20:39] "GET /work HTTP/1.1" 200 -
+2024-12-23 15:20:39,437:INFO:127.0.0.1 - - [23/Dec/2024 15:20:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:39,446:INFO:127.0.0.1 - - [23/Dec/2024 15:20:39] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:39,450:INFO:127.0.0.1 - - [23/Dec/2024 15:20:39] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:40,448:INFO:127.0.0.1 - - [23/Dec/2024 15:20:40] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:20:40,453:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:40,454:INFO:127.0.0.1 - - [23/Dec/2024 15:20:40] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:40,476:INFO:127.0.0.1 - - [23/Dec/2024 15:20:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:41,117:INFO:127.0.0.1 - - [23/Dec/2024 15:20:41] "GET /signup HTTP/1.1" 200 -
+2024-12-23 15:20:41,139:INFO:127.0.0.1 - - [23/Dec/2024 15:20:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:55,662:INFO:127.0.0.1 - - [23/Dec/2024 15:20:55] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2024-12-23 15:20:55,668:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:55,669:INFO:127.0.0.1 - - [23/Dec/2024 15:20:55] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:55,696:INFO:127.0.0.1 - - [23/Dec/2024 15:20:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:20:58,566:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:58,839:INFO:127.0.0.1 - - [23/Dec/2024 15:20:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:20:58,846:INFO:127.0.0.1 - - [23/Dec/2024 15:20:58] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:20:58,852:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:20:58,853:INFO:127.0.0.1 - - [23/Dec/2024 15:20:58] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:20:58,870:INFO:127.0.0.1 - - [23/Dec/2024 15:20:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:01,574:INFO:127.0.0.1 - - [23/Dec/2024 15:21:01] "GET /search HTTP/1.1" 200 -
+2024-12-23 15:21:01,600:INFO:127.0.0.1 - - [23/Dec/2024 15:21:01] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:01,613:INFO:127.0.0.1 - - [23/Dec/2024 15:21:01] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:01,614:INFO:127.0.0.1 - - [23/Dec/2024 15:21:01] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:02,446:INFO:127.0.0.1 - - [23/Dec/2024 15:21:02] "GET /search-results HTTP/1.1" 200 -
+2024-12-23 15:21:02,468:INFO:127.0.0.1 - - [23/Dec/2024 15:21:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:02,480:INFO:127.0.0.1 - - [23/Dec/2024 15:21:02] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:02,482:INFO:127.0.0.1 - - [23/Dec/2024 15:21:02] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:03,037:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "GET /alerts HTTP/1.1" 200 -
+2024-12-23 15:21:03,058:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:03,064:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:03,521:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "GET /inquiry HTTP/1.1" 200 -
+2024-12-23 15:21:03,542:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:03,548:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:03,549:INFO:127.0.0.1 - - [23/Dec/2024 15:21:03] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:06,823:INFO:127.0.0.1 - - [23/Dec/2024 15:21:06] "GET /search HTTP/1.1" 200 -
+2024-12-23 15:21:06,851:INFO:127.0.0.1 - - [23/Dec/2024 15:21:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:06,852:INFO:127.0.0.1 - - [23/Dec/2024 15:21:06] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:06,852:INFO:127.0.0.1 - - [23/Dec/2024 15:21:06] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:07,203:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "GET /search-results HTTP/1.1" 200 -
+2024-12-23 15:21:07,222:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:07,230:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:07,234:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:07,676:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "GET /alerts HTTP/1.1" 200 -
+2024-12-23 15:21:07,696:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:07,701:INFO:127.0.0.1 - - [23/Dec/2024 15:21:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:08,150:INFO:127.0.0.1 - - [23/Dec/2024 15:21:08] "GET /inquiry HTTP/1.1" 200 -
+2024-12-23 15:21:08,169:INFO:127.0.0.1 - - [23/Dec/2024 15:21:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:08,179:INFO:127.0.0.1 - - [23/Dec/2024 15:21:08] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:08,179:INFO:127.0.0.1 - - [23/Dec/2024 15:21:08] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:33,981:INFO:127.0.0.1 - - [23/Dec/2024 15:21:33] "GET /inquiry HTTP/1.1" 200 -
+2024-12-23 15:21:34,003:INFO:127.0.0.1 - - [23/Dec/2024 15:21:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:34,003:INFO:127.0.0.1 - - [23/Dec/2024 15:21:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:34,004:INFO:127.0.0.1 - - [23/Dec/2024 15:21:34] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:35,321:INFO:127.0.0.1 - - [23/Dec/2024 15:21:35] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:21:35,328:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:21:35,329:INFO:127.0.0.1 - - [23/Dec/2024 15:21:35] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:21:35,349:INFO:127.0.0.1 - - [23/Dec/2024 15:21:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:21:38,819:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:21:39,092:INFO:127.0.0.1 - - [23/Dec/2024 15:21:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:21:39,098:INFO:127.0.0.1 - - [23/Dec/2024 15:21:39] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:21:39,104:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:21:39,105:INFO:127.0.0.1 - - [23/Dec/2024 15:21:39] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:21:39,122:INFO:127.0.0.1 - - [23/Dec/2024 15:21:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:22:34,381:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:34,420:INFO:127.0.0.1 - - [23/Dec/2024 15:22:34] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:22:34,440:INFO:127.0.0.1 - - [23/Dec/2024 15:22:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:22:36,877:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:37,147:INFO:127.0.0.1 - - [23/Dec/2024 15:22:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:22:37,153:INFO:127.0.0.1 - - [23/Dec/2024 15:22:37] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:22:37,159:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:37,161:INFO:127.0.0.1 - - [23/Dec/2024 15:22:37] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:22:37,177:INFO:127.0.0.1 - - [23/Dec/2024 15:22:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:22:39,190:INFO:127.0.0.1 - - [23/Dec/2024 15:22:39] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:22:39,196:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:39,197:INFO:127.0.0.1 - - [23/Dec/2024 15:22:39] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:22:39,214:INFO:127.0.0.1 - - [23/Dec/2024 15:22:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:22:45,761:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:46,034:INFO:127.0.0.1 - - [23/Dec/2024 15:22:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:22:46,040:INFO:127.0.0.1 - - [23/Dec/2024 15:22:46] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:22:46,045:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:22:46,046:INFO:127.0.0.1 - - [23/Dec/2024 15:22:46] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:22:46,066:INFO:127.0.0.1 - - [23/Dec/2024 15:22:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:23:47,896:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:23:47,915:INFO:127.0.0.1 - - [23/Dec/2024 15:23:47] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:23:47,938:INFO:127.0.0.1 - - [23/Dec/2024 15:23:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:23:49,636:INFO:127.0.0.1 - - [23/Dec/2024 15:23:49] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:23:49,641:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:23:49,643:INFO:127.0.0.1 - - [23/Dec/2024 15:23:49] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:23:49,659:INFO:127.0.0.1 - - [23/Dec/2024 15:23:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:23:56,337:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:23:56,358:INFO:127.0.0.1 - - [23/Dec/2024 15:23:56] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:23:56,373:INFO:127.0.0.1 - - [23/Dec/2024 15:23:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:23:59,944:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:00,222:INFO:127.0.0.1 - - [23/Dec/2024 15:24:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:24:00,228:INFO:127.0.0.1 - - [23/Dec/2024 15:24:00] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:24:00,234:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:00,235:INFO:127.0.0.1 - - [23/Dec/2024 15:24:00] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:00,251:INFO:127.0.0.1 - - [23/Dec/2024 15:24:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:10,306:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:10,578:INFO:127.0.0.1 - - [23/Dec/2024 15:24:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:24:10,584:INFO:127.0.0.1 - - [23/Dec/2024 15:24:10] "GET / HTTP/1.1" 200 -
+2024-12-23 15:24:10,611:INFO:127.0.0.1 - - [23/Dec/2024 15:24:10] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:13,018:INFO:127.0.0.1 - - [23/Dec/2024 15:24:13] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:24:13,024:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:13,025:INFO:127.0.0.1 - - [23/Dec/2024 15:24:13] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:13,045:INFO:127.0.0.1 - - [23/Dec/2024 15:24:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:17,162:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:17,436:INFO:127.0.0.1 - - [23/Dec/2024 15:24:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:24:17,442:INFO:127.0.0.1 - - [23/Dec/2024 15:24:17] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:24:17,448:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:17,449:INFO:127.0.0.1 - - [23/Dec/2024 15:24:17] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:17,469:INFO:127.0.0.1 - - [23/Dec/2024 15:24:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:23,339:INFO:127.0.0.1 - - [23/Dec/2024 15:24:23] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:24:23,346:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:23,347:INFO:127.0.0.1 - - [23/Dec/2024 15:24:23] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:23,363:INFO:127.0.0.1 - - [23/Dec/2024 15:24:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:26,171:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:26,443:INFO:127.0.0.1 - - [23/Dec/2024 15:24:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:24:26,449:INFO:127.0.0.1 - - [23/Dec/2024 15:24:26] "GET / HTTP/1.1" 200 -
+2024-12-23 15:24:26,476:INFO:127.0.0.1 - - [23/Dec/2024 15:24:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:45,066:INFO:127.0.0.1 - - [23/Dec/2024 15:24:45] "GET / HTTP/1.1" 200 -
+2024-12-23 15:24:45,080:INFO:127.0.0.1 - - [23/Dec/2024 15:24:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:45,922:INFO:127.0.0.1 - - [23/Dec/2024 15:24:45] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:24:45,927:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:45,929:INFO:127.0.0.1 - - [23/Dec/2024 15:24:45] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:45,950:INFO:127.0.0.1 - - [23/Dec/2024 15:24:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:51,707:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:51,709:WARNING:∑Œ±◊¿Œ Ω«∆– - ªÁøÎ¿⁄: h4
+2024-12-23 15:24:51,710:INFO:127.0.0.1 - - [23/Dec/2024 15:24:51] "POST /login HTTP/1.1" 200 -
+2024-12-23 15:24:51,727:INFO:127.0.0.1 - - [23/Dec/2024 15:24:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:54,469:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:54,742:INFO:127.0.0.1 - - [23/Dec/2024 15:24:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-23 15:24:54,748:INFO:127.0.0.1 - - [23/Dec/2024 15:24:54] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-23 15:24:54,753:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:54,754:INFO:127.0.0.1 - - [23/Dec/2024 15:24:54] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:54,774:INFO:127.0.0.1 - - [23/Dec/2024 15:24:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:24:56,606:INFO:127.0.0.1 - - [23/Dec/2024 15:24:56] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-12-23 15:24:56,613:INFO:∑Œ±◊¿Œ Ω√µµ
+2024-12-23 15:24:56,614:INFO:127.0.0.1 - - [23/Dec/2024 15:24:56] "GET /login HTTP/1.1" 200 -
+2024-12-23 15:24:56,630:INFO:127.0.0.1 - - [23/Dec/2024 15:24:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-23 15:26:28,341:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL1.zip', reloading
+2024-12-23 15:26:28,342:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL1.zip', reloading
+2024-12-23 15:26:28,668:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL1.zip', reloading
+2024-12-23 15:26:28,669:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL1.zip', reloading
+2024-12-23 15:26:28,681:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL2.zip', reloading
+2024-12-23 15:26:28,682:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL2.zip', reloading
+2024-12-23 15:26:28,967:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL2.zip', reloading
+2024-12-23 15:26:28,967:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL2.zip', reloading
+2024-12-23 15:26:29,011:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL3.zip', reloading
+2024-12-23 15:26:29,011:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL3.zip', reloading
+2024-12-23 15:26:29,978:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:26:37,199:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:26:39,908:WARNING: * Debugger is active!
+2024-12-23 15:26:39,915:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:28:56,210:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS1.zip', reloading
+2024-12-23 15:28:56,312:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS1.zip', reloading
+2024-12-23 15:28:57,293:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:29:04,284:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:29:07,026:WARNING: * Debugger is active!
+2024-12-23 15:29:07,032:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:31:26,618:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS2.zip', reloading
+2024-12-23 15:31:26,721:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS2.zip', reloading
+2024-12-23 15:31:27,479:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:31:34,260:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:31:36,784:WARNING: * Debugger is active!
+2024-12-23 15:31:36,790:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:35:02,125:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS3.zip', reloading
+2024-12-23 15:35:02,233:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS3.zip', reloading
+2024-12-23 15:35:03,526:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:35:10,517:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:35:13,004:WARNING: * Debugger is active!
+2024-12-23 15:35:13,012:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:36:31,221:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS4.zip', reloading
+2024-12-23 15:36:31,337:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS4.zip', reloading
+2024-12-23 15:36:32,077:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:36:38,806:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:36:41,318:WARNING: * Debugger is active!
+2024-12-23 15:36:41,328:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:36:51,356:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS1.zip', reloading
+2024-12-23 15:36:52,105:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:36:58,859:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:37:01,393:WARNING: * Debugger is active!
+2024-12-23 15:37:01,408:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:37:11,965:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS2.zip', reloading
+2024-12-23 15:37:12,065:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS2.zip', reloading
+2024-12-23 15:37:12,409:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS3.zip', reloading
+2024-12-23 15:37:12,410:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS3.zip', reloading
+2024-12-23 15:37:13,153:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:37:19,954:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:37:22,420:WARNING: * Debugger is active!
+2024-12-23 15:37:22,430:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:37:42,029:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS3.zip', reloading
+2024-12-23 15:37:42,145:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS3.zip', reloading
+2024-12-23 15:37:43,221:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:37:50,004:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:37:52,923:WARNING: * Debugger is active!
+2024-12-23 15:37:52,926:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:37:53,574:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS4.zip', reloading
+2024-12-23 15:37:53,681:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS4.zip', reloading
+2024-12-23 15:37:54,790:INFO: * Restarting with watchdog (windowsapi)
+2024-12-23 15:38:01,922:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-23 15:38:04,638:WARNING: * Debugger is active!
+2024-12-23 15:38:04,644:INFO: * Debugger PIN: 740-254-266
+2024-12-23 15:50:11,170:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL1.zip', reloading
+2024-12-23 15:50:11,170:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL2.zip', reloading
+2024-12-23 15:50:11,192:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL3.zip', reloading
+2024-12-23 15:50:11,192:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\∂Û∫ß∏µµ•¿Ã≈Õ\\TL4.zip', reloading
+2024-12-23 15:50:11,223:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS1.zip', reloading
+2024-12-23 15:50:11,593:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS2.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS3.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\1.Training\\ø¯√µµ•¿Ã≈Õ\\TS4.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\∂Û∫ß∏µµ•¿Ã≈Õ\\VL1.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\∂Û∫ß∏µµ•¿Ã≈Õ\\VL2.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\∂Û∫ß∏µµ•¿Ã≈Õ\\VL3.zip', reloading
+2024-12-23 15:50:11,624:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\∂Û∫ß∏µµ•¿Ã≈Õ\\VL4.zip', reloading
+2024-12-23 15:50:11,640:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS1.zip', reloading
+2024-12-23 15:50:11,640:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS2.zip', reloading
+2024-12-23 15:50:11,640:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS3.zip', reloading
+2024-12-23 15:50:11,655:INFO: * Detected change in 'D:\\AI3\\study\\flask_study\\admin_cctv\\public\\091.¬˜∑Æ ø‹∞¸ øµªÛ µ•¿Ã≈Õ\\01.µ•¿Ã≈Õ\\2.Validation\\ø¯√µµ•¿Ã≈Õ\\VS4.zip', reloading
