@@ -98,8 +98,28 @@ class Recognition(db.Model):
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
     image_path = db.Column(db.String(255), nullable=True)
-    entry_exit_input = db.Column(db.String(50), nullable=False, default='unknown')
-    vehicle_type = db.Column(db.String(50), nullable=False, default='normal')
+    entry_exit_input = db.Column(db.String(50), nullable=True, default='unknown')
+    vehicle_type = db.Column(db.String(50), nullable=True, default='normal')
+
+    @property
+    def category(self):
+        if self.entry_exit_input == 'entry':
+            return '입차'
+        elif self.entry_exit_input == 'exit':
+            return '출차'
+        elif self.entry_exit_input is None:
+            if self.vehicle_type == 'light':
+                return '경차'
+            elif self.vehicle_type == 'disabled':
+                return '장애인 차량'
+            elif self.vehicle_type == 'illegal':
+                return '불법 주차'
+            elif self.vehicle_type == 'normal':
+                return '일반 차량'
+            else:
+                return '알 수 없음'
+        else:
+            return '알 수 없음'
 
 class Inquiry(db.Model):
     __tablename__ = 'inquiry'

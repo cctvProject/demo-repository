@@ -1,83 +1,70 @@
-INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES ('1234AB', '010-1234-5678', '2024-06-12 10:00:00', 'static/images/entry_1234AB.jpg');
+ALTER TABLE recognition MODIFY entry_exit_input VARCHAR(50) NULL;
+ALTER TABLE recognition MODIFY vehicle_type VARCHAR(50) NULL;
 
-INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES ('1234AB', '010-1234-5678', '2024-06-12 10:30:00', 'static/images/exit_1234AB.jpg');
+DROP PROCEDURE IF EXISTS InsertRandom;
 
-TRUNCATE TABLE recognition_categories;
+TRUNCATE TABLE recognition;
 
-select * from recognition_categories;
+DELIMITER //
 
-INSERT INTO setting (fee_per_10_minutes, total_parking_slots, total_floors)
-VALUES (1000, 50, 5);
+CREATE PROCEDURE InsertRandom(IN total_rows INT)
+BEGIN
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
+    DECLARE random_entry_exit CHAR(5); -- entry_exit_input 필드 값
+    DECLARE random_vehicle_type VARCHAR(10); -- vehicle_type 필드 값
 
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
 
-INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES 
-('1234AB', '010-1234-5678', '2024-06-12 09:00:00', 'static/images/entry_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 09:30:00', 'static/images/entry_5678CD.jpg');
+        -- entry_exit_input 랜덤 선택 ('entry', 'exit', 또는 NULL)
+        SET random_entry_exit = CASE
+            WHEN RAND() < 0.4 THEN 'entry'
+            WHEN RAND() < 0.8 THEN 'exit'
+            ELSE NULL
+        END;
 
-INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES 
-('1234AB', '010-1234-5678', '2024-06-12 12:00:00', 'static/images/exit_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 11:30:00', 'static/images/exit_5678CD.jpg');
+        -- vehicle_type 랜덤 선택 ('light', 'disabled', 'illegal', 'normal', 또는 NULL)
+        SET random_vehicle_type = CASE
+            WHEN RAND() < 0.2 THEN 'light'
+            WHEN RAND() < 0.4 THEN 'disabled'
+            WHEN RAND() < 0.6 THEN 'illegal'
+            WHEN RAND() < 0.8 THEN 'normal'
+            ELSE NULL
+        END;
 
-SELECT 
-    e.vehicle_number AS 차량번호,
-    TIMESTAMPDIFF(MINUTE, e.recognition_time, x.recognition_time) AS 주차시간_분,
-    (FLOOR(TIMESTAMPDIFF(MINUTE, e.recognition_time, x.recognition_time) / 10) * s.fee_per_10_minutes) AS 총_요금
-FROM 
-    entry_recognition e
-JOIN 
-    exit_recognition x ON e.vehicle_number = x.vehicle_number
-CROSS JOIN 
-    setting s
-WHERE 
-    e.recognition_time <= x.recognition_time;
-SELECT * FROM entry_recognition;
-SELECT * FROM exit_recognition;
-SELECT * FROM setting;
+        -- 데이터 삽입
+        INSERT INTO recognition (vehicle_number, phone_number, recognition_time, entry_exit_input, vehicle_type)
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW(),
+            -- 랜덤 entry_exit_input
+            random_entry_exit,
+            -- 랜덤 vehicle_type
+            random_vehicle_type
+        );
 
-INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES
-('1234AB', '010-1234-5678', '2024-06-12 09:00:00', 'static/images/entry_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 09:30:00', 'static/images/entry_5678CD.jpg'),
-('9012EF', '010-9012-3456', '2024-06-12 10:00:00', 'static/images/entry_9012EF.jpg');
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
 
-INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES
-('1234AB', '010-1234-5678', '2024-06-12 12:00:00', 'static/images/exit_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 11:30:00', 'static/images/exit_5678CD.jpg');
+//
 
-SELECT 
-    COUNT(DISTINCT e.vehicle_number) AS 현재_주차수
-FROM 
-    entry_recognition e
-LEFT JOIN 
-    exit_recognition x 
-ON 
-    e.vehicle_number = x.vehicle_number
-WHERE 
-    x.vehicle_number IS NULL OR e.recognition_time > x.recognition_time;
-
-INSERT INTO entry_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES
-('1234AB', '010-1234-5678', '2024-06-12 09:00:00', 'static/images/entry_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 09:30:00', 'static/images/entry_5678CD.jpg'),
-('9012EF', '010-9012-3456', '2024-06-12 10:00:00', 'static/images/entry_9012EF.jpg');
-
-INSERT INTO exit_recognition (vehicle_number, phone_number, recognition_time, image_path)
-VALUES
-('1234AB', '010-1234-5678', '2024-06-12 12:00:00', 'static/images/exit_1234AB.jpg'),
-('5678CD', '010-5678-1234', '2024-06-12 11:30:00', 'static/images/exit_5678CD.jpg');
-
-INSERT INTO reports (user_name, start_time, end_time, entry_count, exit_count, current_parking_count, total_fee)
-VALUES 
-('test_user', '2024-06-12 08:00:00', NULL, 0, 0, 0, 0); -- 출근
-
-
-INSERT INTO reports (user_name, start_time, end_time, entry_count, exit_count, current_parking_count, total_fee)
-VALUES 
-('admin', '2024-06-12 08:00:00', NULL, 0, 0, 0, 0); -- 출근
-
-SELECT * FROM entry_recognition ORDER BY created_at DESC LIMIT 10;
+call InsertRandom(5000);
