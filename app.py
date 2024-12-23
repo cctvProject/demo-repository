@@ -3,7 +3,7 @@ from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from datetime import datetime, timedelta
-from sqlalchemy.orm import relationship, subqueryload
+from sqlalchemy.orm import relationship
 from fpdf import FPDF
 from PIL import Image
 import base64
@@ -98,7 +98,7 @@ class Recognition(db.Model):
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
     image_path = db.Column(db.String(255), nullable=True)
-    entry_exit_input = db.Column(db.String(50), nullable=True, default='unknown')
+    entry_exit_input = db.Column(db.String(50), nullable=True, default='entry')
     vehicle_type = db.Column(db.String(50), nullable=True, default='normal')
 
     @property
@@ -146,9 +146,9 @@ class Inquiry(db.Model):
 allowed_categories = {
     'entry': {'entry_exit_input': 'entry', 'vehicle_type': None},
     'exit': {'entry_exit_input': 'exit', 'vehicle_type': None},
-    'light_vehicle': {'entry_exit_input': None, 'vehicle_type': 'light'},
-    'disabled_vehicle': {'entry_exit_input': None, 'vehicle_type': 'disabled'},
-    'illegal_parking': {'entry_exit_input': None, 'vehicle_type': 'illegal'},
+    'light_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'light'},
+    'disabled_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'disabled'},
+    'illegal_parking': {'entry_exit_input': 'entry', 'vehicle_type': 'illegal'},
 }
 
 def get_category_data(category):
@@ -158,9 +158,9 @@ def get_category_data(category):
     allowed_categories = {
         'entry': {'entry_exit_input': 'entry', 'vehicle_type': None},
         'exit': {'entry_exit_input': 'exit', 'vehicle_type': None},
-        'light_vehicle': {'entry_exit_input': None, 'vehicle_type': 'light'},
-        'disabled_vehicle': {'entry_exit_input': None, 'vehicle_type': 'disabled'},
-        'illegal_parking': {'entry_exit_input': None, 'vehicle_type': 'illegal'},
+        'light_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'light'},
+        'disabled_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'disabled'},
+        'illegal_parking': {'entry_exit_input': 'entry', 'vehicle_type': 'illegal'},
     }
 
     if category not in allowed_categories:
@@ -169,7 +169,7 @@ def get_category_data(category):
     filters = allowed_categories[category]
     query = Recognition.query
 
-    if filters['entry_exit_input']:
+    if filters['entry_exit_input']:    
         query = query.filter_by(entry_exit_input=filters['entry_exit_input'])
     if filters['vehicle_type']:
         query = query.filter_by(vehicle_type=filters['vehicle_type'])
@@ -294,15 +294,19 @@ def capture_image():
 
     # 카테고리 조건 설정
     category_models = {
-        'entry': {'entry_exit_input': 'entry', 'vehicle_type': None},
-        'exit': {'entry_exit_input': 'exit', 'vehicle_type': None},
-        'light_vehicle': {'entry_exit_input': None, 'vehicle_type': 'light'},
-        'disabled_vehicle': {'entry_exit_input': None, 'vehicle_type': 'disabled'},
-        'illegal_parking': {'entry_exit_input': None, 'vehicle_type': 'illegal'}
+        'entry': {'entry_exit_input': 'entry', 'vehicle_type': 'normal'},
+        'exit': {'entry_exit_input': 'exit', 'vehicle_type': 'normal'},
+        'light_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'light'},
+        'disabled_vehicle': {'entry_exit_input': 'entry', 'vehicle_type': 'disabled'},
+        'illegal_parking': {'entry_exit_input': 'entry', 'vehicle_type': 'illegal'}
     }
 
-    category = data.get('category')
+    # 클라이언트에서 받은 카테고리 값 수정 (하이픈을 언더스코어로 변환)
+    category = data.get('category', '').replace('-', '_')
+    app.logger.info(f"Received category: {category}")
+
     if category not in category_models:
+        app.logger.error(f"Invalid category received: {category}")
         return jsonify({"status": "error", "error": "Invalid category"}), 400
 
     # 카테고리별 조건 가져오기
@@ -319,11 +323,12 @@ def capture_image():
     # 이미지 저장 폴더 설정: 카테고리 구조
     save_image_folder = os.path.join("static", "captured_images", category)
     os.makedirs(save_image_folder, exist_ok=True)
-    
+
     # 이미지 파일 이름 설정
     image_filename = f"{timestamp}.jpg"  # 시간만 파일명으로 사용
     image_path = os.path.join(save_image_folder, image_filename)
     image.save(image_path)
+
     # 데이터베이스에 저장할 경로
     image_db_path = f"captured_images/{category}/{image_filename}"
     # 로그 추가
@@ -336,15 +341,21 @@ def capture_image():
     except Exception as e:
         app.logger.error(f"OCR 처리 중 오류: {str(e)}")
         vehicle_number = "Unknown"
-        
+
+    # vehicle_type은 entry일 경우만 설정
+    if model_conditions['entry_exit_input'] == 'entry':
+        vehicle_type = model_conditions.get('vehicle_type', 'normal')
+    else:
+        vehicle_type = 'normal'
+
     # 데이터베이스 저장
     new_record = Recognition(
         vehicle_number=vehicle_number,  # OCR 결과 저장
         phone_number=None,
         recognition_time=datetime.now(),
         image_path=image_db_path,  # 데이터베이스 경로에 카테고리 기반 저장
-        entry_exit_input=model_conditions['entry_exit_input'] if model_conditions['entry_exit_input'] else 'unknown',
-        vehicle_type=model_conditions['vehicle_type'] if model_conditions['vehicle_type'] else 'normal'
+        entry_exit_input=model_conditions.get('entry_exit_input', 'unknown'),
+        vehicle_type=vehicle_type
     )
 
     db.session.add(new_record)
@@ -361,7 +372,6 @@ def capture_image():
         "ocr_text": vehicle_number,  # OCR 결과 반환
         "image_path": image_db_path  # 저장된 이미지 경로 반환
     })
-
 
 # -------------------------------
 

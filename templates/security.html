@@ -28,9 +28,9 @@
                 <form action="{{ url_for('update_role') }}" method="POST" style="display:inline;">
                     <input type="hidden" name="user_id" value="{{ user.id }}">
                     <select name="new_role">
-                        <option value="admin" {% if user.role == 'admin' %}selected{% endif %}>Admin</option>
-                        <option value="user" {% if user.role == 'user' %}selected{% endif %}>User</option>
-                        <option value="pending" {% if user.role == 'pending' %}selected{% endif %}>Pending</option>
+                        <option value="admin" {% if user.role == 'admin' %}selected{% endif %}>관리자</option>
+                        <option value="user" {% if user.role == 'user' %}selected{% endif %}>사용자</option>
+                        <option value="pending" {% if user.role == 'pending' %}selected{% endif %}>보류</option>
                     </select>
                     <button type="submit" class="btn btn-primary">수정</button>
                 </form>

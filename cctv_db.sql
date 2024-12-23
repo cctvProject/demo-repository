@@ -10,6 +10,8 @@ CREATE TABLE users (
     name VARCHAR(80) NOT NULL UNIQUE,
     phone VARCHAR(20) NOT NULL
 );
+ALTER TABLE users ADD CONSTRAINT unique_name UNIQUE (name);
+SHOW CREATE TABLE users;
 
 CREATE TABLE reports (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -81,3 +83,4 @@ CREATE TABLE reports (
     CONSTRAINT fk_reports_user_name FOREIGN KEY (user_name) REFERENCES users(name)
 );
 
+ALTER TABLE reports ADD CONSTRAINT fk_user_name FOREIGN KEY (user_name) REFERENCES users(name);
