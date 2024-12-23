@@ -54,7 +54,7 @@ CREATE TABLE category (
     description VARCHAR(255)
 );
 
-TRUNCATE TABLE users;
+TRUNCATE TABLE inquiry;
 
 SELECT * FROM illegal_parking_vehicle_recognitioninquiries;
 
@@ -63,7 +63,21 @@ VALUES
 ('admin', '$2b$12$frfPuO51upyvC6UNoqTLFOWpJmUptEuwSLHaWjsoV.CHJrsBCGJSi', 'admin@example.com', '관리자', '010-0000-0000', 'admin');
 
 select * from users;
+ALTER TABLE inquiry MODIFY COLUMN user_id VARCHAR(80);
+
 
 use cctv_db;
 
-select * from recognition;
+CREATE TABLE reports (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    entry_count INT DEFAULT 0,
+    exit_count INT DEFAULT 0,
+    current_parking_count INT DEFAULT 0,
+    start_time DATETIME NULL,
+    end_time DATETIME NULL,
+    total_fee INT DEFAULT 0,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    user_name VARCHAR(80),
+    CONSTRAINT fk_reports_user_name FOREIGN KEY (user_name) REFERENCES users(name)
+);
+

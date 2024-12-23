@@ -3,7 +3,7 @@ from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from datetime import datetime, timedelta
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, subqueryload
 from fpdf import FPDF
 from PIL import Image
 import base64
@@ -67,7 +67,7 @@ class User(db.Model):
     username = db.Column(db.String(80), unique=True, nullable=False)
     password = db.Column(db.String(120), nullable=False)
     email = db.Column(db.String(120), nullable=False)
-    name = db.Column(db.String(80), nullable=False)
+    name = db.Column(db.String(80), unique=True, nullable=False)
     phone = db.Column(db.String(20), nullable=False)
     role = db.Column(db.String(20), default='pending', nullable=False)
 
@@ -83,7 +83,7 @@ class Report(db.Model):
     end_time = db.Column(db.DateTime, nullable=True)
     total_fee = db.Column(db.Integer, default=0)
     created_at = db.Column(db.DateTime, default=db.func.now())
-    user_name = db.Column(db.String(80), db.ForeignKey('users.username'), nullable=False)
+    user_name = db.Column(db.String(80), db.ForeignKey('users.name'), nullable=False)
 
 class Setting(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -124,11 +124,23 @@ class Recognition(db.Model):
 class Inquiry(db.Model):
     __tablename__ = 'inquiry'
     id = db.Column(db.Integer, primary_key=True)  # 고유 ID
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)  # 작성자 ID (User 테이블 참조)
+    user_name = db.Column(db.String(80), db.ForeignKey('users.name'), nullable=False)  # 사용자 이름 (외래키)
     message = db.Column(db.Text, nullable=False)  # 문의 내용
     created_at = db.Column(db.DateTime, default=datetime.utcnow)  # 작성 시간
+    state = db.Column(db.String(20), nullable=False, default='receipt')  # 문의 상태
 
     user = db.relationship('User', backref='inquiries')  # User와 관계 설정
+
+    @property
+    def state_label(self):
+        state_map = {
+            'receipt': '접수',
+            'progress': '진행중',
+            'complete': '완료',
+            'interruption': '중단',
+            'custody': '보관'
+        }
+        return state_map.get(self.state, '알 수 없음')
     
 # ORM모델 직접 사용
 allowed_categories = {
@@ -187,15 +199,18 @@ def login():
 
         user = User.query.filter_by(username=username).first()
         if user and bcrypt.check_password_hash(user.password, password):
+            # 로그인 성공 시 세션 설정
             session['logged_in'] = True
             session['username'] = username
             session['role'] = user.role
+            session['name'] = user.name  # name 추가
             flash("로그인 성공", "success")
             return redirect(url_for('home'))
         else:
             app.logger.warning(f"로그인 실패 - 사용자: {username}")
             flash("아이디나 비밀번호가 잘못되었습니다.", "danger")
     return render_template('login.html')
+
 
 @app.route('/logout', methods=['POST'])
 @login_required
@@ -250,9 +265,10 @@ def get_recognition_data():
 # -------------------------------
 @app.route('/')
 def home():
-    if 'logged_in' in session:
+    if 'logged_in' in session and session.get('role') in ['admin', 'user']:
         return render_template('home.html')
     return redirect(url_for('login'))
+
 
 @app.route('/search')
 @login_required
@@ -481,57 +497,87 @@ def delete_user():
 @app.route('/inquiry_write', methods=['GET', 'POST'])
 @login_required
 def inquiry_write():
-    app.logger.info(f"POST 요청 전에 세션 상태: {session}")
-
-    # 역할(role) 확인
+    # 사용자 역할 확인
     user_role = session.get('role')
-    if user_role != 'user':  # 일반 사용자만 접근 허용
-        app.logger.warning("사용자 역할이 'user'가 아님")
+    if user_role != 'user':  # 'user' 역할만 접근 가능
+        app.logger.warning("접근 권한 없음: 사용자 역할이 'user'가 아님")
         flash("일반 사용자만 이 기능을 사용할 수 있습니다.", "danger")
         return redirect(url_for('home'))
 
-    if request.method == 'POST':
-        # 세션에서 username 가져오기
-        username = session.get('username')
-        user = User.query.filter_by(username=username).first()
+    # GET 요청: 문의 작성 페이지 렌더링
+    if request.method == 'GET':
+        app.logger.info("문의 작성 페이지 접근")
+        return render_template('inquiry_write.html')
 
-        if not user:
-            app.logger.warning("세션에 username이 없거나 유효하지 않음")
-            flash("로그인이 필요합니다.", "danger")
-            return redirect(url_for('login'))
+    # POST 요청: 문의 제출
+    username = session.get('username')
+    if not username:
+        app.logger.error("세션에 username이 없음")
+        flash("로그인이 필요합니다.", "danger")
+        return redirect(url_for('login'))
 
-        message = request.form.get('message', '').strip()
-        if not message:
-            flash("문의 내용을 입력하세요.", "warning")
-            return redirect(url_for('inquiry_write'))
+    user = User.query.filter_by(username=username).first()
+    if not user:
+        app.logger.error(f"유효하지 않은 사용자: {username}")
+        flash("잘못된 사용자입니다. 다시 로그인하세요.", "danger")
+        return redirect(url_for('login'))
 
-        # 데이터 저장
-        new_inquiry = Inquiry(user_id=user.id, message=message)
-        try:
-            db.session.add(new_inquiry)
-            db.session.commit()
-            flash("문의 사항이 성공적으로 제출되었습니다!", "success")
-        except Exception as e:
-            db.session.rollback()
-            app.logger.error(f"문의 사항 저장 중 오류: {e}")
-            flash("문의 사항 제출 중 오류가 발생했습니다.", "danger")
+    # 메시지 가져오기 및 검증
+    message = request.form.get('message', '').strip()
+    if not message:
+        app.logger.warning("빈 메시지 제출")
+        flash("문의 내용을 입력하세요.", "warning")
+        return render_template('inquiry_write.html')  # 폼을 다시 렌더링하여 사용자가 입력할 수 있게 함
 
-        app.logger.info(f"POST 요청 처리 후 세션 상태: {session}")
+    # 문의 저장
+    new_inquiry = Inquiry(user_name=user.name, message=message, state='receipt')  # user_name을 사용
+    try:
+        db.session.add(new_inquiry)
+        db.session.commit()
+        app.logger.info(f"문의 사항 저장 완료: {new_inquiry.id}")
+        flash("문의 사항이 성공적으로 제출되었습니다!", "success")
         return redirect(url_for('inquiry'))
+    except Exception as e:
+        db.session.rollback()
+        app.logger.error(f"문의 사항 저장 중 오류: {e}")
+        flash("문의 사항 제출 중 오류가 발생했습니다. 다시 시도해주세요.", "danger")
+        return render_template('inquiry_write.html')  # 에러가 발생했을 때도 폼을 다시 렌더링
 
-    return render_template('inquiry_write.html')
-
-
-@app.route('/inquiry', methods=['GET'])
+@app.route('/inquiry')
 @login_required
 def inquiry():
-    # 모든 문의 데이터 가져오기
-    inquiries = Inquiry.query.join(User).add_columns(
-        User.username, Inquiry.message, Inquiry.created_at
-    ).all()
+    username = session.get('username')
+    if not username:
+        app.logger.error("세션에 username이 없음")
+        flash("로그인이 필요합니다.", "danger")
+        return redirect(url_for('login'))
 
-    # 템플릿에 데이터 전달
+    # 'user_name'을 기준으로 Inquiry 데이터를 불러오고, User 관계를 서브쿼리로 로드
+    inquiries = Inquiry.query.all()  # 모든 문의 사항을 가져옵니다.
+
     return render_template('inquiry.html', inquiries=inquiries)
+
+
+@app.route('/inquiry/update/<int:inquiry_id>', methods=['POST'])
+@login_required
+def update_inquiry_state(inquiry_id):
+    user_role = session.get('role')
+    if user_role != 'admin':
+        flash('권한이 없습니다.', 'danger')
+        return redirect(url_for('inquiry'))
+
+    inquiry = Inquiry.query.get_or_404(inquiry_id)
+    new_state = request.form.get('state')
+
+    valid_states = ['receipt', 'progress', 'complete', 'interruption', 'custody']
+    if new_state in valid_states:
+        inquiry.state = new_state
+        db.session.commit()
+        flash('문의 상태가 업데이트되었습니다.', 'success')
+    else:
+        flash('잘못된 상태 값입니다.', 'danger')
+
+    return redirect(url_for('inquiry'))
 # -------------------------------
 
 # 각 카테고리 별 검색 라우트 및 기능
@@ -607,43 +653,22 @@ def recognition_list(category):
 
 # 기타 사항 / 출퇴근 목록 페이지
 # -------------------------------
-@app.route('/work', methods=['GET', 'POST'])
+@app.route('/work', methods=['GET'])
 @login_required
 def work():
-    if request.method == 'POST':
-        if 'start_time_button' in request.form:
-            existing_report = Report.query.filter_by(user_name=session['username'], end_time=None).first()
-            if existing_report:
-                flash("이미 출근 상태입니다. 퇴근 후 다시 출근할 수 있습니다.", "danger")
-            else:
-                start_time = datetime.now()
-                new_report = Report(
-                    entry_count=0,
-                    exit_count=0,
-                    current_parking_count=0,
-                    start_time=start_time,
-                    end_time=None,
-                    total_fee=0,
-                    user_name=session['username']
-                )
-                db.session.add(new_report)
-                db.session.commit()
-                flash("출근 시간이 기록되었습니다!", "success")
-
-        elif 'end_time_button' in request.form:
-            end_time = datetime.now()
-            report = Report.query.filter_by(user_name=session['username'], end_time=None).first()
-            if report:
-                report.end_time = end_time
-                db.session.commit()
-                flash("퇴근 시간이 기록되었습니다!", "success")
-            else:
-                flash("출근 기록이 없습니다.", "danger")
-
     page = request.args.get('page', 1, type=int)
     per_page = 10
-    reports = Report.query.filter_by(user_name=session['username']).order_by(Report.start_time.desc()).paginate(page=page, per_page=per_page)
+
+    # 세션에서 role 확인
+    if session['role'] == 'admin':
+        # 관리자는 모든 기록 조회 가능
+        reports = Report.query.order_by(Report.start_time.desc()).paginate(page=page, per_page=per_page)
+    else:
+        # 일반 사용자는 자신의 기록만 조회
+        reports = Report.query.filter_by(user_name=session['name']).order_by(Report.start_time.desc()).paginate(page=page, per_page=per_page)
+
     return render_template('work.html', reports=reports)
+
 
 # -------------------------------
 
@@ -653,7 +678,7 @@ def work():
 @app.route('/report', methods=['GET', 'POST'])
 @login_required
 def report():
-    user_name = session['username']
+    user_name = session['name']  # 'username' 대신 'name' 사용
     setting = Setting.query.first()
     fee_per_10_minutes = setting.fee_per_10_minutes if setting else 100
 
@@ -671,7 +696,7 @@ def report():
                     start_time=start_time,
                     end_time=None,
                     total_fee=0,
-                    user_name=user_name
+                    user_name=user_name  # user_name을 'name'으로 설정
                 )
                 db.session.add(new_report)
                 db.session.commit()
@@ -679,7 +704,7 @@ def report():
 
         elif 'end_time_button' in request.form:
             end_time = datetime.now()
-            report = Report.query.filter_by(user_name=user_name, end_time=None).first()
+            report = Report.query.filter_by(user_name=user_name, end_time=None).first()  # 'name'으로 변경
             if report:
                 report.end_time = end_time
 
@@ -704,10 +729,9 @@ def report():
                 flash("출근 기록이 없습니다. 출근 버튼을 눌러주세요.", "danger")
 
     page = request.args.get('page', 1, type=int)
-    reports = Report.query.filter_by(user_name=user_name).order_by(Report.start_time.desc()).paginate(page=page, per_page=10, error_out=False)
+    reports = Report.query.filter_by(user_name=user_name).order_by(Report.start_time.desc()).paginate(page=page, per_page=10, error_out=False)  # 'name'으로 변경
 
     return render_template('report.html', reports=reports)
-
 # -------------------------------
 
 # 기타 사항 / 알람 페이지

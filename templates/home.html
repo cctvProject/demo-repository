@@ -30,7 +30,7 @@
     <!-- 좌측 사이드 바 -->
     <nav>
         <ul>
-            {% if session['logged_in'] %}
+            {% if session['logged_in'] and session['role'] != 'pending' %}
                 <!-- 모든 사용자가 볼 수 있는 링크 -->
                 <li><a href="/search">검색 리스트</a></li>
                 <li><a href="/search-results">검색 결과</a></li>
@@ -48,6 +48,10 @@
                     <li><a href="/report">보고서 작성</a></li>
                 {% endif %}
                 <li><a href="/inquiry">문의 사항</a></li>
+            {% endif %}
+            {%if session['role'] == 'pending'%}
+            <p>관리자 승인이 필요합니다.<p>
+            <p>관리자에게 문의해주세요.<p>
             {% endif %}
         </ul>
     </nav>

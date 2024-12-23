@@ -32,12 +32,12 @@
     <tbody>
         {% for report in reports.items %}
         <tr>
-            <td>{{ report.user_name }}</td>
+            <td>{{ report.user_name }}</td> <!-- 수정된 부분 -->
             <td>{{ report.entry_count }}</td>
             <td>{{ report.exit_count }}</td>
             <td>{{ report.current_parking_count }}</td>
-            <td>{{ report.start_time.strftime('%Y-%m-%d %H:%M:%S') if report.start_time else '' }}</td>  <!-- 초 포함 -->
-            <td>{{ report.end_time.strftime('%Y-%m-%d %H:%M:%S') if report.end_time else '' }}</td>  <!-- 초 포함 -->
+            <td>{{ report.start_time.strftime('%Y-%m-%d %H:%M:%S') if report.start_time else '' }}</td> <!-- 초 포함 -->
+            <td>{{ report.end_time.strftime('%Y-%m-%d %H:%M:%S') if report.end_time else '' }}</td> <!-- 초 포함 -->
             <td>{{ report.total_fee }}원</td>
         </tr>
         {% endfor %}
