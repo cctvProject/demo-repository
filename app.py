@@ -151,9 +151,17 @@ allowed_categories = {
     'illegal_parking': {'entry_exit_input': 'entry', 'vehicle_type': 'illegal'},
 }
 
-def get_category_data(category):
+def get_category_data(category, start_time=None, end_time=None):
     """
-    주어진 카테고리에 따라 Recognition 데이터를 필터링합니다.
+    주어진 카테고리와 시간 범위에 따라 Recognition 데이터를 필터링합니다.
+
+    Args:
+        category (str): 필터링할 카테고리 (예: 'entry', 'exit').
+        start_time (datetime, optional): 필터링 시작 시간.
+        end_time (datetime, optional): 필터링 종료 시간.
+
+    Returns:
+        list: 필터링된 Recognition 객체 리스트.
     """
     allowed_categories = {
         'entry': {'entry_exit_input': 'entry', 'vehicle_type': None},
@@ -169,12 +177,20 @@ def get_category_data(category):
     filters = allowed_categories[category]
     query = Recognition.query
 
-    if filters['entry_exit_input']:    
+    # 카테고리에 따른 기본 필터 적용
+    if filters['entry_exit_input']:
         query = query.filter_by(entry_exit_input=filters['entry_exit_input'])
     if filters['vehicle_type']:
         query = query.filter_by(vehicle_type=filters['vehicle_type'])
 
+    # 시간 범위 필터 추가
+    if start_time:
+        query = query.filter(Recognition.recognition_time >= start_time)
+    if end_time:
+        query = query.filter(Recognition.recognition_time <= end_time)
+
     return query.order_by(Recognition.recognition_time.desc()).all()
+
 
 
 # -------------------------------
@@ -525,7 +541,7 @@ def inquiry_write():
         app.logger.error("세션에 username이 없음")
         flash("로그인이 필요합니다.", "danger")
         return redirect(url_for('login'))
-
+    
     user = User.query.filter_by(username=username).first()
     if not user:
         app.logger.error(f"유효하지 않은 사용자: {username}")
@@ -537,7 +553,7 @@ def inquiry_write():
     if not message:
         app.logger.warning("빈 메시지 제출")
         flash("문의 내용을 입력하세요.", "warning")
-        return render_template('inquiry_write.html')  # 폼을 다시 렌더링하여 사용자가 입력할 수 있게 함
+        return render_template('inquiry_write.html')
 
     # 문의 저장
     new_inquiry = Inquiry(user_name=user.name, message=message, state='receipt')  # user_name을 사용
@@ -552,8 +568,8 @@ def inquiry_write():
         app.logger.error(f"문의 사항 저장 중 오류: {e}")
         flash("문의 사항 제출 중 오류가 발생했습니다. 다시 시도해주세요.", "danger")
         return render_template('inquiry_write.html')  # 에러가 발생했을 때도 폼을 다시 렌더링
-
-@app.route('/inquiry')
+    
+@app.route('/inquiry', methods=['GET'])
 @login_required
 def inquiry():
     username = session.get('username')
@@ -562,11 +578,26 @@ def inquiry():
         flash("로그인이 필요합니다.", "danger")
         return redirect(url_for('login'))
 
+    # 페이지네이션을 위한 페이지 번호 파라미터
+    page = request.args.get('page', 1, type=int)  # 기본값은 1
+    per_page = 10  # 한 페이지에 표시할 문의 사항 수
+
     # 'user_name'을 기준으로 Inquiry 데이터를 불러오고, User 관계를 서브쿼리로 로드
-    inquiries = Inquiry.query.all()  # 모든 문의 사항을 가져옵니다.
+    inquiries = Inquiry.query.order_by(Inquiry.created_at.desc()).paginate(page=page, per_page=per_page, error_out=False)
 
-    return render_template('inquiry.html', inquiries=inquiries)
+    # 총 페이지 수와 현재 페이지를 템플릿에 전달
+    total_pages = inquiries.pages
+    inquiries_list = inquiries.items  # 현재 페이지의 문의 사항 목록
 
+    # 문의사항이 없을 경우 메시지 표시
+    if not inquiries_list:
+        flash("최근 문의사항이 없습니다.", "info")
+
+    app.logger.info(f"{len(inquiries_list)}개의 문의사항을 불러왔습니다.")
+    return render_template('inquiry.html', 
+                           inquiries=inquiries_list, 
+                           total_pages=total_pages, 
+                           current_page=page)
 
 @app.route('/inquiry/update/<int:inquiry_id>', methods=['POST'])
 @login_required
@@ -678,17 +709,14 @@ def work():
         reports = Report.query.filter_by(user_name=session['name']).order_by(Report.start_time.desc()).paginate(page=page, per_page=per_page)
 
     return render_template('work.html', reports=reports)
-
-
 # -------------------------------
 
-# 기타 사항 / 리포트 작성 페이지
-# -------------------------------
 # 보고서 페이지 및 데이터 입력, 표시
+# -------------------------------
 @app.route('/report', methods=['GET', 'POST'])
 @login_required
 def report():
-    user_name = session['name']  # 'username' 대신 'name' 사용
+    user_name = session['name']
     setting = Setting.query.first()
     fee_per_10_minutes = setting.fee_per_10_minutes if setting else 100
 
@@ -706,7 +734,7 @@ def report():
                     start_time=start_time,
                     end_time=None,
                     total_fee=0,
-                    user_name=user_name  # user_name을 'name'으로 설정
+                    user_name=user_name
                 )
                 db.session.add(new_report)
                 db.session.commit()
@@ -714,23 +742,32 @@ def report():
 
         elif 'end_time_button' in request.form:
             end_time = datetime.now()
-            report = Report.query.filter_by(user_name=user_name, end_time=None).first()  # 'name'으로 변경
+            report = Report.query.filter_by(user_name=user_name, end_time=None).first()
             if report:
                 report.end_time = end_time
 
-                entry_records = get_category_data('entry')
-                exit_records = get_category_data('exit')
+                # 입차 및 출차 기록을 시간 범위로 필터링
+                entry_records = get_category_data('entry', start_time=report.start_time, end_time=end_time)
+                exit_records = get_category_data('exit', start_time=report.start_time, end_time=end_time)
 
+                # 입차 수와 출차 수 계산
                 report.entry_count = len(entry_records)
                 report.exit_count = len(exit_records)
 
+                # 입차 차량 번호와 출차 차량 번호 집합 생성
                 entry_vehicle_numbers = {record.vehicle_number for record in entry_records}
                 exit_vehicle_numbers = {record.vehicle_number for record in exit_records}
-                report.current_parking_count = len(entry_vehicle_numbers - exit_vehicle_numbers)
 
+                # 현재 주차 수 계산: 입차한 차량 중 아직 출차하지 않은 차량 카운트
+                # entry 차량 번호 중 exit 차량 번호에 포함되지 않은 차량 번호가 현재 주차된 차량입니다.
+                current_parking_vehicles = entry_vehicle_numbers - exit_vehicle_numbers
+                report.current_parking_count = len(current_parking_vehicles)
+
+                # 총 주차 시간 계산 (분 단위)
                 total_parking_minutes = sum(
                     (end_time - record.recognition_time).total_seconds() // 60 for record in entry_records
                 )
+                # 총 요금 계산
                 report.total_fee = (total_parking_minutes // 10) * fee_per_10_minutes
 
                 db.session.commit()
@@ -738,8 +775,9 @@ def report():
             else:
                 flash("출근 기록이 없습니다. 출근 버튼을 눌러주세요.", "danger")
 
+    # 페이지네이션
     page = request.args.get('page', 1, type=int)
-    reports = Report.query.filter_by(user_name=user_name).order_by(Report.start_time.desc()).paginate(page=page, per_page=10, error_out=False)  # 'name'으로 변경
+    reports = Report.query.filter_by(user_name=user_name).order_by(Report.start_time.desc()).paginate(page=page, per_page=10, error_out=False)
 
     return render_template('report.html', reports=reports)
 # -------------------------------

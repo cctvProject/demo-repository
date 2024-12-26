@@ -84,3 +84,6 @@ CREATE TABLE reports (
 );
 
 ALTER TABLE reports ADD CONSTRAINT fk_user_name FOREIGN KEY (user_name) REFERENCES users(name);
+
+
+TRUNCATE TABLE recognition;
