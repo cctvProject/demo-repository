@@ -15431,3 +15431,446 @@ FROM inquiry LEFT OUTER JOIN users AS users_1 ON users_1.name = inquiry.user_id]
 2024-12-26 14:06:36,688:INFO:127.0.0.1 - - [26/Dec/2024 14:06:36] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
 2024-12-26 14:06:36,714:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2024-12-26 14:06:36,716:INFO:127.0.0.1 - - [26/Dec/2024 14:06:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:13:50,404:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:13:54,048:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-30 11:13:54,049:INFO:[33mPress CTRL+C to quit[0m
+2024-12-30 11:13:54,062:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:14:00,882:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:14:03,568:WARNING: * Debugger is active!
+2024-12-30 11:14:03,574:INFO: * Debugger PIN: 513-632-116
+2024-12-30 11:14:03,625:INFO:127.0.0.1 - - [30/Dec/2024 11:14:03] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-30 11:14:03,632:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:14:03,643:INFO:127.0.0.1 - - [30/Dec/2024 11:14:03] "GET /login HTTP/1.1" 200 -
+2024-12-30 11:14:03,729:INFO:127.0.0.1 - - [30/Dec/2024 11:14:03] "GET /static/home.css HTTP/1.1" 200 -
+2024-12-30 11:14:03,760:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:03,764:INFO:127.0.0.1 - - [30/Dec/2024 11:14:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:08,218:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:14:08,497:INFO:127.0.0.1 - - [30/Dec/2024 11:14:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-30 11:14:08,503:INFO:127.0.0.1 - - [30/Dec/2024 11:14:08] "GET / HTTP/1.1" 200 -
+2024-12-30 11:14:08,525:INFO:127.0.0.1 - - [30/Dec/2024 11:14:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:08,547:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:08,548:INFO:127.0.0.1 - - [30/Dec/2024 11:14:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:09,551:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-30 11:14:09,572:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:09,575:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2024-12-30 11:14:09,581:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2024-12-30 11:14:09,582:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "GET /static/video.css HTTP/1.1" 200 -
+2024-12-30 11:14:09,607:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:09,608:INFO:127.0.0.1 - - [30/Dec/2024 11:14:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:15,240:INFO:Received category: entry
+2024-12-30 11:14:15,290:INFO:ÀúÀåµÈ ÀÌ¹ÌÁö °æ·Î: static\captured_images\entry\20241230_111415.jpg
+2024-12-30 11:14:16,970:INFO:127.0.0.1 - - [30/Dec/2024 11:14:16] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:14:19,375:INFO:127.0.0.1 - - [30/Dec/2024 11:14:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:19,380:INFO:127.0.0.1 - - [30/Dec/2024 11:14:19] "GET /static/view.css HTTP/1.1" 200 -
+2024-12-30 11:14:19,382:INFO:127.0.0.1 - - [30/Dec/2024 11:14:19] "GET /static/report.css HTTP/1.1" 200 -
+2024-12-30 11:14:19,401:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:19,403:INFO:127.0.0.1 - - [30/Dec/2024 11:14:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:19,447:INFO:µ¥ÀÌÅÍº£ÀÌ½º¿¡ ÀÌ¹ÌÁö °æ·Î ¹× OCR °á°ú ÀúÀå ¿Ï·á
+2024-12-30 11:14:19,447:INFO:127.0.0.1 - - [30/Dec/2024 11:14:19] "POST /capture-image HTTP/1.1" 200 -
+2024-12-30 11:14:20,634:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-30 11:14:20,661:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:20,661:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:20,667:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:20,668:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:14:20,684:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:20,685:INFO:127.0.0.1 - - [30/Dec/2024 11:14:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:24,747:INFO:Received category: entry
+2024-12-30 11:14:24,760:INFO:ÀúÀåµÈ ÀÌ¹ÌÁö °æ·Î: static\captured_images\entry\20241230_111424.jpg
+2024-12-30 11:14:28,227:INFO:µ¥ÀÌÅÍº£ÀÌ½º¿¡ ÀÌ¹ÌÁö °æ·Î ¹× OCR °á°ú ÀúÀå ¿Ï·á
+2024-12-30 11:14:28,228:INFO:127.0.0.1 - - [30/Dec/2024 11:14:28] "POST /capture-image HTTP/1.1" 200 -
+2024-12-30 11:14:30,996:INFO:127.0.0.1 - - [30/Dec/2024 11:14:30] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:14:31,019:INFO:127.0.0.1 - - [30/Dec/2024 11:14:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:31,021:INFO:127.0.0.1 - - [30/Dec/2024 11:14:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:31,022:INFO:127.0.0.1 - - [30/Dec/2024 11:14:31] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:31,036:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:31,037:INFO:127.0.0.1 - - [30/Dec/2024 11:14:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:32,125:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-30 11:14:32,143:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:32,157:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:32,158:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "GET /static/back.css HTTP/1.1" 200 -
+2024-12-30 11:14:32,159:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "GET /static/excel_pdf.css HTTP/1.1" 200 -
+2024-12-30 11:14:32,177:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:32,178:INFO:127.0.0.1 - - [30/Dec/2024 11:14:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:33,043:INFO:127.0.0.1 - - [30/Dec/2024 11:14:33] "GET /static/captured_images/entry/20241230_111424.jpg HTTP/1.1" 200 -
+2024-12-30 11:14:33,065:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:33,066:INFO:127.0.0.1 - - [30/Dec/2024 11:14:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:35,695:ERROR:Unhandled Exception: 'latin-1' codec can't encode characters in position 91-92: ordinal not in range(256)
+2024-12-30 11:14:35,704:INFO:127.0.0.1 - - [30/Dec/2024 11:14:35] "[35m[1mGET /export/entry/pdf HTTP/1.1[0m" 500 -
+2024-12-30 11:14:35,721:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:35,721:INFO:127.0.0.1 - - [30/Dec/2024 11:14:35] "[35m[1mGET /static/styles/error.css HTTP/1.1[0m" 500 -
+2024-12-30 11:14:35,738:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:35,740:INFO:127.0.0.1 - - [30/Dec/2024 11:14:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:37,239:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:37,240:INFO:127.0.0.1 - - [30/Dec/2024 11:14:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:39,351:INFO:127.0.0.1 - - [30/Dec/2024 11:14:39] "GET /export/entry/excel HTTP/1.1" 200 -
+2024-12-30 11:14:42,456:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:14:42,479:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:42,481:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:42,482:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:42,498:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:42,500:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:42,598:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "GET /search-results HTTP/1.1" 200 -
+2024-12-30 11:14:42,622:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:42,625:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "GET /static/search_results.css HTTP/1.1" 200 -
+2024-12-30 11:14:42,625:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:42,640:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:42,642:INFO:127.0.0.1 - - [30/Dec/2024 11:14:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:45,001:INFO:127.0.0.1 - - [30/Dec/2024 11:14:45] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:14:45,025:INFO:127.0.0.1 - - [30/Dec/2024 11:14:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:45,026:INFO:127.0.0.1 - - [30/Dec/2024 11:14:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:45,029:INFO:127.0.0.1 - - [30/Dec/2024 11:14:45] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:45,044:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:45,045:INFO:127.0.0.1 - - [30/Dec/2024 11:14:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:46,957:INFO:127.0.0.1 - - [30/Dec/2024 11:14:46] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-30 11:14:46,979:INFO:127.0.0.1 - - [30/Dec/2024 11:14:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:46,991:INFO:127.0.0.1 - - [30/Dec/2024 11:14:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:46,995:INFO:127.0.0.1 - - [30/Dec/2024 11:14:46] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:46,996:INFO:127.0.0.1 - - [30/Dec/2024 11:14:46] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:47,011:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:47,012:INFO:127.0.0.1 - - [30/Dec/2024 11:14:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:49,961:INFO:127.0.0.1 - - [30/Dec/2024 11:14:49] "GET /search-results HTTP/1.1" 200 -
+2024-12-30 11:14:49,982:INFO:127.0.0.1 - - [30/Dec/2024 11:14:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:49,992:INFO:127.0.0.1 - - [30/Dec/2024 11:14:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:49,993:INFO:127.0.0.1 - - [30/Dec/2024 11:14:49] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:50,007:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:50,008:INFO:127.0.0.1 - - [30/Dec/2024 11:14:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:53,574:INFO:127.0.0.1 - - [30/Dec/2024 11:14:53] "POST /search-results HTTP/1.1" 200 -
+2024-12-30 11:14:53,592:INFO:127.0.0.1 - - [30/Dec/2024 11:14:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:53,596:INFO:127.0.0.1 - - [30/Dec/2024 11:14:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:53,597:INFO:127.0.0.1 - - [30/Dec/2024 11:14:53] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:53,618:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:53,619:INFO:127.0.0.1 - - [30/Dec/2024 11:14:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:14:58,294:INFO:127.0.0.1 - - [30/Dec/2024 11:14:58] "GET /alerts HTTP/1.1" 200 -
+2024-12-30 11:14:58,309:INFO:127.0.0.1 - - [30/Dec/2024 11:14:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:58,314:INFO:127.0.0.1 - - [30/Dec/2024 11:14:58] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:14:58,327:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:14:58,328:INFO:127.0.0.1 - - [30/Dec/2024 11:14:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:00,569:INFO:127.0.0.1 - - [30/Dec/2024 11:15:00] "GET /work HTTP/1.1" 200 -
+2024-12-30 11:15:00,596:INFO:127.0.0.1 - - [30/Dec/2024 11:15:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:00,597:INFO:127.0.0.1 - - [30/Dec/2024 11:15:00] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:00,597:INFO:127.0.0.1 - - [30/Dec/2024 11:15:00] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:00,617:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:00,618:INFO:127.0.0.1 - - [30/Dec/2024 11:15:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:04,485:INFO:127.0.0.1 - - [30/Dec/2024 11:15:04] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:15:04,506:INFO:127.0.0.1 - - [30/Dec/2024 11:15:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:04,510:INFO:127.0.0.1 - - [30/Dec/2024 11:15:04] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:04,514:INFO:127.0.0.1 - - [30/Dec/2024 11:15:04] "GET /static/security.css HTTP/1.1" 200 -
+2024-12-30 11:15:04,535:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:04,537:INFO:127.0.0.1 - - [30/Dec/2024 11:15:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:07,592:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "[32mPOST /update-role HTTP/1.1[0m" 302 -
+2024-12-30 11:15:07,598:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:15:07,615:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:07,618:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:07,619:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:07,633:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:07,634:INFO:127.0.0.1 - - [30/Dec/2024 11:15:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:08,842:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "[32mPOST /update-role HTTP/1.1[0m" 302 -
+2024-12-30 11:15:08,849:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:15:08,866:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:08,869:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:08,871:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:08,884:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:08,885:INFO:127.0.0.1 - - [30/Dec/2024 11:15:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:09,942:INFO:127.0.0.1 - - [30/Dec/2024 11:15:09] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:15:09,960:INFO:127.0.0.1 - - [30/Dec/2024 11:15:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:09,963:INFO:127.0.0.1 - - [30/Dec/2024 11:15:09] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:09,963:INFO:127.0.0.1 - - [30/Dec/2024 11:15:09] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:09,978:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:09,979:INFO:127.0.0.1 - - [30/Dec/2024 11:15:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:10,996:INFO:127.0.0.1 - - [30/Dec/2024 11:15:10] "GET /settings HTTP/1.1" 200 -
+2024-12-30 11:15:11,015:INFO:127.0.0.1 - - [30/Dec/2024 11:15:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:11,023:INFO:127.0.0.1 - - [30/Dec/2024 11:15:11] "GET /static/setting.css HTTP/1.1" 200 -
+2024-12-30 11:15:11,037:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:11,038:INFO:127.0.0.1 - - [30/Dec/2024 11:15:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:12,411:INFO:7°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2024-12-30 11:15:12,435:INFO:127.0.0.1 - - [30/Dec/2024 11:15:12] "GET /inquiry HTTP/1.1" 200 -
+2024-12-30 11:15:12,458:INFO:127.0.0.1 - - [30/Dec/2024 11:15:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:12,460:INFO:127.0.0.1 - - [30/Dec/2024 11:15:12] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:12,462:INFO:127.0.0.1 - - [30/Dec/2024 11:15:12] "GET /static/inquiry_write_go.css HTTP/1.1" 200 -
+2024-12-30 11:15:12,484:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:12,485:INFO:127.0.0.1 - - [30/Dec/2024 11:15:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:15,518:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "[32mPOST /inquiry/update/7 HTTP/1.1[0m" 302 -
+2024-12-30 11:15:15,526:INFO:7°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2024-12-30 11:15:15,532:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "GET /inquiry HTTP/1.1" 200 -
+2024-12-30 11:15:15,552:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:15,553:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:15,555:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:15,568:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:15,569:INFO:127.0.0.1 - - [30/Dec/2024 11:15:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:16,781:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "[32mPOST /inquiry/update/7 HTTP/1.1[0m" 302 -
+2024-12-30 11:15:16,788:INFO:7°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2024-12-30 11:15:16,796:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "GET /inquiry HTTP/1.1" 200 -
+2024-12-30 11:15:16,811:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:16,819:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:16,820:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:16,833:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:16,834:INFO:127.0.0.1 - - [30/Dec/2024 11:15:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:19,661:INFO:127.0.0.1 - - [30/Dec/2024 11:15:19] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:15:19,691:INFO:127.0.0.1 - - [30/Dec/2024 11:15:19] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:19,692:INFO:127.0.0.1 - - [30/Dec/2024 11:15:19] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:19,693:INFO:127.0.0.1 - - [30/Dec/2024 11:15:19] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:19,712:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:19,713:INFO:127.0.0.1 - - [30/Dec/2024 11:15:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:20,791:INFO:127.0.0.1 - - [30/Dec/2024 11:15:20] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:15:20,810:INFO:127.0.0.1 - - [30/Dec/2024 11:15:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:20,810:INFO:127.0.0.1 - - [30/Dec/2024 11:15:20] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:20,813:INFO:127.0.0.1 - - [30/Dec/2024 11:15:20] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:20,827:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:20,828:INFO:127.0.0.1 - - [30/Dec/2024 11:15:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:22,495:INFO:127.0.0.1 - - [30/Dec/2024 11:15:22] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:15:22,510:INFO:127.0.0.1 - - [30/Dec/2024 11:15:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:22,518:INFO:127.0.0.1 - - [30/Dec/2024 11:15:22] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:22,518:INFO:127.0.0.1 - - [30/Dec/2024 11:15:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:22,530:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:22,531:INFO:127.0.0.1 - - [30/Dec/2024 11:15:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:23,696:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-30 11:15:23,715:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:23,727:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:23,728:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:23,729:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:15:23,746:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:23,748:INFO:127.0.0.1 - - [30/Dec/2024 11:15:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:15:29,488:ERROR:Unhandled Exception: 'latin-1' codec can't encode characters in position 91-92: ordinal not in range(256)
+2024-12-30 11:15:29,496:INFO:127.0.0.1 - - [30/Dec/2024 11:15:29] "[35m[1mGET /export/entry/pdf HTTP/1.1[0m" 500 -
+2024-12-30 11:15:29,521:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:29,522:INFO:127.0.0.1 - - [30/Dec/2024 11:15:29] "[35m[1mGET /static/styles/error.css HTTP/1.1[0m" 500 -
+2024-12-30 11:15:29,533:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:15:29,535:INFO:127.0.0.1 - - [30/Dec/2024 11:15:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:16:55,141:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:16:55,142:INFO: * Detected change in 'D:\\AI3\\cctv\\tmpc9jn20pq', reloading
+2024-12-30 11:16:55,142:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:16:56,160:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:17:02,927:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:17:05,472:WARNING: * Debugger is active!
+2024-12-30 11:17:05,478:INFO: * Debugger PIN: 513-632-116
+2024-12-30 11:18:10,386:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:18:10,387:INFO: * Detected change in 'D:\\AI3\\cctv\\tmp6jm88hwl', reloading
+2024-12-30 11:18:10,388:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:18:11,481:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:18:18,586:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:18:21,074:WARNING: * Debugger is active!
+2024-12-30 11:18:21,080:INFO: * Debugger PIN: 513-632-116
+2024-12-30 11:18:21,128:INFO:127.0.0.1 - - [30/Dec/2024 11:18:21] "[32mGET /export/entry/pdf HTTP/1.1[0m" 302 -
+2024-12-30 11:18:21,132:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:18:21,142:INFO:127.0.0.1 - - [30/Dec/2024 11:18:21] "GET /login HTTP/1.1" 200 -
+2024-12-30 11:18:21,221:INFO:127.0.0.1 - - [30/Dec/2024 11:18:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:21,230:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:21,233:INFO:127.0.0.1 - - [30/Dec/2024 11:18:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:30,220:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:18:30,511:INFO:127.0.0.1 - - [30/Dec/2024 11:18:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-30 11:18:30,517:INFO:127.0.0.1 - - [30/Dec/2024 11:18:30] "GET / HTTP/1.1" 200 -
+2024-12-30 11:18:30,540:INFO:127.0.0.1 - - [30/Dec/2024 11:18:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:30,553:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:30,554:INFO:127.0.0.1 - - [30/Dec/2024 11:18:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:31,615:INFO:127.0.0.1 - - [30/Dec/2024 11:18:31] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:18:31,635:INFO:127.0.0.1 - - [30/Dec/2024 11:18:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:31,647:INFO:127.0.0.1 - - [30/Dec/2024 11:18:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:31,650:INFO:127.0.0.1 - - [30/Dec/2024 11:18:31] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:31,667:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:31,668:INFO:127.0.0.1 - - [30/Dec/2024 11:18:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:32,407:INFO:127.0.0.1 - - [30/Dec/2024 11:18:32] "GET /security HTTP/1.1" 200 -
+2024-12-30 11:18:32,423:INFO:127.0.0.1 - - [30/Dec/2024 11:18:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:32,426:INFO:127.0.0.1 - - [30/Dec/2024 11:18:32] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:32,429:INFO:127.0.0.1 - - [30/Dec/2024 11:18:32] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:32,440:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:32,441:INFO:127.0.0.1 - - [30/Dec/2024 11:18:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:33,683:INFO:127.0.0.1 - - [30/Dec/2024 11:18:33] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:18:33,701:INFO:127.0.0.1 - - [30/Dec/2024 11:18:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:33,712:INFO:127.0.0.1 - - [30/Dec/2024 11:18:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:33,713:INFO:127.0.0.1 - - [30/Dec/2024 11:18:33] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:33,726:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:33,728:INFO:127.0.0.1 - - [30/Dec/2024 11:18:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:34,730:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-30 11:18:34,750:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:34,762:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:34,762:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:34,767:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-30 11:18:34,786:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:34,787:INFO:127.0.0.1 - - [30/Dec/2024 11:18:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:18:35,731:ERROR:Unhandled Exception: TTF Font file not found: ArialUnicodeMS.ttf
+2024-12-30 11:18:35,741:INFO:127.0.0.1 - - [30/Dec/2024 11:18:35] "[35m[1mGET /export/entry/pdf HTTP/1.1[0m" 500 -
+2024-12-30 11:18:35,761:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:35,762:INFO:127.0.0.1 - - [30/Dec/2024 11:18:35] "[35m[1mGET /static/styles/error.css HTTP/1.1[0m" 500 -
+2024-12-30 11:18:35,779:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:18:35,780:INFO:127.0.0.1 - - [30/Dec/2024 11:18:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:12,668:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:19:12,668:INFO: * Detected change in 'D:\\AI3\\cctv\\tmppup2jevw', reloading
+2024-12-30 11:19:12,669:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:19:14,088:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:19:21,271:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:19:23,794:WARNING: * Debugger is active!
+2024-12-30 11:19:23,799:INFO: * Debugger PIN: 513-632-116
+2024-12-30 11:19:23,850:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "[32mGET /export/entry/pdf HTTP/1.1[0m" 302 -
+2024-12-30 11:19:23,851:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:23,859:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:19:23,859:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:23,867:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "GET /login HTTP/1.1" 200 -
+2024-12-30 11:19:23,920:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "[36mGET /static/captured_images/entry/20241230_111424.jpg HTTP/1.1[0m" 304 -
+2024-12-30 11:19:23,945:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:23,953:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:23,954:INFO:127.0.0.1 - - [30/Dec/2024 11:19:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:27,834:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:19:28,109:INFO:127.0.0.1 - - [30/Dec/2024 11:19:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-30 11:19:28,115:INFO:127.0.0.1 - - [30/Dec/2024 11:19:28] "GET / HTTP/1.1" 200 -
+2024-12-30 11:19:28,143:INFO:127.0.0.1 - - [30/Dec/2024 11:19:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:28,156:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:28,157:INFO:127.0.0.1 - - [30/Dec/2024 11:19:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:29,612:INFO:127.0.0.1 - - [30/Dec/2024 11:19:29] "GET /search-results HTTP/1.1" 200 -
+2024-12-30 11:19:29,630:INFO:127.0.0.1 - - [30/Dec/2024 11:19:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:29,642:INFO:127.0.0.1 - - [30/Dec/2024 11:19:29] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:29,645:INFO:127.0.0.1 - - [30/Dec/2024 11:19:29] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:29,655:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:29,656:INFO:127.0.0.1 - - [30/Dec/2024 11:19:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:30,857:INFO:127.0.0.1 - - [30/Dec/2024 11:19:30] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:19:30,883:INFO:127.0.0.1 - - [30/Dec/2024 11:19:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:30,885:INFO:127.0.0.1 - - [30/Dec/2024 11:19:30] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:30,885:INFO:127.0.0.1 - - [30/Dec/2024 11:19:30] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:30,900:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:30,902:INFO:127.0.0.1 - - [30/Dec/2024 11:19:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:19:31,927:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "GET /recognition-list/entry HTTP/1.1" 200 -
+2024-12-30 11:19:31,956:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:31,957:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:31,958:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:31,961:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2024-12-30 11:19:31,973:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:19:31,975:INFO:127.0.0.1 - - [30/Dec/2024 11:19:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:21:21,213:INFO:127.0.0.1 - - [30/Dec/2024 11:21:21] "GET /export/entry/pdf HTTP/1.1" 200 -
+2024-12-30 11:30:07,759:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:30:07,760:INFO: * Detected change in 'D:\\AI3\\cctv\\tmpxhcmbh_7', reloading
+2024-12-30 11:30:07,761:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:30:08,586:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:30:15,314:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:30:17,958:WARNING: * Debugger is active!
+2024-12-30 11:30:17,964:INFO: * Debugger PIN: 513-632-116
+2024-12-30 11:30:30,495:INFO:127.0.0.1 - - [30/Dec/2024 11:30:30] "GET /static/captured_images/entry/20241230_111424.jpg HTTP/1.1" 200 -
+2024-12-30 11:30:30,531:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:30,542:INFO:127.0.0.1 - - [30/Dec/2024 11:30:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:32,832:INFO:127.0.0.1 - - [30/Dec/2024 11:30:32] "[32mGET /search-results HTTP/1.1[0m" 302 -
+2024-12-30 11:30:32,839:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:30:32,846:INFO:127.0.0.1 - - [30/Dec/2024 11:30:32] "GET /login HTTP/1.1" 200 -
+2024-12-30 11:30:32,866:INFO:127.0.0.1 - - [30/Dec/2024 11:30:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:32,878:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:32,879:INFO:127.0.0.1 - - [30/Dec/2024 11:30:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:38,407:INFO:·Î±×ÀÎ ½Ãµµ
+2024-12-30 11:30:38,682:INFO:127.0.0.1 - - [30/Dec/2024 11:30:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-30 11:30:38,688:INFO:127.0.0.1 - - [30/Dec/2024 11:30:38] "GET / HTTP/1.1" 200 -
+2024-12-30 11:30:38,716:INFO:127.0.0.1 - - [30/Dec/2024 11:30:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:38,730:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:38,731:INFO:127.0.0.1 - - [30/Dec/2024 11:30:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:40,259:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "GET /search HTTP/1.1" 200 -
+2024-12-30 11:30:40,284:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,288:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,289:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,303:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:40,304:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:40,514:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "GET /search-results HTTP/1.1" 200 -
+2024-12-30 11:30:40,535:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,539:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,539:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:40,552:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:40,553:INFO:127.0.0.1 - - [30/Dec/2024 11:30:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:41,652:INFO:127.0.0.1 - - [30/Dec/2024 11:30:41] "GET /alerts HTTP/1.1" 200 -
+2024-12-30 11:30:41,671:INFO:127.0.0.1 - - [30/Dec/2024 11:30:41] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:41,679:INFO:127.0.0.1 - - [30/Dec/2024 11:30:41] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:41,693:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:41,694:INFO:127.0.0.1 - - [30/Dec/2024 11:30:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:42,136:INFO:127.0.0.1 - - [30/Dec/2024 11:30:42] "GET /report HTTP/1.1" 200 -
+2024-12-30 11:30:42,154:INFO:127.0.0.1 - - [30/Dec/2024 11:30:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:42,162:INFO:127.0.0.1 - - [30/Dec/2024 11:30:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:42,165:INFO:127.0.0.1 - - [30/Dec/2024 11:30:42] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:42,178:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:42,179:INFO:127.0.0.1 - - [30/Dec/2024 11:30:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:43,354:INFO:127.0.0.1 - - [30/Dec/2024 11:30:43] "POST /report HTTP/1.1" 200 -
+2024-12-30 11:30:43,373:INFO:127.0.0.1 - - [30/Dec/2024 11:30:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:43,374:INFO:127.0.0.1 - - [30/Dec/2024 11:30:43] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:43,376:INFO:127.0.0.1 - - [30/Dec/2024 11:30:43] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:43,390:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:43,391:INFO:127.0.0.1 - - [30/Dec/2024 11:30:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:44,155:INFO:127.0.0.1 - - [30/Dec/2024 11:30:44] "POST /report HTTP/1.1" 200 -
+2024-12-30 11:30:44,174:INFO:127.0.0.1 - - [30/Dec/2024 11:30:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:44,174:INFO:127.0.0.1 - - [30/Dec/2024 11:30:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:44,175:INFO:127.0.0.1 - - [30/Dec/2024 11:30:44] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:44,190:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:44,191:INFO:127.0.0.1 - - [30/Dec/2024 11:30:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:46,257:INFO:127.0.0.1 - - [30/Dec/2024 11:30:46] "GET /report HTTP/1.1" 200 -
+2024-12-30 11:30:46,271:INFO:127.0.0.1 - - [30/Dec/2024 11:30:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:46,279:INFO:127.0.0.1 - - [30/Dec/2024 11:30:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:46,280:INFO:127.0.0.1 - - [30/Dec/2024 11:30:46] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:46,292:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:46,293:INFO:127.0.0.1 - - [30/Dec/2024 11:30:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:48,017:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "GET /alerts HTTP/1.1" 200 -
+2024-12-30 11:30:48,040:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:48,040:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:48,057:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:48,058:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:48,590:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "GET /report HTTP/1.1" 200 -
+2024-12-30 11:30:48,608:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:48,618:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:48,618:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:48,632:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:48,633:INFO:127.0.0.1 - - [30/Dec/2024 11:30:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:49,316:INFO:7°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2024-12-30 11:30:49,338:INFO:127.0.0.1 - - [30/Dec/2024 11:30:49] "GET /inquiry HTTP/1.1" 200 -
+2024-12-30 11:30:49,358:INFO:127.0.0.1 - - [30/Dec/2024 11:30:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:49,369:INFO:127.0.0.1 - - [30/Dec/2024 11:30:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:49,371:INFO:127.0.0.1 - - [30/Dec/2024 11:30:49] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:49,383:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:49,385:INFO:127.0.0.1 - - [30/Dec/2024 11:30:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:50,588:INFO:¹®ÀÇ ÀÛ¼º ÆäÀÌÁö Á¢±Ù
+2024-12-30 11:30:50,592:INFO:127.0.0.1 - - [30/Dec/2024 11:30:50] "GET /inquiry_write HTTP/1.1" 200 -
+2024-12-30 11:30:50,613:INFO:127.0.0.1 - - [30/Dec/2024 11:30:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:50,622:INFO:127.0.0.1 - - [30/Dec/2024 11:30:50] "GET /static/inquiry.css HTTP/1.1" 200 -
+2024-12-30 11:30:50,648:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:50,649:INFO:127.0.0.1 - - [30/Dec/2024 11:30:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:30:53,862:INFO:¹®ÀÇ »çÇ× ÀúÀå ¿Ï·á: 8
+2024-12-30 11:30:53,863:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "[32mPOST /inquiry_write HTTP/1.1[0m" 302 -
+2024-12-30 11:30:53,870:INFO:8°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2024-12-30 11:30:53,877:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "GET /inquiry HTTP/1.1" 200 -
+2024-12-30 11:30:53,900:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:53,902:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:53,908:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "[36mGET /static/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2024-12-30 11:30:53,923:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:30:53,924:INFO:127.0.0.1 - - [30/Dec/2024 11:30:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:34:02,624:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "GET /entry-recognition HTTP/1.1" 200 -
+2024-12-30 11:34:02,647:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:02,654:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:02,662:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:34:02,662:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:02,677:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:34:02,678:INFO:127.0.0.1 - - [30/Dec/2024 11:34:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:34:04,789:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "GET /exit-recognition HTTP/1.1" 200 -
+2024-12-30 11:34:04,809:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:04,824:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:04,824:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:04,826:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:34:04,842:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:34:04,843:INFO:127.0.0.1 - - [30/Dec/2024 11:34:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:34:05,232:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2024-12-30 11:34:05,260:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,261:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,265:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,266:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,281:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:34:05,282:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:34:05,538:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2024-12-30 11:34:05,558:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,572:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,572:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,575:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:34:05,586:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:34:05,587:INFO:127.0.0.1 - - [30/Dec/2024 11:34:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:34:06,283:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2024-12-30 11:34:06,305:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:06,314:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:06,316:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2024-12-30 11:34:06,318:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2024-12-30 11:34:06,332:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-30 11:34:06,333:INFO:127.0.0.1 - - [30/Dec/2024 11:34:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-30 11:44:07,966:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:44:07,967:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:44:07,967:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2024-12-30 11:44:08,963:INFO: * Restarting with watchdog (windowsapi)
+2024-12-30 11:44:15,171:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 11:44:17,620:WARNING: * Debugger is active!
+2024-12-30 11:44:17,626:INFO: * Debugger PIN: 513-632-116
